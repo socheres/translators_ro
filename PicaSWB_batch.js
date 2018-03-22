@@ -742,6 +742,7 @@ var journalMapping = {
 	"2385-2062" : "!281200165!", // Biblica
 	"0006-0887" : "!281200165!", // Biblica
 	"2565-7070" : "!281200165!", // Biblica
+	"0035-1784" : "!41048640X!", // Revue de théologie et de philosophie
 	
 };
 
@@ -1675,7 +1676,7 @@ var issnPhysicalFormMapping = {
 	"2385-2062" : "O", // Biblica
 	"0006-0887" : "O", // Biblica
 	"2565-7070" : "O", // Biblica
-	
+	"0035-1784" : "O", // Revue de théologie et de philosophie
 	
 	
 };
