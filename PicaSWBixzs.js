@@ -524,7 +524,7 @@ var journalMapping = {
 	"1467-9647" : "!098253379!", // Teaching theology & religion
 	"13684868" : "!098253379!", // Teaching theology & religion
 	"1768-9260" : "!11277668X!", // Revue d'Etudes Augustiniennes et Patristiques
-	"0080-2654" : "!014429837!", // Revue Théologique de Louvain
+	"1783-8401" : "!379064863!", // Revue Théologique de Louvain
 	"0316-5345" : "!015183734!", // Science et Esprit
 	"1097-6566" : "!112178723!", // Stone-Campbell journal
 	"2295-3019" : "!015198510!", // Studia Canonica
@@ -921,7 +921,7 @@ var issnLangMapping = {
 	"1359-1835" : "eng", // Journal of material culture
 	"1460-3586" : "eng", // Journal of material culture
 	"1904-8181" : "dan", // Religionsvidenskabeligt Tidsskrift
-	
+	"1783-8401" : "fre", // Revue Théologique de Louvain
 
 
 
@@ -1489,7 +1489,7 @@ var issnPhysicalFormMapping = {
 	"2055-7973, 2055-7981" : "O", // British Catholic 
 	"1467-9647" : "O", // Teaching theology & religion
 	"1768-9260" : "A", // Revue d'Etudes Augustiniennes et Patristiques
-	"0080-2654" : "A", // Revue Théologique de Louvain
+	"1783-8401" : "O", // Revue Théologique de Louvain
 	"0316-5345" : "A", // Science et Esprit
 	"1097-6566" : "A", // Stone-Campbell journal
 	"2295-3019" : "A", // Studia Canonica
