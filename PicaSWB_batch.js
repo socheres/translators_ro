@@ -534,7 +534,7 @@ var journalMapping = {
 	"0169-7536" : "!016204123!", // Zeitschrift für Dialektische Theologie
 	"0270-2533" : "!273890433!", // Trinity Seminary Review
 	"0254-4407" : "!014429802!", // Zwingliana
-	"1520-7307" : "!064449823!", // The Southern Baptist Journal of Theology
+	"1520-7307" : "!415645301!", // The Southern Baptist Journal of Theology
 	"2031-5929" : "!065483006!", // Annali di Scienze Religiose
 	"0034-673X, 2211-4866" : "!257192638!", // Review of Religious Research
 	"0034-673X" : "!257192638!", // Review of Religious Research
@@ -1499,7 +1499,7 @@ var issnPhysicalFormMapping = {
 	"0270-2533" : "O", // Trinity Seminary Review
 	"02702533" : "O", // Trinity Seminary Review
 	"0254-4407" : "A", // Zwingliana
-	"1520-7307" : "A", // The Southern Baptist Journal of Theology
+	"1520-7307" : "O", // The Southern Baptist Journal of Theology
 	"2031-5929" : "A", // Annali di Scienze Religiose
 	"0034-673X, 2211-4866" : "O", // Review of Religious Research
 	"1468-5906" : "O", // Journal for the Scientific Study of Religion
@@ -1742,7 +1742,7 @@ var issnLicenceFieldMapping = {
 	"0018-215X" : "l", // Hispania Sacra
 	"1011-7601" : "l", // Journal for the Study of Religion
 	"2589-3998" : "l", // Yearbook of ritual and liturgical studies
-
+	"1520-7307" : "l", // The Southern Baptist Journal of Theology
 	
 
 	
