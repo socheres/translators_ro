@@ -314,7 +314,7 @@ var journalMapping = {
 	"1861-5813" : "!281289085!", // Online - Heidelberg Journal of Religions on the Internet
 	"1867-4240" : "!343626896!", // Transformierte Buddhismen
 	"1583-0039" : "!281222681!", // Journal for the Study of Religions and Ideologies
-	"2294-6209" : "!014398974!", // Byzantion
+	"2294-6209" : "!377157538!", // Byzantion
 	"1468-2400" : "!094641951!", // International journal of systematic theology !!eppn
 	"1463-1652" : "!094641951!", // International journal of systematic theology
 	"14631652" : "!094641951!", // International journal of systematic theology
@@ -1318,7 +1318,7 @@ var issnPhysicalFormMapping = {
 	"1867-4240" : "O", // Transformierte Buddhismen
 	"1583-0039" : "O", // Journal for the Study of Religions and Ideologies
 	"0360-6503" : "A", // Process studies
-	"2294-6209" : "A", // Byzantion
+	"2294-6209" : "O", // Byzantion
 	"0361-0160" : "O", // The Sixteenth Century Journal
 	"03610160" : "O", // The Sixteenth Century Journal
 	"0038-8610" : "A", // Concordia Theological Quarterly
