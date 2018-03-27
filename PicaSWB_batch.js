@@ -1999,8 +1999,8 @@ var issnSsgMapping = {
 	"0335-5985" : "0", // Archives de sciences sociales des religions
 	"00244414" : "0", // Listening, Journal of Communication Ethics, Religion, and Culture
 	"2555-5111" : "0; 1", // Journal international de bioéthique et d'éthique des sciences
-	"2047704X" : "0; 1", // Journal for the Academic Study of Religion
-	"1031-2943, 1744-9014" : "0; 1", // Journal for the Academic Study of Religion
+	"2047704X" : "0", // Journal for the Academic Study of Religion
+	"1031-2943, 1744-9014" : "0", // Journal for the Academic Study of Religion
 	
 };
 
