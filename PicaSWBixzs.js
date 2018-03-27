@@ -747,7 +747,9 @@ var journalMapping = {
 	"1031-2943, 1744-9014" : "!39403581X!", // Journal for the Academic Study of Religion
 	"1744-9014" : "!39403581X!", // Journal for the Academic Study of Religion
 	"1031-2943" : "!39403581X!", // Journal for the Academic Study of Religion
-	
+	"1052-1151, 1533-8568" : "!097188832!", // Religion and American Culture
+	"1052-1151" : "!097188832!", // Religion and American Culture
+	"1533-8568" : "!097188832!", // Religion and American Culture
 	
 };
 
@@ -1685,6 +1687,7 @@ var issnPhysicalFormMapping = {
 	"0035-1784" : "O", // Revue de théologie et de philosophie
 	"2047704X" : "O", // Journal for the Academic Study of Religion
 	"1031-2943, 1744-9014" : "O", // Journal for the Academic Study of Religion
+	"1052-1151, 1533-8568" : "O", // Religion and American Culture
 	
 	
 };
@@ -2003,6 +2006,7 @@ var issnSsgMapping = {
 	"0035-1784" : "O", // Revue de théologie et de philosophie
 	"2047704X" : "0", // Journal for the Academic Study of Religion
 	"1031-2943, 1744-9014" : "0", // Journal for the Academic Study of Religion
+	"1052-1151, 1533-8568" : "0; 1", // Religion and American Culture
 	
 	
 };
