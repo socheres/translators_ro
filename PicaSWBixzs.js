@@ -752,6 +752,7 @@ var journalMapping = {
 	"1052-1151, 1533-8568" : "!097188832!", // Religion and American Culture
 	"1052-1151" : "!097188832!", // Religion and American Culture
 	"1533-8568" : "!097188832!", // Religion and American Culture
+	"2297-6469" : "!447097423!", // Zeitschrift für Religionskunde
 	
 };
 
@@ -1691,6 +1692,7 @@ var issnPhysicalFormMapping = {
 	"2047704X" : "O", // Journal for the Academic Study of Religion
 	"1031-2943, 1744-9014" : "O", // Journal for the Academic Study of Religion
 	"1052-1151, 1533-8568" : "O", // Religion and American Culture
+	"2297-6469" : "O", // Zeitschrift für Religionskunde
 	
 	
 };
@@ -1757,6 +1759,7 @@ var issnLicenceFieldMapping = {
 	"1011-7601" : "l", // Journal for the Study of Religion
 	"2589-3998" : "l", // Yearbook of ritual and liturgical studies
 	"1520-7307" : "l", // The Southern Baptist Journal of Theology
+	"2297-6469" : "l", // Zeitschrift für Religionskunde
 	
 
 	
@@ -2011,7 +2014,7 @@ var issnSsgMapping = {
 	"2047704X" : "0", // Journal for the Academic Study of Religion
 	"1031-2943, 1744-9014" : "0", // Journal for the Academic Study of Religion
 	"1052-1151, 1533-8568" : "0; 1", // Religion and American Culture
-	
+	"2297-6469" : "0; 1", // Zeitschrift für Religionskunde
 	
 };
 
