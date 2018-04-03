@@ -525,6 +525,7 @@ var journalMapping = {
 	"2055-7981" : "!428283136!", // British Catholic History
 	"1467-9647" : "!098253379!", // Teaching theology & religion
 	"13684868" : "!098253379!", // Teaching theology & religion
+	"1368-4868" : "!098253379!", // Teaching theology & religion
 	"1768-9260" : "!11277668X!", // Revue d'Etudes Augustiniennes et Patristiques
 	"1783-8401" : "!379064863!", // Revue Théologique de Louvain
 	"0316-5345" : "!015183734!", // Science et Esprit
@@ -1222,6 +1223,7 @@ var issnPhysicalFormMapping = {
 	"1099-0046" : "A", // Review of biblical literature !!pppn
 	"1089-7747" : "A", // TC !!eppn
 	"1467-9647" : "A", // Teaching theology & religion !!eppn
+	"1368-4868" : "O", // Teaching theology & religion
 	"1540-6385" : "O", // Dialog !!eppn
 	"1661-3317" : "O", // Lectio difficilior !!eppn
 	"1473-4257" : "A", // Journal of medical ethics !!eppn
