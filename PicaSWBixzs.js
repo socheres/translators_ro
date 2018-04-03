@@ -159,8 +159,8 @@ var journalMapping = {
 	"0144-8153" : "!015230376!", // Evangelical review of theology
 	"0360-8808" : "!015535347!", // Journal of the Evangelical Theological Society
 	"0092-6558" : "!015194132!", // Journal of the Interdenominational Theological Center
-	"1934-9637" : "!260747769!", // Journal of spirituality in mental health
-	"1934-9645" : "!260747769!", // Journal of spirituality in mental health
+	"1934-9637" : "!278763464!", // Journal of spirituality in mental health
+	"1934-9645" : "!278763464!", // Journal of spirituality in mental health
     "1570-0739" : "!014821419!", // Zeitschrift für Religions- und Geistesgeschichte
 	"0275-5270" : "!015243044!", // Word and World
 	"0034-3072" : "!42401243X!", // Reformed theological review  
@@ -1059,8 +1059,8 @@ var issnPhysicalFormMapping = {
 	"0144-8153" : "A", // Evangelical review of theology
 	"0360-8808" : "A", // Journal of the Evangelical Theological Society
 	"0092-6558" : "A", // Journal of the Interdenominational Theological Center
-	"1934-9637" : "A", // Journal of spirituality in mental health
-	"1934-9645" : "A", // Journal of spirituality in mental health
+	"1934-9637" : "O", // Journal of spirituality in mental health
+	"1934-9645" : "O", // Journal of spirituality in mental health
     "1570-0739" : "A", // Zeitschrift für Religions- und Geistesgeschichte
 	"0275-5270" : "A", // Word and World
 	"0034-3072" : "O", // Reformed theological review  
@@ -1222,7 +1222,7 @@ var issnPhysicalFormMapping = {
 	"0024-5100" : "A", // Liturgisches Jahrbuch !!eppn
 	"1099-0046" : "A", // Review of biblical literature !!pppn
 	"1089-7747" : "A", // TC !!eppn
-	"1467-9647" : "A", // Teaching theology & religion !!eppn
+	"1467-9647" : "O", // Teaching theology & religion
 	"1368-4868" : "O", // Teaching theology & religion
 	"1540-6385" : "O", // Dialog !!eppn
 	"1661-3317" : "O", // Lectio difficilior !!eppn
@@ -1331,6 +1331,7 @@ var issnPhysicalFormMapping = {
 	"1583-0039" : "O", // Journal for the Study of Religions and Ideologies
 	"0360-6503" : "A", // Process studies
 	"0378-2506" : "O", // Byzantion
+	"2294-6209" : "O", // Byzantion
 	"Byzantion" : "O", // Byzantion
 	"0361-0160" : "O", // The Sixteenth Century Journal
 	"03610160" : "O", // The Sixteenth Century Journal
@@ -1880,6 +1881,7 @@ var issnSsgMapping = {
 	"1867-4240" : "0", // Transformierte Buddhismen
 	"1583-0039" : "0", // Journal for the Study of Religions and Ideologies
 	"0378-2506" : "0; 1", // Byzantion 
+	"2294-6209" : "0, 1", // Byzantion
 	"Byzantion" : "0; 1", // Byzantion
 	"0944-5706" : "0; 1", // Jewish Studies Quarterly
 	"2199-4463" : "0", // Religion in the Roman Empire
