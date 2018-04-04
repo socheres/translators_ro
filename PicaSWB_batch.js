@@ -701,6 +701,7 @@ var journalMapping = {
 	"0012-8708" : "!325341230!", // Eastern Buddhist
 	"00128708" : "!325341230!", // Eastern Buddhist
 	"1743-0615" : "!325342784!", // Fieldwork in Religion
+	"1743-0623" : "!325342784!", // Fieldwork in Religion
 	"1743-0615, 1743-0623" : "!325342784!", // Fieldwork in Religion
 	"14639955" : "!256442428!", // Implicit Religion
 	"1463-9955" : "!256442428!", // Implicit Religion
@@ -1652,6 +1653,7 @@ var issnPhysicalFormMapping = {
 	"0718-4727" : "O", // Revista Cultura & Religión
 	"00128708" : "O", // Eastern Buddhist
 	"1743-0615" : "O", // Fieldwork in Religion
+	"1743-0623" : "O", // Fieldwork in Religion
 	"1743-0615, 1743-0623" : "O", // Fieldwork in Religion
 	"14639955" : "O", // Implicit Religion
 	"1463-9955" : "O", // Implicit Religion
@@ -1991,6 +1993,7 @@ var issnSsgMapping = {
 	"0718-4727" : "0", // Revista Cultura & Religión
 	"00128708" : "0", // Eastern Buddhist
 	"1743-0615" : "0", // Fieldwork in Religion
+	"1743-0623" : "0", // Fieldwork in Religion
 	"1743-0615, 1743-0623" : "0", // Fieldwork in Religion
 	"14639955" : "0", // Implicit Religion
 	"1463-9955" : "0", // Implicit Religion
