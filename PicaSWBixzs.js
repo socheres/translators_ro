@@ -1697,6 +1697,7 @@ var issnPhysicalFormMapping = {
 	"1031-2943, 1744-9014" : "O", // Journal for the Academic Study of Religion
 	"1052-1151, 1533-8568" : "O", // Religion and American Culture
 	"2297-6469" : "O", // Zeitschrift für Religionskunde
+	"Perspectives in Religious Studies" : "A", //Perspectives in religious studies Print-PPN
 	
 	
 };
@@ -2038,6 +2039,10 @@ var issnKeywordMapping = {
 	"1438-9460" : 6800, // Zeitschrift für Sexualforschung Online Publikation|krimdok
 };
 
+// Mapping für JournalTitle>PPN
+var issnJournalTitleMapping = {
+	"Perspectives in Religious Studies" : "!014809931!", //Perspectives in religious studies Print-PPN
+}
 
 
 
@@ -2128,6 +2133,9 @@ function doExport() {
 		}
 		if (physicalForm && item.ISSN && issnPhysicalFormMapping[item.ISSN]) {
 			physicalForm = issnPhysicalFormMapping[item.ISSN]; // position 1 http://swbtools.bsz-bw.de/winibwhelp/Liste_0500.htm
+		}
+		if (physicalForm && item.publicationTitle && issnJournalTitleMapping[item.publicationTitle]) {
+			physicalForm = issnPhysicalFormMapping[item.publicationTitle]; // position 1 http://swbtools.bsz-bw.de/winibwhelp/Liste_0500.htm
 		}
 		if (licenceField && item.ISSN && issnLicenceFieldMapping[item.ISSN]) {
 			licenceField = issnLicenceFieldMapping[item.ISSN]; // position 4 http://swbtools.bsz-bw.de/winibwhelp/Liste_0500.htm
@@ -2372,7 +2380,7 @@ function doExport() {
 			if (item.ISSN && journalMapping[ZU.cleanISSN(item.ISSN)]) {
 				writeLine("4241", "Enthalten in" + journalMapping[ZU.cleanISSN(item.ISSN)]);
 			} else if (item.publicationTitle) {
-				writeLine("4241", "Enthalten in"  + item.publicationTitle);
+				writeLine("4241", "Enthalten in"  + issnJournalTitleMapping[item.publicationTitle]);
 			}
 		
 		//4261 Themenbeziehungen (Beziehung zu der Veröffentlichung, die beschrieben wird)|case:magazineArticle
