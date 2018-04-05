@@ -52,7 +52,7 @@ var journalMapping = {
 	"0884-5379" : "!341092975!", // fides et historia
 	"08845379" : "!341092975!", // fides et historia
 	"1474-6700" : "!261325019!", // Theology and science  
-	"1462-2459" : "!094835578!", // Reformation & Renaissance review  
+	"1462-2459" : "!260351768!", // Reformation & Renaissance review  
 	"0037-7686" : "!079599338!", // Social compass 
 	"1461-7404" : "!079599338!", // Social compass 
 	"1745-5294" : "!099025957!", // Journal for the study of the New Testament  !!hier kein direkter Downlaod, sondern über button "abstracts", //ansonsten keine ISSN-Übernahme!!
@@ -958,7 +958,7 @@ var issnPhysicalFormMapping = {
 	"0884-5379" : "A", // fides et historia
 	"08845379" : "A", // fides et historia
 	"1474-6700" : "O", // Theology and science  
-	"1462-2459" : "A", // Reformation & Renaissance review  
+	"1462-2459" : "O", // Reformation & Renaissance review  
 	"0031-0328" : "A", // Palestine exploration quarterly 
 	"0037-7686" : "O", // Social compass 
 	"1461-7404" : "O", // Social compass 
@@ -1308,7 +1308,6 @@ var issnPhysicalFormMapping = {
 	"1363-013X" : "A", // Quaker studies !!eppn
 	"1363-7320" : "A", // Ecotheology !!pppn
 	"1749-4907" : "O", // Journal for the study of religion, nature and culture 
-	"1462-2459" : "A", // Reformation & Renaissance review !!pppn - in Z. 7 wurde mit ppn gemappt: diese Z. hier löschen?
 	"1462-3153" : "A", // Journal for the Aramaic bible !!pppn
 	"1462-3153" : "A", // Journal for the Aramaic bible !!eppn
 	"0733-4273 (PRINT)" : "A", // Journal of psychology and Christianity - oben bereits da, aber ohne (PRINT): löschen?
