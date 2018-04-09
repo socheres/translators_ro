@@ -757,6 +757,7 @@ var journalMapping = {
 	"2297-6469" : "!447097423!", // Zeitschrift für Religionskunde
 	"0739-8913" : "!325708746!", // Christian Education Journal
 	"2589-0468" : "!49569911X!", // Biblische Zeitschrift
+	"1930-3777" : "!281328900!", // Studies in Christian-Jewish Relations
 	
 };
 
@@ -1702,6 +1703,7 @@ var issnPhysicalFormMapping = {
 	"Perspectives in Religious Studies" : "A", //Perspectives in religious studies Print-PPN
 	"0739-8913" : "O", // Christian Education Journal
 	"2589-0468" : "O", // Biblische Zeitschrift
+	"1930-3777" : "O", // Studies in Christian-Jewish Relations
 	
 	
 };
@@ -1769,6 +1771,8 @@ var issnLicenceFieldMapping = {
 	"2589-3998" : "l", // Yearbook of ritual and liturgical studies
 	"1520-7307" : "l", // The Southern Baptist Journal of Theology
 	"2297-6469" : "l", // Zeitschrift für Religionskunde
+	"1930-3777" : "l", // Studies in Christian-Jewish Relations
+
 	
 
 	
@@ -2026,6 +2030,7 @@ var issnSsgMapping = {
 	"1031-2943, 1744-9014" : "0", // Journal for the Academic Study of Religion
 	"1052-1151, 1533-8568" : "0; 1", // Religion and American Culture
 	"2297-6469" : "0; 1", // Zeitschrift für Religionskunde
+	
 	
 };
 
