@@ -755,6 +755,8 @@ var journalMapping = {
 	"1052-1151" : "!097188832!", // Religion and American Culture
 	"1533-8568" : "!097188832!", // Religion and American Culture
 	"2297-6469" : "!447097423!", // Zeitschrift für Religionskunde
+	"0739-8913" : "!325708746!", // Christian Education Journal
+	"2589-0468" : "!49569911X!", // Biblische Zeitschrift
 	
 };
 
@@ -1698,6 +1700,8 @@ var issnPhysicalFormMapping = {
 	"1052-1151, 1533-8568" : "O", // Religion and American Culture
 	"2297-6469" : "O", // Zeitschrift für Religionskunde
 	"Perspectives in Religious Studies" : "A", //Perspectives in religious studies Print-PPN
+	"0739-8913" : "O", // Christian Education Journal
+	"2589-0468" : "O", // Biblische Zeitschrift
 	
 	
 };
