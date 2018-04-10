@@ -761,6 +761,7 @@ var journalMapping = {
 	"2041-3599, 1871-7691" : "!281221219!", // PentecoStudies
 	"2041-3599" : "!281221219!", // PentecoStudies
 	"1871-7691" : "!281221219!", // PentecoStudies
+	"18717691" : "!281221219!", // PentecoStudies
 	
 	
 };
@@ -791,8 +792,11 @@ var languageMapping = {
 	"EN" : "eng",
 	"da-DK" : "dan",
 	"da" : "dan",
+	"Da" : "dan",
 	"pt-BR" : "por",
 	"es-ES" : "spa",
+	"No" : "nor",
+	"Sv" : "swe", 
 	
 	
 };
@@ -1711,6 +1715,7 @@ var issnPhysicalFormMapping = {
 	"2041-3599, 1871-7691" : "O", // PentecoStudies
 	"2041-3599" : "O", // PentecoStudies
 	"1871-7691" : "O", // PentecoStudies
+	"18717691" : "O", // PentecoStudies
 	
 	
 };
@@ -1778,6 +1783,7 @@ var issnLicenceFieldMapping = {
 	"1520-7307" : "l", // The Southern Baptist Journal of Theology
 	"2297-6469" : "l", // Zeitschrift für Religionskunde
 	"1930-3777" : "l", // Studies in Christian-Jewish Relations
+	"1904-8181" : "l", // Religionsvidenskabeligt Tidsskrift
 
 	
 
@@ -2039,7 +2045,7 @@ var issnSsgMapping = {
 	"2041-3599, 1871-7691" : "0; 1", // PentecoStudies
 	"2041-3599" : "0; 1", // PentecoStudies
 	"1871-7691" : "0; 1", // PentecoStudies
-	
+	"18717691" : "0; 1", // PentecoStudies
 	
 };
 
