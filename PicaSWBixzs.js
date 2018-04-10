@@ -797,6 +797,8 @@ var languageMapping = {
 	"es-ES" : "spa",
 	"No" : "nor",
 	"Sv" : "swe", 
+	"no" : "nor",
+	"sv" : "swe", 
 	
 	
 };
