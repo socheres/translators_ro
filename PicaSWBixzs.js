@@ -758,6 +758,10 @@ var journalMapping = {
 	"0739-8913" : "!325708746!", // Christian Education Journal
 	"2589-0468" : "!49569911X!", // Biblische Zeitschrift
 	"1930-3777" : "!281328900!", // Studies in Christian-Jewish Relations
+	"2041-3599, 1871-7691" : "!281221219!", // PentecoStudies
+	"2041-3599" : "!281221219!", // PentecoStudies
+	"1871-7691" : "!281221219!", // PentecoStudies
+	
 	
 };
 
@@ -1704,6 +1708,9 @@ var issnPhysicalFormMapping = {
 	"0739-8913" : "O", // Christian Education Journal
 	"2589-0468" : "O", // Biblische Zeitschrift
 	"1930-3777" : "O", // Studies in Christian-Jewish Relations
+	"2041-3599, 1871-7691" : "O", // PentecoStudies
+	"2041-3599" : "O", // PentecoStudies
+	"1871-7691" : "O", // PentecoStudies
 	
 	
 };
@@ -2029,6 +2036,9 @@ var issnSsgMapping = {
 	"1031-2943, 1744-9014" : "0", // Journal for the Academic Study of Religion
 	"1052-1151, 1533-8568" : "0; 1", // Religion and American Culture
 	"2297-6469" : "0; 1", // Zeitschrift für Religionskunde
+	"2041-3599, 1871-7691" : "0; 1", // PentecoStudies
+	"2041-3599" : "0; 1", // PentecoStudies
+	"1871-7691" : "0; 1", // PentecoStudies
 	
 	
 };

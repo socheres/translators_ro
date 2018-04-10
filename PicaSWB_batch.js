@@ -758,6 +758,10 @@ var journalMapping = {
 	"0739-8913" : "!325708746!", // Christian Education Journal
 	"2589-0468" : "!49569911X!", // Biblische Zeitschrift
 	"1930-3777" : "!281328900!", // Studies in Christian-Jewish Relations
+	"2041-3599, 1871-7691" : "!281221219!", // PentecoStudies
+	"2041-3599" : "!281221219!", // PentecoStudies
+	"1871-7691" : "!281221219!", // PentecoStudies
+	
 	
 };
 
@@ -1226,6 +1230,8 @@ var issnPhysicalFormMapping = {
 	"0024-5100" : "A", // Liturgisches Jahrbuch !!eppn
 	"1099-0046" : "A", // Review of biblical literature !!pppn
 	"1089-7747" : "A", // TC !!eppn
+	"1467-9647" : "O", // Teaching theology & religion
+	"1368-4868" : "O", // Teaching theology & religion
 	"1540-6385" : "O", // Dialog !!eppn
 	"1661-3317" : "O", // Lectio difficilior !!eppn
 	"1473-4257" : "A", // Journal of medical ethics !!eppn
@@ -1394,7 +1400,7 @@ var issnPhysicalFormMapping = {
 	"1477-4585" : "O", // Journal of the American Academy of Religion
 	"0008-8080" : "O", // The catholic historical review
 	"00088080" : "O", // The catholic historical review
-	"1783-8401" : "A", // Louvain Studies
+	"0024-6964" : "A", // Louvain Studies
 	"1323-6377" : "A", // Uniting Church Studies
 	"0023-9054, 1703-8804" : "O", // Laval théologique et philosophique
 	"0003-2468" : "O", // Analecta Bollandiana
@@ -1503,7 +1509,6 @@ var issnPhysicalFormMapping = {
 	"0034-1258" : "O", // Recherches de science religieuse
 	"2055-7973, 2055-7981" : "O", // British Catholic 
 	"1467-9647" : "O", // Teaching theology & religion
-	"1368-4868" : "O", // Teaching theology & religion
 	"1768-9260" : "A", // Revue d'Etudes Augustiniennes et Patristiques
 	"1783-8401" : "O", // Revue Théologique de Louvain
 	"0316-5345" : "A", // Science et Esprit
@@ -1703,7 +1708,9 @@ var issnPhysicalFormMapping = {
 	"0739-8913" : "O", // Christian Education Journal
 	"2589-0468" : "O", // Biblische Zeitschrift
 	"1930-3777" : "O", // Studies in Christian-Jewish Relations
-	
+	"2041-3599, 1871-7691" : "O", // PentecoStudies
+	"2041-3599" : "O", // PentecoStudies
+	"1871-7691" : "O", // PentecoStudies
 	
 	
 };
@@ -1771,6 +1778,8 @@ var issnLicenceFieldMapping = {
 	"1520-7307" : "l", // The Southern Baptist Journal of Theology
 	"2297-6469" : "l", // Zeitschrift für Religionskunde
 	"1930-3777" : "l", // Studies in Christian-Jewish Relations
+
+	
 
 	
 	
@@ -2022,10 +2031,15 @@ var issnSsgMapping = {
 	"0335-5985" : "0", // Archives de sciences sociales des religions
 	"00244414" : "0", // Listening, Journal of Communication Ethics, Religion, and Culture
 	"2555-5111" : "0; 1", // Journal international de bioéthique et d'éthique des sciences
+	"0035-1784" : "O", // Revue de théologie et de philosophie
 	"2047704X" : "0", // Journal for the Academic Study of Religion
 	"1031-2943, 1744-9014" : "0", // Journal for the Academic Study of Religion
 	"1052-1151, 1533-8568" : "0; 1", // Religion and American Culture
 	"2297-6469" : "0; 1", // Zeitschrift für Religionskunde
+	"2041-3599, 1871-7691" : "0; 1", // PentecoStudies
+	"2041-3599" : "0; 1", // PentecoStudies
+	"1871-7691" : "0; 1", // PentecoStudies
+	
 	
 };
 
@@ -2042,11 +2056,11 @@ var issnKeywordMapping = {
 	"1461-7439" : 6800, // Theoretical criminology Online Publikation|krimdok
 	"1438-9460" : 6800, // Zeitschrift für Sexualforschung Online Publikation|krimdok
 };
+
 // Mapping für JournalTitle>PPN
 var issnJournalTitleMapping = {
 	"Perspectives in Religious Studies" : "!014809931!", //Perspectives in religious studies Print-PPN
 }
-
 
 
 
