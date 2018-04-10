@@ -1766,7 +1766,6 @@ var issnLicenceFieldMapping = {
 	"0017-3916" : "l", // Greek, Roman, and Byzantine Studies
 	"22366296" : "l", // Numen
 	"2236-6296" : "l", // Numen
-	"0018-215X" : "l", // Hispania Sacra
 	"1011-7601" : "l", // Journal for the Study of Religion
 	"2589-3998" : "l", // Yearbook of ritual and liturgical studies
 	"1520-7307" : "l", // The Southern Baptist Journal of Theology
