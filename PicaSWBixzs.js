@@ -769,6 +769,7 @@ var journalMapping = {
 	"1755-0483" : "!29433923X!", // Politics and Religion
 	"1755-0491" : "!29433923X!", // Politics and Religion
 	"2161-8534" : "!354001043!", // American Catholic Studies
+	"2317-4307" : "!394188012!", // Revista de Cultura Teológica
 	
 	
 	
@@ -1733,6 +1734,7 @@ var issnPhysicalFormMapping = {
 	"1755-0483" : "O", // Politics and Religion
 	"1755-0491" : "O", // Politics and Religion
 	"2161-8534" : "O", // American Catholic Studies
+	"2317-4307" : "O", // Revista de Cultura Teológica
 	
 	
 	
@@ -1802,6 +1804,7 @@ var issnLicenceFieldMapping = {
 	"2297-6469" : "l", // Zeitschrift für Religionskunde
 	"1930-3777" : "l", // Studies in Christian-Jewish Relations
 	"1904-8181" : "l", // Religionsvidenskabeligt Tidsskrift
+	"2317-4307" : "l", // Revista de Cultura Teológica
 
 	
 
