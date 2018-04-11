@@ -762,6 +762,14 @@ var journalMapping = {
 	"2041-3599" : "!281221219!", // PentecoStudies
 	"1871-7691" : "!281221219!", // PentecoStudies
 	"18717691" : "!281221219!", // PentecoStudies
+	"2331-2521" : "!40970038X!", // Journal of disability & religion
+	"2044-0243" : "!455632693!", // Journal for the Study of Spirituality
+	"1941-1022" : "!31627786X!", // Psychology of Religion and Spirituality	
+	"1755-0483, 1755-0491" : "!29433923X!", // Politics and Religion
+	"1755-0483" : "!29433923X!", // Politics and Religion
+	"1755-0491" : "!29433923X!", // Politics and Religion
+	
+	
 	
 };
 
@@ -790,8 +798,8 @@ var languageMapping = {
 	"en_US" : "eng",
 	"EN" : "eng",
 	"da-DK" : "dan",
-	"Da" : "dan",
 	"da" : "dan",
+	"Da" : "dan",
 	"pt-BR" : "por",
 	"es-ES" : "spa",
 	"No" : "nor",
@@ -1717,6 +1725,12 @@ var issnPhysicalFormMapping = {
 	"2041-3599" : "O", // PentecoStudies
 	"1871-7691" : "O", // PentecoStudies
 	"18717691" : "O", // PentecoStudies
+	"2331-2521" : "O", // Journal of disability & religion
+	"2044-0243" : "O", // Journal for the Study of Spirituality
+	"1941-1022" : "O", // Psychology of Religion and Spirituality
+	"1755-0483, 1755-0491" : "O", // Politics and Religion
+	"1755-0483" : "O", // Politics and Religion
+	"1755-0491" : "O", // Politics and Religion
 	
 	
 };
@@ -2047,6 +2061,13 @@ var issnSsgMapping = {
 	"2041-3599" : "0; 1", // PentecoStudies
 	"1871-7691" : "0; 1", // PentecoStudies
 	"18717691" : "0; 1", // PentecoStudies
+	"2331-2521" : "0", // Journal of disability & religion
+	"2044-0243" : "0", // Journal for the Study of Spirituality
+	"1941-1022" : "0", // Psychology of Religion and Spirituality
+	"1755-0483, 1755-0491" : "0", // Politics and Religion
+	"1755-0483" : "0", // Politics and Religion
+	"1755-0491" : "0", // Politics and Religion
+	
 	
 	
 };
@@ -2069,6 +2090,7 @@ var issnKeywordMapping = {
 var issnJournalTitleMapping = {
 	"Perspectives in Religious Studies" : "!014809931!", //Perspectives in religious studies Print-PPN
 }
+
 
 
 
