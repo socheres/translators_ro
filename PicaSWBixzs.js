@@ -770,6 +770,7 @@ var journalMapping = {
 	"1755-0491" : "!29433923X!", // Politics and Religion
 	"2161-8534" : "!354001043!", // American Catholic Studies
 	"2317-4307" : "!394188012!", // Revista de Cultura Teológica
+	"0005-576X" : "!433364998!", // Baptist quarterly
 	
 	
 	
@@ -1735,6 +1736,7 @@ var issnPhysicalFormMapping = {
 	"1755-0491" : "O", // Politics and Religion
 	"2161-8534" : "O", // American Catholic Studies
 	"2317-4307" : "O", // Revista de Cultura Teológica
+	"0005-576X" : "O", // Baptist quarterly
 	
 	
 	
