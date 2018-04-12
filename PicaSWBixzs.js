@@ -772,7 +772,8 @@ var journalMapping = {
 	"2317-4307" : "!394188012!", // Revista de Cultura Teológica
 	"0005-576X" : "!433364998!", // Baptist quarterly
 	"1476-9948" : "!255267037!", // Black Theology
-	
+	"2237-6461" : "!348749171!", // Estudos Teológicos
+	"0101-3130" : "!348749171!", // Estudos Teológicos
 	
 	
 };
@@ -1739,6 +1740,7 @@ var issnPhysicalFormMapping = {
 	"2317-4307" : "O", // Revista de Cultura Teológica
 	"0005-576X" : "O", // Baptist quarterly
 	"1476-9948" : "O", // Black Theology
+	"2237-6461" : "O", // Estudos Teológicos
 	
 	
 	
@@ -1809,6 +1811,7 @@ var issnLicenceFieldMapping = {
 	"1930-3777" : "l", // Studies in Christian-Jewish Relations
 	"1904-8181" : "l", // Religionsvidenskabeligt Tidsskrift
 	"2317-4307" : "l", // Revista de Cultura Teológica
+	"2237-6461" : "l", // Estudos Teológicos
 
 	
 
