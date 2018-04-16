@@ -642,7 +642,7 @@ var journalMapping = {
 	"0035-2403" : "!014915391!", // Revue d'histoire et de philosophie religieuses
 	"1359-1835" : "!079877222!", // Journal of material culture
 	"1460-3586" : "!079877222!", // Journal of material culture
-	"0272-6122" : "!266225314!", // International Bulletin of Missionary Research
+	"0272-6122" : "!266225314!", // International Bulletin of Mission Research
 	"0458-063X" : "!113422911!", // Liturgy
 	"0041-2945" : "!014822245!", // Trierer Theologische Zeitschrift
 	"1749-4907, 1749-4915" : "!274589745!", // Journal for the Study of Religion, Nature and Culture
@@ -1631,7 +1631,7 @@ var issnPhysicalFormMapping = {
 	"0035-2403" : "A", // Revue d'histoire et de philosophie religieuses
 	"1359-1835" : "O", // Journal of material culture
 	"1460-3586" : "O", // Journal of material culture
-	"0272-6122" : "A", // International Bulletin of Missionary Research
+	"0272-6122" : "O", // International Bulletin of Mission Research
 	"0458-063X" : "O", // Liturgy
 	"0041-2945" : "A", // Trierer Theologische Zeitschrift
 	"1749-4907, 1749-4915" : "O", // Journal for the Study of Religion, Nature and Culture
