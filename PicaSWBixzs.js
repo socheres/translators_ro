@@ -775,6 +775,8 @@ var journalMapping = {
 	"2237-6461" : "!348749171!", // Estudos Teológicos
 	"0101-3130" : "!348749171!", // Estudos Teológicos
 	"2164-6279" : "!354446967!", // Journal of Hindu-Christian Studies 
+	"1933-6632" : "!360555128!", // Journal of Moravian History
+	"19336632, 21616310" : "!360555128!", // Journal of Moravian History
 	
 	
 };
@@ -1743,6 +1745,8 @@ var issnPhysicalFormMapping = {
 	"1476-9948" : "O", // Black Theology
 	"2237-6461" : "O", // Estudos Teológicos
 	"2164-6279" : "O", // Journal of Hindu-Christian Studies 
+	"1933-6632" : "O", // Journal of Moravian History
+	"19336632, 21616310" : "O", // Journal of Moravian History
 	
 	
 	
