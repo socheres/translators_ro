@@ -774,6 +774,7 @@ var journalMapping = {
 	"1476-9948" : "!255267037!", // Black Theology
 	"2237-6461" : "!348749171!", // Estudos Teológicos
 	"0101-3130" : "!348749171!", // Estudos Teológicos
+	"2164-6279" : "!354446967!", // Journal of Hindu-Christian Studies 
 	
 	
 };
@@ -1741,6 +1742,7 @@ var issnPhysicalFormMapping = {
 	"0005-576X" : "O", // Baptist quarterly
 	"1476-9948" : "O", // Black Theology
 	"2237-6461" : "O", // Estudos Teológicos
+	"2164-6279" : "O", // Journal of Hindu-Christian Studies 
 	
 	
 	
@@ -2080,6 +2082,7 @@ var issnSsgMapping = {
 	"1755-0483, 1755-0491" : "0", // Politics and Religion
 	"1755-0483" : "0", // Politics and Religion
 	"1755-0491" : "0", // Politics and Religion
+	"2164-6279" : "1", // Journal of Hindu-Christian Studies 
 	
 };
 
