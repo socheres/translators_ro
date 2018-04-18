@@ -1754,6 +1754,7 @@ var issnPhysicalFormMapping = {
 	"Churchman" : "A", // Churchman Print-PPN
 	"Liturgisches Jahrbuch" : "A", // Liturgisches Jahrbuch Print-PPN
 	"The Mennonite Quarterly Review" : "A", // The Mennonite Quarterly Review Print-PPN
+	"Journal of Theological Interpretation" : "O", // Journal of Theological Interpretation E-PPN
 	
 	
 	
@@ -2122,6 +2123,7 @@ var issnJournalTitleMapping = {
 	"Churchman" : "!015191273!", // Churchman Print-PPN
 	"Liturgisches Jahrbuch" : "!014407558!", // Liturgisches Jahrbuch Print-PPN
 	"The Mennonite Quarterly Review" : "!015181278!", // The Mennonite Quarterly Review Print-PPN
+	"Journal of Theological Interpretation" : "!424663988!", // Journal of Theological Interpretation E-PPN
 }
 
 
