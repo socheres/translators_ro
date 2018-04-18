@@ -777,6 +777,7 @@ var journalMapping = {
 	"2164-6279" : "!354446967!", // Journal of Hindu-Christian Studies 
 	"1933-6632" : "!360555128!", // Journal of Moravian History
 	"19336632, 21616310" : "!360555128!", // Journal of Moravian History
+	"1533-791X" : "!266818943!", // Logos
 	
 	
 };
@@ -1747,6 +1748,11 @@ var issnPhysicalFormMapping = {
 	"2164-6279" : "O", // Journal of Hindu-Christian Studies 
 	"1933-6632" : "O", // Journal of Moravian History
 	"19336632, 21616310" : "O", // Journal of Moravian History
+	"1533-791X" : "O", // Logos
+	"Journal of the Evangelical Theological Society" : "A", // Journal of the Evangelical Theological Society Print-PPN
+	"American Baptist Quarterly" : "A", // American Baptist Quarterly Print-PPN
+	"Churchman" : "A", // Churchman Print-PPN
+	"Liturgisches Jahrbuch" : "A", // Liturgisches Jahrbuch Print-PPN
 	
 	
 	
@@ -2110,6 +2116,10 @@ var issnKeywordMapping = {
 // Mapping für JournalTitle>PPN
 var issnJournalTitleMapping = {
 	"Perspectives in Religious Studies" : "!014809931!", //Perspectives in religious studies Print-PPN
+	"Journal of the Evangelical Theological Society" : "!015535347!", // Journal of the Evangelical Theological Society Print-PPN
+	"American Baptist Quarterly" : "!015260909!", // American Baptist Quarterly Print-PPN
+	"Churchman" : "!015191273!", // Churchman Print-PPN
+	"Liturgisches Jahrbuch" : "!014407558!", // Liturgisches Jahrbuch Print-PPN
 }
 
 
