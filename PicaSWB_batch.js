@@ -1753,6 +1753,7 @@ var issnPhysicalFormMapping = {
 	"American Baptist Quarterly" : "A", // American Baptist Quarterly Print-PPN
 	"Churchman" : "A", // Churchman Print-PPN
 	"Liturgisches Jahrbuch" : "A", // Liturgisches Jahrbuch Print-PPN
+	"The Mennonite Quarterly Review" : "A", // The Mennonite Quarterly Review Print-PPN
 	
 	
 	
@@ -2120,6 +2121,7 @@ var issnJournalTitleMapping = {
 	"American Baptist Quarterly" : "!015260909!", // American Baptist Quarterly Print-PPN
 	"Churchman" : "!015191273!", // Churchman Print-PPN
 	"Liturgisches Jahrbuch" : "!014407558!", // Liturgisches Jahrbuch Print-PPN
+	"The Mennonite Quarterly Review" : "!015181278!", // The Mennonite Quarterly Review Print-PPN
 }
 
 
