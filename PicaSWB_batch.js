@@ -778,6 +778,7 @@ var journalMapping = {
 	"1933-6632" : "!360555128!", // Journal of Moravian History
 	"19336632, 21616310" : "!360555128!", // Journal of Moravian History
 	"1533-791X" : "!266818943!", // Logos
+	"2326-2176" : "!325341176!", // Journal of the Society of Christian Ethics
 	
 	
 };
@@ -1755,6 +1756,7 @@ var issnPhysicalFormMapping = {
 	"Liturgisches Jahrbuch" : "A", // Liturgisches Jahrbuch Print-PPN
 	"The Mennonite Quarterly Review" : "A", // The Mennonite Quarterly Review Print-PPN
 	"Journal of Theological Interpretation" : "O", // Journal of Theological Interpretation E-PPN
+	"2326-2176" : "O", // Journal of the Society of Christian Ethics
 	
 	
 	
