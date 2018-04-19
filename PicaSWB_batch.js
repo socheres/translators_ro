@@ -779,6 +779,8 @@ var journalMapping = {
 	"19336632, 21616310" : "!360555128!", // Journal of Moravian History
 	"1533-791X" : "!266818943!", // Logos
 	"2326-2176" : "!325341176!", // Journal of the Society of Christian Ethics
+	"08194920" : "!477959601!", // Phronema
+	"0819-4920" : "!477959601!", // Phronema
 	
 	
 };
@@ -1759,6 +1761,7 @@ var issnPhysicalFormMapping = {
 	"Journal of Theological Interpretation" : "O", // Journal of Theological Interpretation E-PPN
 	"2326-2176" : "O", // Journal of the Society of Christian Ethics
 	"Oriens Christianus" : "A", // Oriens Christianus Print-PPN
+	"08194920" : "O", // Phronema
 	
 	
 	
