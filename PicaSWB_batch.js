@@ -963,6 +963,7 @@ var issnLangMapping = {
 	"1460-3586" : "eng", // Journal of material culture
 	"1904-8181" : "dan", // Religionsvidenskabeligt Tidsskrift
 	"1783-8401" : "fre", // Revue Théologique de Louvain
+	"Oriens Christianus" : "ger", // Oriens Christianus Print-PPN
 
 
 
@@ -1757,6 +1758,7 @@ var issnPhysicalFormMapping = {
 	"The Mennonite Quarterly Review" : "A", // The Mennonite Quarterly Review Print-PPN
 	"Journal of Theological Interpretation" : "O", // Journal of Theological Interpretation E-PPN
 	"2326-2176" : "O", // Journal of the Society of Christian Ethics
+	"Oriens Christianus" : "A", // Oriens Christianus Print-PPN
 	
 	
 	
@@ -2126,6 +2128,7 @@ var issnJournalTitleMapping = {
 	"Liturgisches Jahrbuch" : "!014407558!", // Liturgisches Jahrbuch Print-PPN
 	"The Mennonite Quarterly Review" : "!015181278!", // The Mennonite Quarterly Review Print-PPN
 	"Journal of Theological Interpretation" : "!424663988!", // Journal of Theological Interpretation E-PPN
+	"Oriens Christianus" :"!014895242!", // Oriens Christianus Print-PPN
 }
 
 
