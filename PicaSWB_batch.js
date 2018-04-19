@@ -157,7 +157,7 @@ var journalMapping = {
 	"1747-0234" : "!255884532!", // International journal for the study of the Christian church
 	"1547-9080" : "!111171709!", // Newman studies journal
 	"0144-8153" : "!015230376!", // Evangelical review of theology
-	"0360-8808" : "!015535347!", // Journal of the Evangelical Theological Society
+	"0360-8808" : "!345580796!", // Journal of the Evangelical Theological Society
 	"0092-6558" : "!015194132!", // Journal of the Interdenominational Theological Center
 	"1934-9637" : "!278763464!", // Journal of spirituality in mental health
 	"1934-9645" : "!278763464!", // Journal of spirituality in mental health
@@ -1087,7 +1087,7 @@ var issnPhysicalFormMapping = {
 	"1747-0234" : "O", // International journal for the study of the Christian church
 	"1547-9080" : "A", // Newman studies journal
 	"0144-8153" : "A", // Evangelical review of theology
-	"0360-8808" : "A", // Journal of the Evangelical Theological Society
+	"0360-8808" : "O", // Journal of the Evangelical Theological Society
 	"0092-6558" : "A", // Journal of the Interdenominational Theological Center
 	"1934-9637" : "O", // Journal of spirituality in mental health
 	"1934-9645" : "O", // Journal of spirituality in mental health
@@ -1749,7 +1749,7 @@ var issnPhysicalFormMapping = {
 	"1933-6632" : "O", // Journal of Moravian History
 	"19336632, 21616310" : "O", // Journal of Moravian History
 	"1533-791X" : "O", // Logos
-	"Journal of the Evangelical Theological Society" : "A", // Journal of the Evangelical Theological Society Print-PPN
+	"Journal of the Evangelical Theological Society" : "O", // Journal of the Evangelical Theological Society Print-PPN
 	"American Baptist Quarterly" : "O", // American Baptist Quarterly Print-PPN
 	"Churchman" : "A", // Churchman Print-PPN
 	"Liturgisches Jahrbuch" : "A", // Liturgisches Jahrbuch Print-PPN
@@ -2118,7 +2118,7 @@ var issnKeywordMapping = {
 // Mapping für JournalTitle>PPN
 var issnJournalTitleMapping = {
 	"Perspectives in Religious Studies" : "!014809931!", //Perspectives in religious studies Print-PPN
-	"Journal of the Evangelical Theological Society" : "!015535347!", // Journal of the Evangelical Theological Society Print-PPN
+	"Journal of the Evangelical Theological Society" : "!345580796!", // Journal of the Evangelical Theological Society Print-PPN
 	"American Baptist Quarterly" : "!015260909!", // American Baptist Quarterly Print-PPN
 	"Churchman" : "!015191273!", // Churchman Print-PPN
 	"Liturgisches Jahrbuch" : "!014407558!", // Liturgisches Jahrbuch Print-PPN
