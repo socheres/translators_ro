@@ -1761,6 +1761,7 @@ var issnPhysicalFormMapping = {
 	"2326-2176" : "O", // Journal of the Society of Christian Ethics
 	"Oriens Christianus" : "A", // Oriens Christianus Print-PPN
 	"08194920" : "O", // Phronema
+	"Phronema" : "O", // Phronema E-PPN
 	
 	
 };
@@ -2128,6 +2129,7 @@ var issnJournalTitleMapping = {
 	"The Mennonite Quarterly Review" : "!015181278!", // The Mennonite Quarterly Review Print-PPN
 	"Journal of Theological Interpretation" : "!424663988!", // Journal of Theological Interpretation E-PPN
 	"Oriens Christianus" :"!014895242!", // Oriens Christianus Print-PPN
+	"Phronema" : "!477959601!", // Phronema E-PPN
 	
 	
 	
