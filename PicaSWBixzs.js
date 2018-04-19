@@ -1750,7 +1750,7 @@ var issnPhysicalFormMapping = {
 	"19336632, 21616310" : "O", // Journal of Moravian History
 	"1533-791X" : "O", // Logos
 	"Journal of the Evangelical Theological Society" : "A", // Journal of the Evangelical Theological Society Print-PPN
-	"American Baptist Quarterly" : "A", // American Baptist Quarterly Print-PPN
+	"American Baptist Quarterly" : "O", // American Baptist Quarterly Print-PPN
 	"Churchman" : "A", // Churchman Print-PPN
 	"Liturgisches Jahrbuch" : "A", // Liturgisches Jahrbuch Print-PPN
 	"The Mennonite Quarterly Review" : "A", // The Mennonite Quarterly Review Print-PPN
