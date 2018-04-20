@@ -1763,6 +1763,7 @@ var issnPhysicalFormMapping = {
 	"Oriens Christianus" : "A", // Oriens Christianus Print-PPN
 	"08194920" : "O", // Phronema
 	"Phronema" : "O", // Phronema E-PPN
+	"Word & World" : "O", // Word & World E-PPN
 	
 	
 	
@@ -1835,6 +1836,7 @@ var issnLicenceFieldMapping = {
 	"1904-8181" : "l", // Religionsvidenskabeligt Tidsskrift
 	"2317-4307" : "l", // Revista de Cultura Teológica
 	"2237-6461" : "l", // Estudos Teológicos
+	"Word & World" : "l", // Word & World E-PPN
 
 	
 
@@ -2134,9 +2136,13 @@ var issnJournalTitleMapping = {
 	"Journal of Theological Interpretation" : "!424663988!", // Journal of Theological Interpretation E-PPN
 	"Oriens Christianus" :"!014895242!", // Oriens Christianus Print-PPN
 	"Phronema" : "!477959601!", // Phronema E-PPN
+	"Word & World" : "!325341044!", // Word & World E-PPN
 }
 
-
+// Mapping JournalTitle>Language
+var JournalTitleLanguageMapping = {
+	"Oriens Christianus" :"ger",
+}
 
 
 // ab hier Programmcode
@@ -2224,6 +2230,9 @@ function doExport() {
 		//enrich items based on their ISSN
 		if (!item.language && item.ISSN && issnLangMapping[item.ISSN]) {
 			item.language = issnLangMapping[item.ISSN];
+		}
+		if (!item.language && !item.ISSN && JournalTitleLanguageMapping[item.publicationTitle]) {
+			item.language = JournalTitleLanguageMapping[item.publicationTitle];
 		}
 		if (SsgField && item.ISSN && issnSsgMapping[item.ISSN]) {
 			SsgField = issnSsgMapping[item.ISSN];
