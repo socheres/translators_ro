@@ -783,6 +783,7 @@ var journalMapping = {
 	"0819-4920" : "!477959601!", // Phronema
 	"09602720" : "!273873938!", // European Journal of Theology
 	"0960-2720" : "!273873938!", // European Journal of Theology
+	"1918-6371" : "!398101299!", // Toronto Journal of Theology
 	
 	
 };
@@ -1766,6 +1767,7 @@ var issnPhysicalFormMapping = {
 	"Phronema" : "O", // Phronema E-PPN
 	"Word & World" : "O", // Word & World E-PPN
 	"09602720" : "O", // European Journal of Theology
+	"1918-6371" : "O", // Toronto Journal of Theology
 	
 	
 };
