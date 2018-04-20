@@ -781,6 +781,8 @@ var journalMapping = {
 	"2326-2176" : "!325341176!", // Journal of the Society of Christian Ethics
 	"08194920" : "!477959601!", // Phronema
 	"0819-4920" : "!477959601!", // Phronema
+	"09602720" : "!273873938!", // European Journal of Theology
+	"0960-2720" : "!273873938!", // European Journal of Theology
 	
 	
 };
@@ -1763,6 +1765,7 @@ var issnPhysicalFormMapping = {
 	"08194920" : "O", // Phronema
 	"Phronema" : "O", // Phronema E-PPN
 	"Word & World" : "O", // Word & World E-PPN
+	"09602720" : "O", // European Journal of Theology
 	
 	
 };
