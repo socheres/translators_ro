@@ -502,7 +502,7 @@ var journalMapping = {
 	"00450308" : "!015178129!", // Australian biblical review
 	"1886-4945" : "!302971882!", //  Cauriensia
 	"1133-0104" : "!032733054!", // Anuario de historia de la Iglesia 
-	"0010-3497" : "!014963337!", // Communicatio Socialis
+	"0010-3497" : "!401716686!", // Communicatio Socialis
 	"1930-1200" : "!052644464!", // Contagion
 	"1075-7201" : "!052644464!", // Contagion
 	"1666-7832" : "!325005931!", // DavarLogos
@@ -1524,7 +1524,7 @@ var issnPhysicalFormMapping = {
 	"00450308" : "A", // Australian biblical review
 	"1886-4945" : "A", //  Cauriensia
 	"1133-0104" : "A", // Anuario de historia de la Iglesia 
-	"0010-3497" : "A", // Communicatio Socialis
+	"0010-3497" : "O", // Communicatio Socialis
 	"1930-1200" : "A", // Contagion
 	"1075-7201" : "A", // Contagion
 	"1666-7832" : "O", // DavarLogos
