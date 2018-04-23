@@ -973,7 +973,7 @@ var issnLangMapping = {
 	"1460-3586" : "eng", // Journal of material culture
 	"1904-8181" : "dan", // Religionsvidenskabeligt Tidsskrift
 	"1783-8401" : "fre", // Revue Théologique de Louvain
-	"Oriens Christianus" : "ger", // Oriens Christianus Print-PPN
+	
 
 
 
@@ -1778,6 +1778,7 @@ var issnPhysicalFormMapping = {
 	"1188-7109, 1492-1413" : "O", // Théologiques
 	"1492-1413" : "O", // Théologiques
 	"1188-7109" : "O", // Théologiques
+	"Ephemerides Theologicae Lovanienses" : "O", // Ephemerides theologicae Lovanienses
 	
 	
 	
@@ -2152,11 +2153,13 @@ var issnJournalTitleMapping = {
 	"Oriens Christianus" :"!014895242!", // Oriens Christianus Print-PPN
 	"Phronema" : "!477959601!", // Phronema E-PPN
 	"Word & World" : "!325341044!", // Word & World E-PPN
-}
+	"Ephemerides Theologicae Lovanienses" : "!112891160!", // Ephemerides theologicae Lovanienses
+};
 
 // Mapping JournalTitle>Language
 var JournalTitleLanguageMapping = {
 	"Oriens Christianus" :"ger",
+	"Ephemerides Theologicae Lovanienses" : "fre",
 }
 
 
