@@ -323,8 +323,8 @@ var journalMapping = {
 	"14631652" : "!094641951!", // International journal of systematic theology
 	"0361-0160" : "!103189548!", // The Sixteenth Century Journal
 	"03610160" : "!103189548!", // The Sixteenth Century Journal
-	"0014-2239" : "!01496967X!", // Etudes théologiques et religieuses
-	"2272-9011" : "!01496967X!", // Etudes théologiques et religieuses
+	"0014-2239" : "!424017644!", // Etudes théologiques et religieuses
+	"2272-9011" : "!424017644!", // Etudes théologiques et religieuses
 	"0038-8610" : "!015205207!", // Concordia Theological Quarterly
 	"0047-2867" : "!015194620!", // Journal of Theology for Southern Africa
 	"0342-0914" : "!014414104!", // Lutherjahrbuch
@@ -1373,9 +1373,9 @@ var issnPhysicalFormMapping = {
 	"0361-0160" : "O", // The Sixteenth Century Journal
 	"03610160" : "O", // The Sixteenth Century Journal
 	"0038-8610" : "A", // Concordia Theological Quarterly
-	"0014-2239" : "A", // Etudes théologiques et religieuses !!pppn
-	"2272-9011" : "A", // Etudes théologiques et religieuses !!eppn
-	"0014-2239, 2272-9011" : "A", // Etudes théologiques et religieuses !!pppn + eppn
+	"0014-2239" : "O", // Etudes théologiques et religieuses !!pppn
+	"2272-9011" : "O", // Etudes théologiques et religieuses !!eppn
+	"0014-2239, 2272-9011" : "O", // Etudes théologiques et religieuses !!pppn + eppn
 	"0047-2867" : "A", // ! 015194620!Journal of Theology for Southern Africa
 	"0342-0914" : "A", // Lutherjahrbuch
 	"0194-3448" : "A", // American journal of theology and philosophy
