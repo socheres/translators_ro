@@ -785,6 +785,11 @@ var journalMapping = {
 	"09602720" : "!273873938!", // European Journal of Theology
 	"0960-2720" : "!273873938!", // European Journal of Theology
 	"1918-6371" : "!398101299!", // Toronto Journal of Theology
+	"1188-7109, 1492-1413" : "!347268072!", // Théologiques
+	"1492-1413" : "!347268072!", // Théologiques
+	"1188-7109" : "!347268072!", // Théologiques
+	
+	
 	
 };
 
@@ -1770,6 +1775,10 @@ var issnPhysicalFormMapping = {
 	"Word & World" : "O", // Word & World E-PPN
 	"09602720" : "O", // European Journal of Theology
 	"1918-6371" : "O", // Toronto Journal of Theology
+	"1188-7109, 1492-1413" : "O", // Théologiques
+	"1492-1413" : "O", // Théologiques
+	"1188-7109" : "O", // Théologiques
+	
 	
 	
 	
