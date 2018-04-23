@@ -151,7 +151,8 @@ var journalMapping = {
 	"1745-5227" : "!103869212!", // Aramaic studies
 	"1462-3153" : "!078316677!", // Journal for the Aramaic bible
 	"0229-2807" : "!059754931!", // ARC
-	"0094-5323" : "!015192121!", // Augustinian studies
+	"0094-5323" : "!47811849X!", // Augustinian studies
+	"00945323" : "!47811849X!", // Augustinian studies
 	"00143367" : "!015178811!", // Evangelical quarterly
 	"1474-225X" : "!255884532!", // International journal for the study of the Christian church
 	"1747-0234" : "!255884532!", // International journal for the study of the Christian church
@@ -1087,7 +1088,8 @@ var issnPhysicalFormMapping = {
 	"1477-8351" : "A", // Aramaic studies
 	"1745-5227" : "A", // Aramaic studies
 	"0229-2807" : "A", // ARC
-	"0094-5323" : "A", // Augustinian studies
+	"0094-5323" : "O", // Augustinian studies
+	"00945323" : "O", // Augustinian studies
 	"0014-3367" : "A", // Evangelical quarterly
 	"1474-225X" : "O", // International journal for the study of the Christian church
 	"1747-0234" : "O", // International journal for the study of the Christian church
