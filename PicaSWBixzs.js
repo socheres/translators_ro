@@ -1777,6 +1777,7 @@ var issnPhysicalFormMapping = {
 	"1492-1413" : "O", // Théologiques
 	"1188-7109" : "O", // Théologiques
 	"Ephemerides Theologicae Lovanienses" : "O", // Ephemerides theologicae Lovanienses
+	"Lumen Vitae" : "O", // Lumen Vitae E-PPN
 	
 	
 	
@@ -2149,6 +2150,7 @@ var issnJournalTitleMapping = {
 	"Phronema" : "!477959601!", // Phronema E-PPN
 	"Word & World" : "!325341044!", // Word & World E-PPN
 	"Ephemerides Theologicae Lovanienses" : "!112891160!", // Ephemerides theologicae Lovanienses
+	"Lumen Vitae" : "!428280439!", // Lumen Vitae E-PPN
 	
 	
 };
