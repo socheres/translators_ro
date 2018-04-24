@@ -1779,6 +1779,7 @@ var issnPhysicalFormMapping = {
 	"Ephemerides Theologicae Lovanienses" : "O", // Ephemerides theologicae Lovanienses
 	"Lumen Vitae" : "O", // Lumen Vitae E-PPN
 	"Religion and Society" : "A", // Religion and Society Print-PPN
+	"Counseling et spiritualité / Counselling and Spirituality" : "O", // Counseling et spiritualité / Counselling and Spirituality E-PPN
 	
 	
 	
@@ -2153,6 +2154,7 @@ var issnJournalTitleMapping = {
 	"Ephemerides Theologicae Lovanienses" : "!112891160!", // Ephemerides theologicae Lovanienses
 	"Lumen Vitae" : "!428280439!", // Lumen Vitae E-PPN
 	"Religion and Society" : "!015198073!", // Religion and Society Print-PPN
+	"Counseling et spiritualité / Counselling and Spirituality" : "!410016403!", // Counseling et spiritualité / Counselling and Spirituality E-PPN
 	
 	
 	
