@@ -1782,6 +1782,7 @@ var issnPhysicalFormMapping = {
 	"Lumen Vitae" : "O", // Lumen Vitae E-PPN
 	"Religion and Society" : "A", // Religion and Society Print-PPN
 	"Counseling et spiritualité / Counselling and Spirituality" : "O", // Counseling et spiritualité / Counselling and Spirituality E-PPN
+	"Detroit Baptist Seminary Journal" : "O", // Detroit Baptist Seminary Journal E-PPN
 	
 	
 	
@@ -1854,6 +1855,7 @@ var issnLicenceFieldMapping = {
 	"2317-4307" : "l", // Revista de Cultura Teológica
 	"2237-6461" : "l", // Estudos Teológicos
 	"Word & World" : "l", // Word & World E-PPN
+	"Detroit Baptist Seminary Journal" : "l", // Detroit Baptist Seminary Journal E-PPN
 
 	
 
@@ -2158,6 +2160,8 @@ var issnJournalTitleMapping = {
 	"Lumen Vitae" : "!428280439!", // Lumen Vitae E-PPN
 	"Religion and Society" : "!015198073!", // Religion and Society Print-PPN
 	"Counseling et spiritualité / Counselling and Spirituality" : "!410016403!", // Counseling et spiritualité / Counselling and Spirituality E-PPN
+	"Detroit Baptist Seminary Journal" : "!454420730!", // Detroit Baptist Seminary Journal E-PPN
+	
 	
 };
 
