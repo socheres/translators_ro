@@ -61,7 +61,7 @@ var journalMapping = {
 	"1476-6728" : "!10337356X!", // Journal for the study of the Old Testament !!hier kein direkter Downlaod, sondern über button "abstracts", //ansonsten keine ISSN-Übernahme!!
 	"0309-0892" : "!10337356X!", // Journal for the study of the Old Testament !!hier kein direkter Downlaod, sondern über button "abstracts", //ansonsten keine ISSN-Übernahme!!
 	"03090892" : "!10337356X!", // Journal for the study of the Old Testament
-	"0771-7776" : "!01496841X!", // Sacris erudiri  
+	"0771-7776" : "!25429961X!", // Sacris erudiri  
 	"2284-7308" : "!281073546!", // Perichoresis  
 	"1745-5189" : "!254072119!", // Feminist theology 
 	"0966-7350" : "!254072119!", // Feminist theology
@@ -1009,7 +1009,7 @@ var issnPhysicalFormMapping = {
 	"1476-6728" : "O", // Journal for the study of the Old Testament !!hier kein direkter Downlaod, sondern über button "abstracts", //ansonsten keine ISSN-Übernahme!!
 	"0309-0892" : "O", // Journal for the study of the Old Testament !!hier kein direkter Downlaod, sondern über button "abstracts", //ansonsten keine ISSN-Übernahme!!
 	"03090892" : "O", // Journal for the study of the Old Testament
-	"0771-7776" : "A", // Sacris erudiri  
+	"0771-7776" : "O", // Sacris erudiri  
 	"2284-7308" : "A", // Perichoresis  
 	"1745-5189" : "O", // Feminist theology 
 	"0966-7350" : "O", // Feminist theology
