@@ -788,6 +788,8 @@ var journalMapping = {
 	"1188-7109, 1492-1413" : "!347268072!", // Théologiques
 	"1492-1413" : "!347268072!", // Théologiques
 	"1188-7109" : "!347268072!", // Théologiques
+	"0107-4164" : "!443211930!", // Grundtvig-Studier
+	"0020-157x" : "!273888226!", // Innes Review
 	
 	
 	
@@ -973,6 +975,7 @@ var issnLangMapping = {
 	"1460-3586" : "eng", // Journal of material culture
 	"1904-8181" : "dan", // Religionsvidenskabeligt Tidsskrift
 	"1783-8401" : "fre", // Revue Théologique de Louvain
+	"0107-4164" : "dan", // Grundtvig-Studier
 	
 
 
@@ -1785,7 +1788,9 @@ var issnPhysicalFormMapping = {
 	"Detroit Baptist Seminary Journal" : "O", // Detroit Baptist Seminary Journal E-PPN
 	"One in Christ" : "A", // One in Christ Print-PPN
 	"The Reformed Theological Review" : "O", // The Reformed Theological Review E-PPN
-	"Studies in Spirituality" : "O", // Studies in Spirituality E-PPN
+	"Philosophia Christi" : "O", // Philosophia Christi
+	"0107-4164" : "O", // Grundtvig-Studier
+	"0020-157x" : "O", // Innes Review
 	
 	
 	
@@ -2166,7 +2171,7 @@ var issnJournalTitleMapping = {
 	"Detroit Baptist Seminary Journal" : "!454420730!", // Detroit Baptist Seminary Journal E-PPN
 	"One in Christ" : "!015178552!", // One in Christ Print-PPN
 	"The Reformed Theological Review" : "!42401243X!", // The Reformed Theological Review E-PPN
-	"Studies in Spirituality" : "!113564856!", // Studies in Spirituality E-PPN
+	"Philosophia Christi" : "!106362623!", // Philosophia Christi
 	
 	
 };
@@ -2407,7 +2412,7 @@ function doExport() {
 				titleStatement += "$d" + item.title.substr(item.shortTitle.length).replace(/^\s*:\s*/,'').replace(/"/,'\\"');
 			}
 		} else {
-			titleStatement += item.title.replace(/\s*:\s*/,'$d').replace(/"/g,'\\"');
+			titleStatement += item.title.replace(/\s*:[^:\d*]\s*/,'$d').replace(/"/g,'\\"');
 		}
 		
 		//Sortierzeichen hinzufügen, vgl. https://github.com/UB-Mannheim/zotkat/files/137992/ARTIKEL.pdf
