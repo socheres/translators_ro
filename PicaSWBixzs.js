@@ -1783,6 +1783,7 @@ var issnPhysicalFormMapping = {
 	"Detroit Baptist Seminary Journal" : "O", // Detroit Baptist Seminary Journal E-PPN
 	"One in Christ" : "A", // One in Christ Print-PPN
 	"The Reformed Theological Review" : "O", // The Reformed Theological Review E-PPN
+	"Studies in Spirituality" : "O", // Studies in Spirituality E-PPN
 	
 	
 	
@@ -2163,6 +2164,7 @@ var issnJournalTitleMapping = {
 	"Detroit Baptist Seminary Journal" : "!454420730!", // Detroit Baptist Seminary Journal E-PPN
 	"One in Christ" : "!015178552!", // One in Christ Print-PPN
 	"The Reformed Theological Review" : "!42401243X!", // The Reformed Theological Review E-PPN
+	"Studies in Spirituality" : "!113564856!", // Studies in Spirituality E-PPN
 	
 	
 	
