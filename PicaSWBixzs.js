@@ -790,6 +790,8 @@ var journalMapping = {
 	"1188-7109" : "!347268072!", // Théologiques
 	"0107-4164" : "!443211930!", // Grundtvig-Studier
 	"0020-157x" : "!273888226!", // Innes Review
+	"0020-157X" : "!273888226!", // Innes Review
+	
 	
 };
 
