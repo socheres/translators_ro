@@ -1783,6 +1783,7 @@ var issnPhysicalFormMapping = {
 	"Religion and Society" : "A", // Religion and Society Print-PPN
 	"Counseling et spiritualité / Counselling and Spirituality" : "O", // Counseling et spiritualité / Counselling and Spirituality E-PPN
 	"Detroit Baptist Seminary Journal" : "O", // Detroit Baptist Seminary Journal E-PPN
+	"One in Christ" : "A", // One in Christ Print-PPN
 	
 	
 	
@@ -2161,6 +2162,7 @@ var issnJournalTitleMapping = {
 	"Religion and Society" : "!015198073!", // Religion and Society Print-PPN
 	"Counseling et spiritualité / Counselling and Spirituality" : "!410016403!", // Counseling et spiritualité / Counselling and Spirituality E-PPN
 	"Detroit Baptist Seminary Journal" : "!454420730!", // Detroit Baptist Seminary Journal E-PPN
+	"One in Christ" : "!015178552!", // One in Christ Print-PPN
 	
 	
 };
