@@ -602,7 +602,6 @@ var journalMapping = {
 	"2150-9298, 2150-9301" : "!365211141!", //  Religion and society
 	"2150-9298" : "!365211141!", //  Religion and society
 	"2150-9301" : "!365211141!", //  Religion and society
-	"0008-1795" : "!015177513!", // Calvin Theological Journal
 	"2593-0486" : "!494985240!", // Marriage, Families and Spirituality
 	"00027650" : "!015022609!", // The American Benedictine Review
 	"0002-7650" : "!015022609!", // The American Benedictine Review
@@ -1618,7 +1617,7 @@ var issnPhysicalFormMapping = {
 	"0017-4114" : "A", // Gregorianum
 	"21509301" : "O", //  Religion and society
 	"2150-9298, 2150-9301" : "O", //  Religion and society
-	"0008-1795" : "A", // Calvin Theological Journal
+	"Calvin Theological Journal" : "O", // Calvin Theological Journal
 	"2593-0486" : "O", // Marriage, Families and Spirituality
 	"00027650" : "A", // The American Benedictine Review
 	"0002-7650" : "A", // The American Benedictine Review
@@ -2174,6 +2173,7 @@ var issnJournalTitleMapping = {
 	"One in Christ" : "!015178552!", // One in Christ Print-PPN
 	"The Reformed Theological Review" : "!42401243X!", // The Reformed Theological Review E-PPN
 	"Philosophia Christi" : "!106362623!", // Philosophia Christi
+	"Calvin Theological Journal" : "!501717714!", // Calvin Theological Journal
 	
 	
 };
