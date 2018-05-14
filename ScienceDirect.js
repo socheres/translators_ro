@@ -1,15 +1,15 @@
 {
 	"translatorID": "b6d0a7a-d076-48ae-b2f0-b6de28b194e",
-	"translatorType": 4,
 	"label": "ScienceDirect",
 	"creator": "Michael Berkowitz and Aurimas Vinckevicius",
 	"target": "^https?://[^/]*science-?direct\\.com[^/]*/(science(/article/|/(journal|bookseries|book|handbooks|referenceworks)/\\d)|search\\?|journal/[^/]+/vol)",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2018-03-04 08:05:00"
+	"lastUpdated": "2018-04-24 22:49:12"
 }
 
 // attr()/text() v2
@@ -403,7 +403,7 @@ function getArticleList(doc) {
 			|//td[@class="nonSerialResultsList"]/h3/a\
 			|//div[@id="bodyMainResults"]//li[contains(@class,"title")]//a\
 			|//h2/a[contains(@class, "result-list-title-link")]\
-			|//ol[@class="article-list"]//a[contains(@class, "article-content-title")]\
+			|//ol[contains(@class, "article-list") or contains(@class, "article-list-items")]//a[contains(@class, "article-content-title")]\
 		)\[not(contains(text(),"PDF (") or contains(text(), "Related Articles"))]');
 }
 

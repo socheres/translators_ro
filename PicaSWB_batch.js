@@ -73,8 +73,8 @@ var journalMapping = {
 	"1752-0738" : "!061284815!", // Reformation  
 	"1462-317X" : "!25998390X!", // Political theology   
 	"1743-1719" : "!25998390X!", // Political theology   
-	"0360-6503" : "!015202178!", // Process studies  
-	"03606503" : "!015202178!", // Process studies  
+	"0360-6503" : "!378913735!", // Process studies  
+	"03606503" : "!378913735!", // Process studies  
 	"0733-4273" : "!015054578!", // Journal of psychology and Christianity
 	"07334273" : "!015054578!", // Journal of psychology and Christianity
 	"0929-0761" : "!041601858!", // Dead Sea discoveries   
@@ -1022,8 +1022,8 @@ var issnPhysicalFormMapping = {
 	"1752-0738" : "A", // Reformation  
 	"1462-317X" : "O", // Political theology   
 	"1743-1719" : "O", // Political theology   
-	"0360-6503" : "A", // Process studies  
-	"03606503" :"A", // Process studies	
+	"0360-6503" : "O", // Process studies  
+	"03606503" :"O", // Process studies	
 	"0733-4273" : "A", // Journal of psychology and Christianity
 	"07334273" : "A", // Journal of psychology and Christianity
 	"0929-0761" : "A", // Dead Sea discoveries   
@@ -1375,7 +1375,7 @@ var issnPhysicalFormMapping = {
 	"1861-5813" : "O", // Online - Heidelberg Journal of Religions on the Internet
 	"1867-4240" : "O", // Transformierte Buddhismen
 	"1583-0039" : "O", // Journal for the Study of Religions and Ideologies
-	"0360-6503" : "A", // Process studies
+	"0360-6503" : "O", // Process studies
 	"0378-2506" : "O", // Byzantion
 	"2294-6209" : "O", // Byzantion
 	"Byzantion" : "O", // Byzantion
