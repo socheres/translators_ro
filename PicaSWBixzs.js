@@ -547,8 +547,9 @@ var journalMapping = {
 	"00218294" : "!093888538!", // Journal for the Scientific Study of Religion
 	"03938417" : "!375594558!", // Studi e materiali di storia delle religioni
 	"0393-8417" : "!375594558!", // Studi e materiali di storia delle religioni
-	"1553-3913" : "!015906353!", // Journal of feminist studies in religion
-	"8755-4178" : "!015906353!", // Journal of feminist studies in religion
+	"1553-3913" : "!266819427!", // Journal of feminist studies in religion
+	"8755-4178" : "!266819427!", // Journal of feminist studies in religion
+	"87554178, 15533913" : "!266819427!", // Journal of feminist studies in religion
 	"1050-8619" : "!025188534!", // The International Journal for the Psychology of Religion
 	"2056-9971" : "!428515673!", // International journal of Christianity & education
 	"1749-8171" : "!278762514!", // Religion compass
@@ -1563,8 +1564,8 @@ var issnPhysicalFormMapping = {
 	"00218294" : "O", // Journal for the Scientific Study of Religion
 	"03938417" : "O", // Studi e materiali di storia delle religioni
 	"1069-4404, 1759-8818" : "O", // Sociology of religion
-	"1553-3913" : "A", // Journal of feminist studies in religion
-	"87554178, 15533913" : "A", // Journal of feminist studies in religion
+	"1553-3913" : "O", // Journal of feminist studies in religion
+	"87554178, 15533913" : "O", // Journal of feminist studies in religion
 	"1050-8619" : "A", // The International Journal for the Psychology of Religion
 	"2056-9971" : "O", // International journal of Christianity & education
 	"1749-8171" : "O", // Religion compass
