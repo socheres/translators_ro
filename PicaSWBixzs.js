@@ -791,6 +791,8 @@ var journalMapping = {
 	"0107-4164" : "!443211930!", // Grundtvig-Studier
 	"0020-157x" : "!273888226!", // Innes Review
 	"0020-157X" : "!273888226!", // Innes Review
+	"18277365" : "!377156167!", // Rivista di Storia del Cristianesimo
+	"1827-7365" : "!377156167!", // Rivista di Storia del Cristianesimo
 	
 	
 };
@@ -976,6 +978,7 @@ var issnLangMapping = {
 	"1904-8181" : "dan", // Religionsvidenskabeligt Tidsskrift
 	"1783-8401" : "fre", // Revue Théologique de Louvain
 	"0107-4164" : "dan", // Grundtvig-Studier
+	"18277365" : "ita", // Rivista di Storia del Cristianesimo
 
 
 
@@ -1789,7 +1792,7 @@ var issnPhysicalFormMapping = {
 	"Philosophia Christi" : "A", // Philosophia Christi
 	"0107-4164" : "O", // Grundtvig-Studier
 	"0020-157x" : "O", // Innes Review
-	
+	"18277365" : "O", // Rivista di Storia del Cristianesimo
 	
 	
 };
