@@ -793,6 +793,8 @@ var journalMapping = {
 	"0020-157X" : "!273888226!", // Innes Review
 	"18277365" : "!377156167!", // Rivista di Storia del Cristianesimo
 	"1827-7365" : "!377156167!", // Rivista di Storia del Cristianesimo
+	"2054-1988" : "!42547724X!", // Journal of Holy Land and Palestine Studies
+	"0047-8105" : "!368309355!", // Moreana
 	
 	
 	
@@ -1796,6 +1798,8 @@ var issnPhysicalFormMapping = {
 	"0107-4164" : "O", // Grundtvig-Studier
 	"0020-157x" : "O", // Innes Review
 	"18277365" : "O", // Rivista di Storia del Cristianesimo
+	"2054-1988" : "O", // Journal of Holy Land and Palestine Studies
+	"0047-8105" : "O", // Moreana
 	
 	
 	
