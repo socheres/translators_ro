@@ -984,6 +984,7 @@ var issnLangMapping = {
 	"1783-8401" : "fre", // Revue Théologique de Louvain
 	"0107-4164" : "dan", // Grundtvig-Studier
 	"18277365" : "ita", // Rivista di Storia del Cristianesimo
+	"0033-1767" : "ita", // Protestantesimo
 	
 
 
@@ -1806,6 +1807,7 @@ var issnPhysicalFormMapping = {
 	"0047-8105" : "O", // Moreana
 	"Anglican and Episcopal History" : "A", // Anglican and Episcopal History
 	"Foi et vie" : "O", // Foi et vie
+	"Protestantesimo" : "A", // Protestantesimo
 	
 	
 	
@@ -2192,6 +2194,7 @@ var issnJournalTitleMapping = {
 	"Calvin Theological Journal" : "!501717714!", // Calvin Theological Journal
 	"Anglican and Episcopal History" : "!016232976!", // Anglican and Episcopal History
 	"Foi et vie" : "!455507414!", // Foi et vie
+	"Protestantesimo" : "!015182266!", // Protestantesimo
 	
 	
 };
