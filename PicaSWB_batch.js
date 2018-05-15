@@ -444,7 +444,8 @@ var journalMapping = {
 	"2365-3140" : "!44515568X!", // Interdisciplinary journal for religion and transformation in contemporary society
 	"18630502" : "!281238162!", //Theo-Web Zeitschrift für Religionspädagogik
 	"1863-0502" : "!281238162!", //Theo-Web Zeitschrift für Religionspädagogik
-	"1015-8758" : "!032874014!", // Acta Theologica
+	"1015-8758" : "!347604765!", // Acta Theologica
+	"10158758" : "!347604765!", // Acta Theologica
 	"1862-1678" : "!281343004!", // theologie.geschichte
 	"1983-2850" : "!361845626!", // Revista Brasileira de História das Religiões 
 	"19832850" : "!361845626!", // Revista Brasileira de História das Religiões
@@ -1487,7 +1488,8 @@ var issnPhysicalFormMapping = {
 	"2365-3140" : "O", // Interdisciplinary journal for religion and transformation in contemporary society
 	"18630502" : "O", //Theo-Web Zeitschrift für Religionspädagogik
 	"1863-0502" : "O", //Theo-Web Zeitschrift für Religionspädagogik
-	"1015-8758" : "A", // Acta Theologica
+	"1015-8758" : "O", // Acta Theologica
+	"10158758" : "O", // Acta Theologica
 	"1862-1678" : "O", // theologie.geschichte
 	"1983-2850" : "O", // Revista Brasileira de História das Religiões 
 	"19832850" : "O", // Revista Brasileira de História das Religiões 
@@ -1877,6 +1879,8 @@ var issnLicenceFieldMapping = {
 	"2237-6461" : "l", // Estudos Teológicos
 	"Word & World" : "l", // Word & World E-PPN
 	"Detroit Baptist Seminary Journal" : "l", // Detroit Baptist Seminary Journal E-PPN
+	"1015-8758" : "l", // Acta Theologica
+	"10158758" : "l", // Acta Theologica
 
 	
 
