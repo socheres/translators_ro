@@ -1808,6 +1808,7 @@ var issnPhysicalFormMapping = {
 	"Anglican and Episcopal History" : "A", // Anglican and Episcopal History
 	"Foi et vie" : "O", // Foi et vie
 	"Protestantesimo" : "A", // Protestantesimo
+	"Ethical Perspectives" : "O", // Ethical Perspectives
 	
 	
 	
@@ -2195,6 +2196,7 @@ var issnJournalTitleMapping = {
 	"Anglican and Episcopal History" : "!016232976!", // Anglican and Episcopal History
 	"Foi et vie" : "!455507414!", // Foi et vie
 	"Protestantesimo" : "!015182266!", // Protestantesimo
+	"Ethical Perspectives" : "!112891179!", // Ethical Perspectives
 	
 	
 };

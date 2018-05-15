@@ -982,7 +982,7 @@ var issnLangMapping = {
 	"1783-8401" : "fre", // Revue Théologique de Louvain
 	"0107-4164" : "dan", // Grundtvig-Studier
 	"18277365" : "ita", // Rivista di Storia del Cristianesimo
-
+	"0033-1767" : "ita", // Protestantesimo
 
 
 	
@@ -1803,6 +1803,7 @@ var issnPhysicalFormMapping = {
 	"Anglican and Episcopal History" : "A", // Anglican and Episcopal History
 	"Foi et vie" : "O", // Foi et vie
 	"Protestantesimo" : "A", // Protestantesimo
+	"Ethical Perspectives" : "O", // Ethical Perspectives
 	
 	
 };
@@ -2189,7 +2190,7 @@ var issnJournalTitleMapping = {
 	"Anglican and Episcopal History" : "!016232976!", // Anglican and Episcopal History
 	"Foi et vie" : "!455507414!", // Foi et vie
 	"Protestantesimo" : "!015182266!", // Protestantesimo
-	
+	"Ethical Perspectives" : "!112891179!", // Ethical Perspectives
 	
 	
 };
