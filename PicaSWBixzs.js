@@ -225,7 +225,7 @@ var journalMapping = {
 	"1468-0025" : "!096290587!", // Modern theology Print-PPN  EISSN
 	"0009-661X" : "!015191273!", // Churchman
 	"1126-6244" : "!094423636!", // Adamantius
-	"1010-9919" : "!015906299!", // old testament essays
+	"1010-9919" : "!340336757!", // old testament essays
 	"0935-7335" : "!018614302!", // Ethik in der Medizin 
 	"1437-1618" : "!018614302!", // Ethik in der Medizin
 	"1209-9392" : "!281190321!", // Women in Judaism
@@ -838,7 +838,6 @@ var languageMapping = {
 };
 
 var issnLangMapping = {
-	"1010-9919" : "ger",
 	"2031-5929" : "eng",
 	"1010-9913" : "fre",
 	"2031-5921" : "ger",
@@ -992,7 +991,6 @@ var issnLangMapping = {
 var issnVolumeMapping = {
 	"2031-5929" : "N.S.",
 	"2031-5922" : "A.S.",
-	"1010-9919" : "N.S.",
 };
 
 var issnPhysicalFormMapping = {
@@ -1172,7 +1170,7 @@ var issnPhysicalFormMapping = {
 	"1468-0025" : "O", // Modern theology Print-PPN  EISSN
 	"0009-661X" : "A", // Churchman
 	"1126-6244" : "A", // Adamantius
-	"1010-9919" : "A", // old testament essays
+	"1010-9919" : "O", // old testament essays
 	"0935-7335" : "A", // Ethik in der Medizin 
 	"1437-1618" : "A", // Ethik in der Medizin
 	"1209-9392" : "A", // Women in Judaism
@@ -1879,6 +1877,7 @@ var issnLicenceFieldMapping = {
 	"Detroit Baptist Seminary Journal" : "l", // Detroit Baptist Seminary Journal E-PPN
 	"1015-8758" : "l", // Acta Theologica
 	"10158758" : "l", // Acta Theologica
+	
 	
 
 	
