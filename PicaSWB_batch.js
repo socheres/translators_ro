@@ -1809,6 +1809,7 @@ var issnPhysicalFormMapping = {
 	"Foi et vie" : "O", // Foi et vie
 	"Protestantesimo" : "A", // Protestantesimo
 	"Ethical Perspectives" : "O", // Ethical Perspectives
+	"Journal of Eastern Christian Studies" : "O", // Journal of Eastern Christian Studies
 	
 	
 	
@@ -2197,6 +2198,7 @@ var issnJournalTitleMapping = {
 	"Foi et vie" : "!455507414!", // Foi et vie
 	"Protestantesimo" : "!015182266!", // Protestantesimo
 	"Ethical Perspectives" : "!112891179!", // Ethical Perspectives
+	"Journal of Eastern Christian Studies" : "!112891225!", // Journal of Eastern Christian Studies
 	
 	
 };
