@@ -1802,6 +1802,7 @@ var issnPhysicalFormMapping = {
 	"18277365" : "O", // Rivista di Storia del Cristianesimo
 	"2054-1988" : "O", // Journal of Holy Land and Palestine Studies
 	"0047-8105" : "O", // Moreana
+	"Anglican and Episcopal History" : "A", // Anglican and Episcopal History
 	
 	
 	
@@ -2184,6 +2185,7 @@ var issnJournalTitleMapping = {
 	"The Reformed Theological Review" : "!42401243X!", // The Reformed Theological Review E-PPN
 	"Philosophia Christi" : "!106362623!", // Philosophia Christi
 	"Calvin Theological Journal" : "!501717714!", // Calvin Theological Journal
+	"Anglican and Episcopal History" : "!016232976!", // Anglican and Episcopal History
 	
 	
 };
