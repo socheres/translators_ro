@@ -1803,6 +1803,7 @@ var issnPhysicalFormMapping = {
 	"Protestantesimo" : "A", // Protestantesimo
 	"Ethical Perspectives" : "O", // Ethical Perspectives
 	"Journal of Eastern Christian Studies" : "O", // Journal of Eastern Christian Studies
+	"Antonianum" : "A", // Antonianum
 	
 	
 };
@@ -2192,6 +2193,7 @@ var issnJournalTitleMapping = {
 	"Protestantesimo" : "!015182266!", // Protestantesimo
 	"Ethical Perspectives" : "!112891179!", // Ethical Perspectives
 	"Journal of Eastern Christian Studies" : "!112891225!", // Journal of Eastern Christian Studies
+	"Antonianum" : "!014992124!", // Antonianum
 	
 	
 };
