@@ -426,8 +426,7 @@ var journalMapping = {
 	"0035-1725" : "!469131306!", // Revue de Qumran
 	"0035-2209" : "!014878801!", // Revue des Sciences Philosophiques et Théologiques
 	"2305-445X" : "!416568890!", // Scriptura
-	"2473-3725" : "!014421941!", // The Thomist
-	"2473-3725" : "!014421941!", // The Thomist
+	"2473-3725" : "!093981724!", // The Thomist
 	"1469-7637" : "!078707234!", // The Journal of Ecclesiastical History
 	"0022-0469, 1469-7637" : "!078707234!", // The Journal of Ecclesiastical History
 	"0022-0469" : "!078707234!", // The Journal of Ecclesiastical History
@@ -1284,8 +1283,7 @@ var issnPhysicalFormMapping = {
 	"1463-1652" : "O", // International journal of systematic theology !!pppn
 	"14631652" : "O", // International journal of systematic theology !!pppn
 	"1466-769X" : "A", // Nursing philosophy !!eppn
-	"2473-3725" : "A", // The Thomist !!pppn
-	"2473-3725" : "A", // The Thomist !!eppn
+	"2473-3725" : "O", // The Thomist 
 	"0969-7330" : "A", // Nursing ethics !!pppn
 	"1477-0989" : "A", // Nursing ethics !!eppn
 	"2565-7070" : "O", // Biblica !!pppn
