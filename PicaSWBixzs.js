@@ -2484,7 +2484,7 @@ function doExport() {
 		//4070 $v Bandzählung $j Jahr $h Heftnummer $p Seitenzahl
 		if (item.itemType == "journalArticle" || item.itemType == "magazineArticle") {
 			var volumeyearissuepage = "";
-			if (item.volume) { volumeyearissuepage += "$v" + item.volume.replace("Tome ", ""); }
+			if (item.volume) { volumeyearissuepage += "$v" + item.volume.replace("Tome ", "").replace(/\(Number\s\d+-?\d+\)/, ""); }
 			if (date.year !== undefined) { volumeyearissuepage +=  "$j" + date.year; }
 			if (item.issue) { volumeyearissuepage += "$h" + item.issue.replace("-", "/").replace(/^0/, ""); }
 			if (item.pages) { volumeyearissuepage += "$p" + item.pages; }
