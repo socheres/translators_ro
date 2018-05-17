@@ -377,9 +377,9 @@ var journalMapping = {
 	"00224189" : "!113710593!", // Journal of Religion
 	"1549-6538" : "!113710593!", // Journal of Religion
 	"0022-4189" : "!113710593!", // Journal of Religion
-	"1722-4705" : "!016231732!", // Religioni e società
-	"0394-9397" : "!016231732!", // Religioni e società
-	"17224705" : "!016231732!", // Religioni e società
+	"1722-4705" : "!275998991!", // Religioni e società
+	"0394-9397" : "!275998991!", // Religioni e società
+	"17224705" : "!275998991!", // Religioni e società
 	"0002-7189" : "!10686971X!", // Journal of the American Academy of Religion
 	"1477-4585" : "!10686971X!", // Journal of the American Academy of Religion
 	"00088080" : "!266819001!", // The catholic historical review
@@ -1437,9 +1437,9 @@ var issnPhysicalFormMapping = {
 	"00224189" : "O", // Journal of Religion
 	"1549-6538" : "O", // Journal of Religion
 	"0022-4189" : "O", // Journal of Religion
-	"1722-4705" : "A", // Religioni e società
-	"0394-9397" : "A", // Religioni e società
-	"17224705" : "A", // Religioni e società
+	"1722-4705" : "O", // Religioni e società
+	"0394-9397" : "O", // Religioni e società
+	"17224705" : "O", // Religioni e società
 	"0002-7189" : "O", // Journal of the American Academy of Religion
 	"1477-4585" : "O", // Journal of the American Academy of Religion
 	"0008-8080" : "O", // The catholic historical review
@@ -1808,6 +1808,7 @@ var issnPhysicalFormMapping = {
 	"Journal of Eastern Christian Studies" : "O", // Journal of Eastern Christian Studies
 	"Antonianum" : "A", // Antonianum
 	"Dialogue & Alliance" : "A", // Dialogue & Alliance
+	"Luther" : "A", // Luther, Zeitschrift der Luthergesellschaft
 	
 	
 	
@@ -2200,6 +2201,7 @@ var issnJournalTitleMapping = {
 	"Journal of Eastern Christian Studies" : "!112891225!", // Journal of Eastern Christian Studies
 	"Antonianum" : "!014992124!", // Antonianum
 	"Dialogue & Alliance" : "!023125381!", // Dialogue & Alliance
+	"Luther" : "!014414112!", // Luther, Zeitschrift der Luthergesellschaft
 	
 	
 };
