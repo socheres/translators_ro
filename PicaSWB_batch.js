@@ -1807,6 +1807,7 @@ var issnPhysicalFormMapping = {
 	"Ethical Perspectives" : "O", // Ethical Perspectives
 	"Journal of Eastern Christian Studies" : "O", // Journal of Eastern Christian Studies
 	"Antonianum" : "A", // Antonianum
+	"Dialogue & Alliance" : "A", // Dialogue & Alliance
 	
 	
 	
@@ -2198,6 +2199,7 @@ var issnJournalTitleMapping = {
 	"Ethical Perspectives" : "!112891179!", // Ethical Perspectives
 	"Journal of Eastern Christian Studies" : "!112891225!", // Journal of Eastern Christian Studies
 	"Antonianum" : "!014992124!", // Antonianum
+	"Dialogue & Alliance" : "!023125381!", // Dialogue & Alliance
 	
 	
 };
@@ -2505,7 +2507,7 @@ function doExport() {
 		//4070 $v Bandzählung $j Jahr $h Heftnummer $p Seitenzahl
 		if (item.itemType == "journalArticle" || item.itemType == "magazineArticle") {
 			var volumeyearissuepage = "";
-			if (item.volume) { volumeyearissuepage += "$v" + item.volume.replace("Tome ", "").replace(/\(Number\s\d+-?\d+\)/, ""); }
+			if (item.volume) { volumeyearissuepage += "$v" + item.volume.replace("Tome ", "").replace(/\s\(Number\s\d+-?\d+\)/, ""); }
 			if (date.year !== undefined) { volumeyearissuepage +=  "$j" + date.year; }
 			if (item.issue) { volumeyearissuepage += "$h" + item.issue.replace("-", "/").replace(/^0/, ""); }
 			if (item.pages) { volumeyearissuepage += "$p" + item.pages; }
