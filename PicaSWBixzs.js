@@ -156,7 +156,7 @@ var journalMapping = {
 	"00143367" : "!015178811!", // Evangelical quarterly
 	"1474-225X" : "!255884532!", // International journal for the study of the Christian church
 	"1747-0234" : "!255884532!", // International journal for the study of the Christian church
-	"1547-9080" : "!111171709!", // Newman studies journal
+	"2153-6945" : "!477959180!", // Newman studies journal
 	"0144-8153" : "!015230376!", // Evangelical review of theology
 	"0360-8808" : "!345580796!", // Journal of the Evangelical Theological Society
 	"0092-6558" : "!015194132!", // Journal of the Interdenominational Theological Center
@@ -1106,7 +1106,7 @@ var issnPhysicalFormMapping = {
 	"0014-3367" : "A", // Evangelical quarterly
 	"1474-225X" : "O", // International journal for the study of the Christian church
 	"1747-0234" : "O", // International journal for the study of the Christian church
-	"1547-9080" : "A", // Newman studies journal
+	"2153-6945" : "O", // Newman studies journal
 	"0144-8153" : "A", // Evangelical review of theology
 	"0360-8808" : "O", // Journal of the Evangelical Theological Society
 	"0092-6558" : "A", // Journal of the Interdenominational Theological Center
@@ -2540,15 +2540,10 @@ function doExport() {
 		
 		//Inhaltliche Zusammenfassung -->4207
 		if (item.abstractNote) {
-			writeLine("4207", item.abstractNote.replace("<i>", "\'").replace("</i>", "\'").replace("<br/>", "").replace("Zusammenfassung", "").replace(" Summary", "").replace("", "").replace(/–/g, '-').replace(/&#160;/g, " ").replace(/&nbsp;/g, " "));  
-		}  
-		
-		/* } else (!item.abstractNote){
-			writeLine("4207");
-			}
-		
-		"4207", item.abstractNote.replace(/'/g, '\"').replace("<i>", "\'").replace("</i>", "\'").replace("<br/>", "").replace("Zusammenfassung", "").replace(" Summary", "").replace("", "")); */
-		
+			item.abstractNote = ZU.unescapeHTML(item.abstractNote);
+			writeLine("4207", item.abstractNote.replace("Zusammenfassung", "").replace(" Summary", "").replace("", "").replace(/–/g, '-').replace(/&#160;/g, "").replace(/"/g, '\\"')); 
+		}
+				
 		//item.publicationTitle --> 4241 Beziehungen zur größeren Einheit 
 		if (item.itemType == "journalArticle" || item.itemType == "magazineArticle") {
 			if (item.ISSN && journalMapping[ZU.cleanISSN(item.ISSN)]) {
