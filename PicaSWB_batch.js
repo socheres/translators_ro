@@ -1450,7 +1450,7 @@ var issnPhysicalFormMapping = {
 	"1477-4585" : "O", // Journal of the American Academy of Religion
 	"0008-8080" : "O", // The catholic historical review
 	"00088080" : "O", // The catholic historical review
-	"0024-6964" : "A", // Louvain Studies
+	"0024-6964" : "O", // Louvain Studies
 	"1323-6377" : "A", // Uniting Church Studies
 	"0023-9054, 1703-8804" : "O", // Laval théologique et philosophique
 	"0003-2468" : "O", // Analecta Bollandiana
@@ -1819,6 +1819,7 @@ var issnPhysicalFormMapping = {
 	"Luther" : "A", // Luther, Zeitschrift der Luthergesellschaft
 	"Journal of Eastern Christian Studies" : "O", // Journal of Eastern Christian Studies
 	"American Journal of Theology & Philosophy" : "O", // American journal of theology and philosophy
+	"Louvain Studies" : "O", // Louvain Studies
 	
 	
 	
@@ -2216,6 +2217,7 @@ var issnJournalTitleMapping = {
 	"Luther" : "!014414112!", // Luther, Zeitschrift der Luthergesellschaft
 	"Journal of Eastern Christian Studies" : "!112891225!", // Journal of Eastern Christian Studies
 	"American Journal of Theology & Philosophy" : "!318814447!", // American journal of theology and philosophy
+	"Louvain Studies" : "!113144229!", // Louvain Studies
 	
 	
 };
