@@ -800,6 +800,7 @@ var journalMapping = {
 	"1827-7365" : "!377156167!", // Rivista di Storia del Cristianesimo
 	"2054-1988" : "!42547724X!", // Journal of Holy Land and Palestine Studies
 	"0047-8105" : "!368309355!", // Moreana
+	"2518-4628" : "!410110930!", // Neotestamentica
 	
 	
 	
@@ -1820,7 +1821,7 @@ var issnPhysicalFormMapping = {
 	"Journal of Eastern Christian Studies" : "O", // Journal of Eastern Christian Studies
 	"American Journal of Theology & Philosophy" : "O", // American journal of theology and philosophy
 	"Louvain Studies" : "O", // Louvain Studies
-	
+	"2518-4628" : "O", // Neotestamentica
 	
 	
 };
