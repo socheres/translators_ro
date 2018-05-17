@@ -445,6 +445,8 @@ var journalMapping = {
 	"1863-0502" : "!281238162!", //Theo-Web Zeitschrift für Religionspädagogik
 	"1015-8758" : "!347604765!", // Acta Theologica
 	"10158758" : "!347604765!", // Acta Theologica
+	"2309-9089" : "!347604765!", // Acta Theologica
+	"1015-8758, 2309-9089" : "!347604765!", // Acta Theologica
 	"1862-1678" : "!281343004!", // theologie.geschichte
 	"1983-2850" : "!361845626!", // Revista Brasileira de História das Religiões 
 	"19832850" : "!361845626!", // Revista Brasileira de História das Religiões
@@ -1486,6 +1488,8 @@ var issnPhysicalFormMapping = {
 	"18630502" : "O", //Theo-Web Zeitschrift für Religionspädagogik
 	"1863-0502" : "O", //Theo-Web Zeitschrift für Religionspädagogik
 	"1015-8758" : "O", // Acta Theologica
+	"1015-8758, 2309-9089" : "O", // Acta Theologica
+	"2309-9089" : "O", // Acta Theologica
 	"10158758" : "O", // Acta Theologica
 	"1862-1678" : "O", // theologie.geschichte
 	"1983-2850" : "O", // Revista Brasileira de História das Religiões 
@@ -1884,8 +1888,8 @@ var issnLicenceFieldMapping = {
 	"Detroit Baptist Seminary Journal" : "l", // Detroit Baptist Seminary Journal E-PPN
 	"1015-8758" : "l", // Acta Theologica
 	"10158758" : "l", // Acta Theologica
-	
-
+	"2309-9089" : "l", // Acta Theologica
+	"1015-8758, 2309-9089" : "l", // Acta Theologica
 	
 
 	
@@ -1902,6 +1906,8 @@ var issnSsgMapping = {
 	"1570-0682" : "0", // Method and theory in the study of religion
 	"0141-6200" : "0; 1", // British Journal of Religious Education
 	"1749-4907" : "0; 1", // Journal for the study of religion, nature and culture
+	"17494907" : "0; 1", // Journal for the Study of Religion, Nature and Culture
+	"1749-4907, 1749-4915" : "0; 1", // Journal for the Study of Religion, Nature and Culture
 	"1094-2076" : "1", // Near Eastern archaeology
 	"1574-3012" : "0; 1", // Religion & theology
 	"1023-0807" : "0; 1", // Religion & theology
