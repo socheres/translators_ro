@@ -1808,6 +1808,7 @@ var issnPhysicalFormMapping = {
 	"Antonianum" : "A", // Antonianum
 	"Dialogue & Alliance" : "A", // Dialogue & Alliance
 	"Luther" : "A", // Luther, Zeitschrift der Luthergesellschaft
+	"Journal of Eastern Christian Studies" : "O", // Journal of Eastern Christian Studies
 	
 	
 };
@@ -2200,6 +2201,7 @@ var issnJournalTitleMapping = {
 	"Antonianum" : "!014992124!", // Antonianum
 	"Dialogue & Alliance" : "!023125381!", // Dialogue & Alliance
 	"Luther" : "!014414112!", // Luther, Zeitschrift der Luthergesellschaft
+	"Journal of Eastern Christian Studies" : "!112891225!", // Journal of Eastern Christian Studies
 	
 };
 
