@@ -329,7 +329,9 @@ var journalMapping = {
 	"0038-8610" : "!015205207!", // Concordia Theological Quarterly
 	"0047-2867" : "!015194620!", // Journal of Theology for Southern Africa
 	"0342-0914" : "!014414104!", // Lutherjahrbuch
-	"0194-3448" : "!015243265!", // American journal of theology and philosophy
+	"0194-3448" : "!318814447!", // American journal of theology and philosophy
+	"01943448, 21564795" : "!318814447!", // American journal of theology and philosophy
+	"2156-4795" : "!318814447!", // American journal of theology and philosophy
 	"2199-4463" : "!416962777!", // Religion in the Roman Empire
 	"21994463, 21994471" : "!416962777!", // Religion in the Roman Empire
 	"0148-3331" : "!273874853!", // Christianity & literature !! eppn
@@ -1394,7 +1396,9 @@ var issnPhysicalFormMapping = {
 	"0014-2239, 2272-9011" : "O", // Etudes théologiques et religieuses !!pppn + eppn
 	"0047-2867" : "A", // ! 015194620!Journal of Theology for Southern Africa
 	"0342-0914" : "A", // Lutherjahrbuch
-	"0194-3448" : "A", // American journal of theology and philosophy
+	"0194-3448" : "O", // American journal of theology and philosophy
+	"01943448, 21564795" : "O", // American journal of theology and philosophy
+	"2156-4795" : "O!", // American journal of theology and philosophy
 	"2199-4463" : "O", // Religion in the Roman Empire
 	"21994463, 21994471" : "O", // Religion in the Roman Empire
 	"0148-3331" : "O", // Christianity & literature
@@ -1814,6 +1818,7 @@ var issnPhysicalFormMapping = {
 	"Dialogue & Alliance" : "A", // Dialogue & Alliance
 	"Luther" : "A", // Luther, Zeitschrift der Luthergesellschaft
 	"Journal of Eastern Christian Studies" : "O", // Journal of Eastern Christian Studies
+	"American Journal of Theology & Philosophy" : "O", // American journal of theology and philosophy
 	
 	
 	
@@ -2210,6 +2215,7 @@ var issnJournalTitleMapping = {
 	"Dialogue & Alliance" : "!023125381!", // Dialogue & Alliance
 	"Luther" : "!014414112!", // Luther, Zeitschrift der Luthergesellschaft
 	"Journal of Eastern Christian Studies" : "!112891225!", // Journal of Eastern Christian Studies
+	"American Journal of Theology & Philosophy" : "!318814447!", // American journal of theology and philosophy
 	
 	
 };
