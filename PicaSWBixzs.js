@@ -801,6 +801,7 @@ var journalMapping = {
 	"2054-1988" : "!42547724X!", // Journal of Holy Land and Palestine Studies
 	"0047-8105" : "!368309355!", // Moreana
 	"2518-4628" : "!410110930!", // Neotestamentica
+	"0254-8356, 2518-4628" : "!410110930!", // Neotestamentica
 };
 
 
@@ -1101,6 +1102,7 @@ var issnPhysicalFormMapping = {
 	"1477-8351" : "A", // Aramaic studies
 	"1745-5227" : "A", // Aramaic studies
 	"0229-2807" : "A", // ARC
+	"ARC" : "A", // ARC
 	"0094-5323" : "O", // Augustinian studies
 	"00945323" : "O", // Augustinian studies
 	"0014-3367" : "A", // Evangelical quarterly
@@ -1816,6 +1818,8 @@ var issnPhysicalFormMapping = {
 	"American Journal of Theology & Philosophy" : "O", // American journal of theology and philosophy
 	"Louvain Studies" : "O", // Louvain Studies
 	"2518-4628" : "O", // Neotestamentica
+	"0254-8356, 2518-4628" : "O", // Neotestamentica
+	
 	
 };
 
@@ -2160,6 +2164,7 @@ var issnSsgMapping = {
 	"1755-0483" : "0", // Politics and Religion
 	"1755-0491" : "0", // Politics and Religion
 	"2164-6279" : "1", // Journal of Hindu-Christian Studies 
+	"ARC" : "0; 1", // ARC
 	
 };
 
@@ -2210,6 +2215,7 @@ var issnJournalTitleMapping = {
 	"Journal of Eastern Christian Studies" : "!112891225!", // Journal of Eastern Christian Studies
 	"American Journal of Theology & Philosophy" : "!318814447!", // American journal of theology and philosophy
 	"Louvain Studies" : "!113144229!", // Louvain Studies
+	"ARC" : "!059754931!", // ARC
 	
 };
 
