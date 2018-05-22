@@ -1819,6 +1819,7 @@ var issnPhysicalFormMapping = {
 	"Louvain Studies" : "O", // Louvain Studies
 	"2518-4628" : "O", // Neotestamentica
 	"0254-8356, 2518-4628" : "O", // Neotestamentica
+	"Science et Esprit" : "A", // Science et Esprit
 	
 	
 };
@@ -2216,6 +2217,7 @@ var issnJournalTitleMapping = {
 	"American Journal of Theology & Philosophy" : "!318814447!", // American journal of theology and philosophy
 	"Louvain Studies" : "!113144229!", // Louvain Studies
 	"ARC" : "!059754931!", // ARC
+	"Science et Esprit" : "!015183734!", // Science et Esprit
 	
 };
 
@@ -2223,6 +2225,7 @@ var issnJournalTitleMapping = {
 var JournalTitleLanguageMapping = {
 	"Oriens Christianus" :"ger",
 	"Ephemerides Theologicae Lovanienses" : "fre",
+	"Science et Esprit" : "fre", 
 }
 
 
