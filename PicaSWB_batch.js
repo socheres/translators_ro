@@ -1902,6 +1902,8 @@ var issnLicenceFieldMapping = {
 	"10158758" : "l", // Acta Theologica
 	"2309-9089" : "l", // Acta Theologica
 	"1015-8758, 2309-9089" : "l", // Acta Theologica
+	"01188534" : "l", // Asian journal of pentecostal studies
+	"0118-8534" : "l", // Asian journal of pentecostal studies
 	
 
 	
