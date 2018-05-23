@@ -146,7 +146,7 @@ var journalMapping = {
 	"0067-6535" : "!015191826!", // Biblical research
 	"0588-3237" : "!015194884!", // Colloquium
 	"0003-2980" : "!015189996!", // Andrews University Seminary studies
-	"0118-8534" : "!079721079!", // Asian journal of pentecostal studies
+	"0118-8534" : "!273874004!", // Asian journal of pentecostal studies
 	"1477-8351" : "!103869212!", // Aramaic studies
 	"1745-5227" : "!103869212!", // Aramaic studies
 	"1462-3153" : "!078316677!", // Journal for the Aramaic bible
@@ -1103,8 +1103,8 @@ var issnPhysicalFormMapping = {
 	"0067-6535" : "A", // Biblical research
 	"0588-3237" : "A", // Colloquium
 	"0003-2980" : "A", // Andrews University Seminary studies
-	"0118-8534" : "A", // Asian journal of pentecostal studies
-	"01188534" : "A", // Asian journal of pentecostal studies
+	"0118-8534" : "O", // Asian journal of pentecostal studies
+	"01188534" : "O", // Asian journal of pentecostal studies
 	"1477-8351" : "A", // Aramaic studies
 	"1745-5227" : "A", // Aramaic studies
 	"0229-2807" : "A", // ARC
