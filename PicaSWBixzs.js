@@ -1734,7 +1734,7 @@ var issnPhysicalFormMapping = {
 	"1065-223X" : "O", // Bulletin of the Biblical Research
 	"0026-1238" : "O", // Methodist History
 	"10626549" : "O", // Cistercian studies quarterly
-	"0745-3698" : "O", // American Baptist Quarterly
+	"0745-3698" : "A", // American Baptist Quarterly
 	"03799557" : "O", // Theological review
 	"0036-9764" : "O", // Scripta Theologica
 	"01448153" : "O", // Evangelical Review of Theology
@@ -1777,7 +1777,7 @@ var issnPhysicalFormMapping = {
 	"19336632, 21616310" : "O", // Journal of Moravian History
 	"1533-791X" : "O", // Logos
 	"Journal of the Evangelical Theological Society" : "O", // Journal of the Evangelical Theological Society Print-PPN
-	"American Baptist Quarterly" : "O", // American Baptist Quarterly Print-PPN
+	"American Baptist Quarterly" : "A", // American Baptist Quarterly Print-PPN
 	"Churchman" : "A", // Churchman Print-PPN
 	"Liturgisches Jahrbuch" : "A", // Liturgisches Jahrbuch Print-PPN
 	"The Mennonite Quarterly Review" : "A", // The Mennonite Quarterly Review Print-PPN
