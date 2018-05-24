@@ -2602,12 +2602,8 @@ function doExport() {
 				
 		//Schlagwörter aus einem Thesaurus (Fremddaten) --> 5520
 		for (i=0; i<item.tags.length; i++) {
-			writeLine("\\n5520", "|s|" + item.tags[i].tag.replace(/\s?--\s?/g, '; '));	
+			writeLine("\\n5520", "|s|" + item.tags[i].tag.replace(/\s?--\s?/g, '; ').replace(/"/g, '\\"').replace(/„/g, '\\"'));	
 		}
-		
-		/*if (item.itemType == "journalArticle") {
-			writeLine("\\n8910", maschinell);
-		}*/
 		
 		if (item.itemType == "journalArticle" || item.itemType == "magazineArticle") {
 		writeLine("",lokaldatensatz);

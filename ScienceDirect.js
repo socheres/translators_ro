@@ -1,15 +1,15 @@
 {
 	"translatorID": "b6d0a7a-d076-48ae-b2f0-b6de28b194e",
+	"translatorType": 4,
 	"label": "ScienceDirect",
 	"creator": "Michael Berkowitz and Aurimas Vinckevicius",
 	"target": "^https?://[^/]*science-?direct\\.com[^/]*/(science(/article/|/(journal|bookseries|book|handbooks|referenceworks)/\\d)|search\\?|journal/[^/]+/vol)",
 	"minVersion": "3.0",
-	"maxVersion": "",
+	"maxVersion": null,
 	"priority": 100,
 	"inRepository": true,
-	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2018-04-24 22:49:12"
+	"lastUpdated": "2018-05-21 10:50:00"
 }
 
 // attr()/text() v2
@@ -65,7 +65,7 @@ function getPDFLink(doc, onDone) {
 	
 	// Some pages still have the PDF link available
 	var pdfURL = attr(doc, '#pdfLink', 'href');
-	if (!pdfURL) pdfURL = attr(doc, '[name="citation_pdf_url', 'content');
+	if (!pdfURL) pdfURL = attr(doc, '[name="citation_pdf_url"]', 'content');
 	if (pdfURL && pdfURL != '#') {
 		parseIntermediatePDFPage(pdfURL, onDone);
 		return;
