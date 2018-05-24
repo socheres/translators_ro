@@ -194,7 +194,8 @@ var journalMapping = {
 	"1783-1814" : "!032853262!", // Studies in spirituality
 	"1745-5251" : "!032869959!", // Journal of pentecostal theology
 	"0966-7369" : "!032869959!", // Journal of pentecostal theology
-	"0043-4388" : "!015196739!", // Westminster Theological Seminary  
+	"0043-4388" : "!015196739!", // Westminster Theological Journal
+	"00434388" : "!015196739!", // Westminster Theological Journal
 	"0033-5053" : "!015189589!", // Quaker history
 	"1934-1504" : "!015189589!", // Quaker history
 	"0809-7291" : "!477911633!", // Nordic journal of religion and society 
@@ -1147,7 +1148,8 @@ var issnPhysicalFormMapping = {
 	"1783-1814" : "A", // Studies in spirituality
 	"1745-5251" : "A", // Journal of pentecostal theology
 	"0966-7369" : "A", // Journal of pentecostal theology
-	"0043-4388" : "A", // Westminster Theological Seminary  
+	"0043-4388" : "A", // Westminster Theological Journal
+	"00434388" : "A", // Westminster Theological Journal
 	"0033-5053" : "A", // Quaker history
 	"1934-1504" : "A", // Quaker history
 	"0809-7291" : "O", // Nordic journal of religion and society 
