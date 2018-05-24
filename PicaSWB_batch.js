@@ -120,8 +120,8 @@ var journalMapping = {
 	"1783-1474" : "!054531918!", // INTAMS review
 	"0022-4200" : "!015180131!", // Journal of religion in Africa
 	"1570-0666" : "!015180131!", // Journal of religion in Africa
-	"1092-6690" : "!066688779!", // Nova religio
-	"1541-8480" : "!066688779!", // Nova religio
+	"1092-6690" : "!113563531!", // Nova religio
+	"1541-8480" : "!113563531!", // Nova religio
 	"1079-9265" : "!056622538!", // Religion and the arts
 	"1568-5292" : "!056622538!", // Religion and the arts
 	"0008-4298" : "!318518368!", // Studies in religion = Sciences religieuses
@@ -559,9 +559,9 @@ var journalMapping = {
 	"1050-8619" : "!025188534!", // The International Journal for the Psychology of Religion
 	"2056-9971" : "!428515673!", // International journal of Christianity & education
 	"1749-8171" : "!278762514!", // Religion compass
-	"1092-6690, 1541-8480" : "!066688779!", // Nova religio
-	"1092-6690" : "!066688779!", // Nova religio
-	"1541-8480" : "!066688779!", // Nova religio
+	"1092-6690, 1541-8480" : "!113563531!", // Nova religio
+	"1092-6690" : "!113563531!", // Nova religio
+	"1541-8480" : "!113563531!", // Nova religio
 	"0075-2584" : "!014407884!", // Jahrbuch für christliche Sozialwissenschaften
 	"0044-2690" : "!014851555!", // Zeitschrift fuer Evangelisches Kirchenrecht
 	"1011-7601" : "!477530001!", // Journal for the Study of Religion
@@ -1078,8 +1078,8 @@ var issnPhysicalFormMapping = {
 	"1783-1474" : "A", // INTAMS review
 	"0022-4200" : "A", // Journal of religion in Africa
 	"1570-0666" : "A", // Journal of religion in Africa
-	"1092-6690" : "A", // Nova religio
-	"1541-8480" : "A", // Nova religio
+	"1092-6690" : "O", // Nova religio
+	"1541-8480" : "O", // Nova religio
 	"1079-9265" : "A", // Religion and the arts
 	"1568-5292" : "A", // Religion and the arts
 	"0008-4298" : "O", // Studies in religion = Sciences religieuses
@@ -1591,7 +1591,7 @@ var issnPhysicalFormMapping = {
 	"1050-8619" : "A", // The International Journal for the Psychology of Religion
 	"2056-9971" : "O", // International journal of Christianity & education
 	"1749-8171" : "O", // Religion compass
-	"1092-6690, 1541-8480" : "A", // Nova religio
+	"1092-6690, 1541-8480" : "O", // Nova religio
 	"0075-2584" : "A", // Jahrbuch für christliche Sozialwissenschaften
 	"0044-2690" : "A", // Zeitschrift fuer Evangelisches Kirchenrecht
 	"1011-7601" : "O", // Journal for the Study of Religion
