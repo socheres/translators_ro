@@ -2282,7 +2282,7 @@ function writeLine(code, line) {
 	//Lookup für Autoren
 	if ((code == "\\n3000" || code == "\\n3010") && line[0] != "!") {
 		count++;
-		var authorName = line.substring(0,line.indexOf("\\n"));
+		var authorName = line.substring(0,line.indexOf("$BVerfasserIn$4aut\\n"));
 		var lookupUrl = "http://swb.bsz-bw.de/DB=2.104/SET=70/TTL=1/CMD?SGE=&ACT=SRCHM&MATCFILTER=Y&MATCSET=Y&NOSCAN=Y&PARSE_MNEMONICS=N&PARSE_OPWORDS=N&PARSE_OLDSETS=N&IMPLAND=Y&NOABS=Y&ACT0=SRCHA&SHRTST=50&IKT0=1&TRM0=" + authorName +"&ACT1=*&IKT1=2057&TRM1=*&ACT2=*&IKT2=8977&TRM2=(theolog*|neutestament*|alttestament*|kirchenhist*|judais*|Religionswi*|pfarrer*)&ACT3=-&IKT3=8978-&TRM3=1[1%2C2%2C3%2C4%2C5%2C6%2C7%2C8][0%2C1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9][0%2C1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9]?"
 		// warum diese berufsbezeichnungen? arzt|neurolo*|geria*|soziol*|botan*|ökolo*|Psycholog*|Psychiat* -> Journal of Health and Religion
 		
@@ -2496,28 +2496,22 @@ function doExport() {
 			titleStatement = titleStatement.replace(/^(El|La|Los|Las|Un|Una|Unos|Unas) ([^@])/, "$1 @$2");
 		}
 		
-		//Autoren --> 3000, 3010 
+		//Autoren --> 3000, 3010		
 		var i = 0, content, creator;
 		while (item.creators.length>0) {
 			creator = item.creators.shift();
 			if (creator.creatorType == "author") {
-				if (creator.firstName && nameMapping[creator.lastName + ", " + creator.firstName]) {
-					content = nameMapping[creator.lastName + ", " + creator.firstName];
-				} else if (nachnameMapping[creator.lastName]) {
-					content = nachnameMapping[creator.lastName];
-				} else {
 					content = creator.lastName + (creator.firstName ? ", " + creator.firstName : "");
 				}
 				if (i === 0) {
-					writeLine("\\n3000", content + "\\n");
+					writeLine("\\n3000", content + "$BVerfasserIn$4aut\\n");
 					titleStatement += "$h" + (creator.firstName ? creator.firstName + " " : "") + creator.lastName;
 				} else {
-					writeLine("\\n3010", content + "\\n");
+					writeLine("\\n3010", content + "$BVerfasserIn$4aut\\n");
 				}
 				i++;
 			}
-		//TODO: editors, other contributors...
-		}
+
 		writeLine("\\n4000", titleStatement);
 		
 		//Ausgabe --> 4020
