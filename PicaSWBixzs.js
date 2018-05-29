@@ -308,11 +308,11 @@ var journalMapping = {
 	"1612-2941" : "!281189013!", // Marburg Journal of Religion
 	"0017-2251" : "!015194361!", // Christian scholar’s review
 	"00172251" : "!015194361!", // Christian scholar’s review
-	"0774-5524" : "!015182746!", // Questions liturgiques
+	"0774-5524" : "!11395039X!", // Questions liturgiques
 	"1861-5813" : "!281289085!", // Online - Heidelberg Journal of Religions on the Internet
 	"1783-1806" : "!112891241!", // Studies in Interreligious Dialogue
 	"0926-2326" : "!112891241!", // Studies in Interreligious Dialogue
-	"1783-1709" : "!015182746!", // Questions Liturgiques/Studies in Liturgy
+	"1783-1709" : "!11395039X!", // Questions Liturgiques/Studies in Liturgy
 	"0035-0893" : "!014419440!", // Revue bénédictine
 	"1861-5813" : "!281289085!", // Online - Heidelberg Journal of Religions on the Internet
 	"1867-4240" : "!343626896!", // Transformierte Buddhismen
@@ -803,6 +803,7 @@ var journalMapping = {
 	"0047-8105" : "!368309355!", // Moreana
 	"2518-4628" : "!410110930!", // Neotestamentica
 	"0254-8356, 2518-4628" : "!410110930!", // Neotestamentica
+	"0119-3228" : "!080988326!", // Journal of Asian Mission
 };
 
 
@@ -1374,7 +1375,7 @@ var issnPhysicalFormMapping = {
 	"1612-2941" : "O", // Marburg Journal of Religion
 	"0017-2251":  "A", // Christian scholar’s review
 	"00172251":  "A", // Christian scholar’s review
-	"0774-5524" : "A", // Questions liturgiques
+	"0774-5524" : "O", // Questions liturgiques
 	"1861-5813" : "O", // Online - Heidelberg Journal of Religions on the Internet
 	"1783-1806" : "O", // Studies in Interreligious Dialogue
 	"0926-2326" : "O", // Studies in Interreligious Dialogue
@@ -1822,6 +1823,8 @@ var issnPhysicalFormMapping = {
 	"2518-4628" : "O", // Neotestamentica
 	"0254-8356, 2518-4628" : "O", // Neotestamentica
 	"Science et Esprit" : "A", // Science et Esprit
+	"Questions Liturgiques/Studies in Liturgy" : "O", // Questions Liturgiques
+	"0119-3228" : "A", // Journal of Asian Mission
 	
 	
 };
@@ -2221,6 +2224,7 @@ var issnJournalTitleMapping = {
 	"Louvain Studies" : "!113144229!", // Louvain Studies
 	"ARC" : "!059754931!", // ARC
 	"Science et Esprit" : "!015183734!", // Science et Esprit
+	"Questions Liturgiques/Studies in Liturgy" : "!11395039X!", // Questions Litugiques
 	
 };
 

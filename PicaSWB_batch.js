@@ -803,7 +803,7 @@ var journalMapping = {
 	"0047-8105" : "!368309355!", // Moreana
 	"2518-4628" : "!410110930!", // Neotestamentica
 	"0254-8356, 2518-4628" : "!410110930!", // Neotestamentica
-	
+	"0119-3228" : "!080988326!", // Journal of Asian Mission
 	
 	
 };
@@ -1828,6 +1828,7 @@ var issnPhysicalFormMapping = {
 	"2518-4628" : "O", // Neotestamentica
 	"0254-8356, 2518-4628" : "O", // Neotestamentica
 	"Science et Esprit" : "A", // Science et Esprit
+	"0119-3228" : "A", // Journal of Asian Mission
 	
 	
 };
@@ -2273,7 +2274,7 @@ var outputText = "";
 function writeLine(code, line) {
 
 	//Halbgeviertstrich und andere UNICODE-Zeichen ersetzen
-	line = line.replace(/–/g, '-').replace(/’/g, '\'').replace(/œ/g, '\\u0153').replace(/ā/g, '\\u0101').replace(/â/g, '\\u00E2').replace(/Ṣ/g, '\\u1E62').replace(/ṣ/g, '\\u1E63').replace(/ū/g, '\\u016B').replace(/ḥ/g, '\\u1E25').replace(/ī/g, '\\u012B').replace(/ṭ/g, '\\u1E6D').replace(/ʾ/g, '\\u02BE').replace(/ʿ/g, '\\u02BF');
+	line = line.replace(/–/g, '-').replace(/’/g, '\'').replace(/œ/g, '\\u0153').replace(/ā/g, '\\u0101').replace(/â/g, '\\u00E2').replace(/Ṣ/g, '\\u1E62').replace(/ṣ/g, '\\u1E63').replace(/ū/g, '\\u016B').replace(/ḥ/g, '\\u1E25').replace(/ī/g, '\\u012B').replace(/ṭ/g, '\\u1E6D').replace(/ʾ/g, '\\u02BE').replace(/ʿ/g, '\\u02BF').replace(/"/,'\\"').replace(/–/g, '-').replace(/&#160;/g, "");
 	
 	
 	//Text zusammensetzen
@@ -2467,10 +2468,10 @@ function doExport() {
 		if (item.shortTitle == "journalArticle") {
 			titleStatement += item.shortTitle;
 			if (item.title && item.title.length > item.shortTitle.length) {
-				titleStatement += "$d" + item.title.substr(item.shortTitle.length).replace(/^\s*:\s*/,'').replace(/"/,'\\"');
+				titleStatement += "$d" + item.title.substr(item.shortTitle.length).replace(/^\s*:\s*/,'');
 			}
 		} else {
-			titleStatement += item.title.replace(/\s*:[^:\d*]\s*/,'$d').replace(/"/g,'\\"');
+			titleStatement += item.title.replace(/\s*:[^:\d*]\s*/,'$d').replace(/"/g,'\"');
 		}
 		
 		//Sortierzeichen hinzufügen, vgl. https://github.com/UB-Mannheim/zotkat/files/137992/ARTIKEL.pdf
@@ -2569,7 +2570,7 @@ function doExport() {
 		//Inhaltliche Zusammenfassung -->4207
 		if (item.abstractNote) {
 			item.abstractNote = ZU.unescapeHTML(item.abstractNote);
-			writeLine("\\n4207", item.abstractNote.replace("Zusammenfassung", "").replace(" Summary", "").replace("", "").replace(/–/g, '-').replace(/&#160;/g, "").replace(/"/g, '\\"')); 
+			writeLine("\\n4207", item.abstractNote.replace("Zusammenfassung", "").replace(" Summary", "")); 
 		}  
 		
 		
