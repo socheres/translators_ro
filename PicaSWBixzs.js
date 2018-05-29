@@ -2261,7 +2261,7 @@ var outputText = "";
 function writeLine(code, line) {
 
 	//Halbgeviertstrich und andere UNICODE-Zeichen ersetzen
-	line = line.replace(/–/g, '-').replace(/’/g, '\'').replace(/œ/g, '\u0153');
+	line = line.replace(/–/g, '-').replace(/’/g, '\'').replace(/œ/g, '\u0153').replace(/ā/g, '\u0101').replace(/â/g, '\u00E2').replace(/Ṣ/g, '\u1E62').replace(/ṣ/g, '\u1E63').replace(/ū/g, '\u016B').replace(/ḥ/g, '\u1E25').replace(/ī/g, '\u012B').replace(/ṭ/g, '\u1E6D').replace(/ʾ/g, '\u02BE').replace(/ʿ/g, '\u02BF');
 
 	//Text zusammensetzen
 	outputText += code + " " + line + "\n";
