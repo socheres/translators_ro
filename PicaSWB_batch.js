@@ -327,7 +327,7 @@ var journalMapping = {
 	"03610160" : "!103189548!", // The Sixteenth Century Journal
 	"0014-2239" : "!424017644!", // Etudes théologiques et religieuses
 	"2272-9011" : "!424017644!", // Etudes théologiques et religieuses
-	"0038-8610" : "!423615440!", // Concordia Theological Quarterly
+	"0038-8610" : "!015205207!", // Concordia Theological Quarterly
 	"0047-2867" : "!015194620!", // Journal of Theology for Southern Africa
 	"0342-0914" : "!014414104!", // Lutherjahrbuch
 	"0194-3448" : "!318814447!", // American journal of theology and philosophy
@@ -1395,7 +1395,7 @@ var issnPhysicalFormMapping = {
 	"Byzantion" : "O", // Byzantion
 	"0361-0160" : "O", // The Sixteenth Century Journal
 	"03610160" : "O", // The Sixteenth Century Journal
-	"0038-8610" : "O", // Concordia Theological Quarterly
+	"0038-8610" : "A", // Concordia Theological Quarterly
 	"0014-2239" : "O", // Etudes théologiques et religieuses !!pppn
 	"2272-9011" : "O", // Etudes théologiques et religieuses !!eppn
 	"0014-2239, 2272-9011" : "O", // Etudes théologiques et religieuses !!pppn + eppn
@@ -2248,7 +2248,6 @@ var defaultSsgNummer = "1";
 var defaultLanguage = "eng";
 //lokaldatensatz z.B. \\n6700 !372049834!\\n6700 !37205241X!\\n6700 !372053025!\\n6700!37205319X!
 var lokaldatensatz = '\\nE* l01\\n7100$jn\\n8002 ixzs;ixzo");\napplication.activeWindow.pressButton("Enter");\n\n';
-var maschinell =  '$aixzom$bAutor maschinell zugeordnet\\n';
 var insertCommand = 'application.activeWindow.command("e", false);\n';
 var insertText = 'application.activeWindow.title.insertText("';
 var insert = insertCommand + insertText;
@@ -2308,7 +2307,9 @@ function writeLine(code, line) {
 			var ppn = ZU.xpathText(doc, '//small[a[img]]');
 			if (ppn) {
 				outputText = outputText.replace(authorName, "!" + ppn.trim() + "!$BVerfasserIn$4aut \\n8910 $aixzom$bAutor maschinell zugeordnet\\n");
-			}
+			} else {
+				outputText = outputText.replace(authorName, authorName + "$BVerfasserIn$4aut \\n"); 
+			}			
 		}, function() {
 			count--;
 			if (count === 0) {
@@ -2444,7 +2445,7 @@ function doExport() {
 		}
 		
 		//1505 Katalogisierungsquelle
-		//writeLine("\\n1505", "$erda");
+		writeLine("\\n1505", "$erda");
 		
 		//item.ISBN --> 2000 ISBN
 		if (item.ISBN) {
@@ -2470,7 +2471,7 @@ function doExport() {
 				titleStatement += "$d" + item.title.substr(item.shortTitle.length).replace(/^\s*:\s*/,'').replace(/"/g,'\\"');;
 			}
 		} else {
-			titleStatement += item.title.replace(/\s*:[^:\d*]\s*/,'$d').replace(/"/g,'\\"');;
+			titleStatement += item.title.replace(/\s*:[^:\d*]\s*/,'$d').replace(/"/g,'\"');
 		}
 		
 		//Sortierzeichen hinzufügen, vgl. https://github.com/UB-Mannheim/zotkat/files/137992/ARTIKEL.pdf
