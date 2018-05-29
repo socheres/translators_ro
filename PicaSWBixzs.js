@@ -327,7 +327,7 @@ var journalMapping = {
 	"03610160" : "!103189548!", // The Sixteenth Century Journal
 	"0014-2239" : "!424017644!", // Etudes théologiques et religieuses
 	"2272-9011" : "!424017644!", // Etudes théologiques et religieuses
-	"0038-8610" : "!015205207!", // Concordia Theological Quarterly
+	"0038-8610" : "!423615440!", // Concordia Theological Quarterly
 	"0047-2867" : "!015194620!", // Journal of Theology for Southern Africa
 	"0342-0914" : "!014414104!", // Lutherjahrbuch
 	"0194-3448" : "!318814447!", // American journal of theology and philosophy
@@ -1389,7 +1389,7 @@ var issnPhysicalFormMapping = {
 	"Byzantion" : "O", // Byzantion
 	"0361-0160" : "O", // The Sixteenth Century Journal
 	"03610160" : "O", // The Sixteenth Century Journal
-	"0038-8610" : "A", // Concordia Theological Quarterly
+	"0038-8610" : "O", // Concordia Theological Quarterly
 	"0014-2239" : "O", // Etudes théologiques et religieuses !!pppn
 	"2272-9011" : "O", // Etudes théologiques et religieuses !!eppn
 	"0014-2239, 2272-9011" : "O", // Etudes théologiques et religieuses !!pppn + eppn

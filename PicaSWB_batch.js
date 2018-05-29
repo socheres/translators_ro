@@ -327,7 +327,7 @@ var journalMapping = {
 	"03610160" : "!103189548!", // The Sixteenth Century Journal
 	"0014-2239" : "!424017644!", // Etudes théologiques et religieuses
 	"2272-9011" : "!424017644!", // Etudes théologiques et religieuses
-	"0038-8610" : "!015205207!", // Concordia Theological Quarterly
+	"0038-8610" : "!423615440!", // Concordia Theological Quarterly
 	"0047-2867" : "!015194620!", // Journal of Theology for Southern Africa
 	"0342-0914" : "!014414104!", // Lutherjahrbuch
 	"0194-3448" : "!318814447!", // American journal of theology and philosophy
@@ -803,7 +803,7 @@ var journalMapping = {
 	"0047-8105" : "!368309355!", // Moreana
 	"2518-4628" : "!410110930!", // Neotestamentica
 	"0254-8356, 2518-4628" : "!410110930!", // Neotestamentica
-	"0119-3228" : "!080988326!", // Journal of Asian Mission
+	
 	
 	
 };
@@ -1395,7 +1395,7 @@ var issnPhysicalFormMapping = {
 	"Byzantion" : "O", // Byzantion
 	"0361-0160" : "O", // The Sixteenth Century Journal
 	"03610160" : "O", // The Sixteenth Century Journal
-	"0038-8610" : "A", // Concordia Theological Quarterly
+	"0038-8610" : "O", // Concordia Theological Quarterly
 	"0014-2239" : "O", // Etudes théologiques et religieuses !!pppn
 	"2272-9011" : "O", // Etudes théologiques et religieuses !!eppn
 	"0014-2239, 2272-9011" : "O", // Etudes théologiques et religieuses !!pppn + eppn
@@ -1828,7 +1828,6 @@ var issnPhysicalFormMapping = {
 	"2518-4628" : "O", // Neotestamentica
 	"0254-8356, 2518-4628" : "O", // Neotestamentica
 	"Science et Esprit" : "A", // Science et Esprit
-	"0119-3228" : "A", // Journal of Asian Mission
 	
 	
 };
@@ -2274,7 +2273,7 @@ var outputText = "";
 function writeLine(code, line) {
 
 	//Halbgeviertstrich und andere UNICODE-Zeichen ersetzen
-	line = line.replace(/–/g, '-').replace(/’/g, '\'').replace(/œ/g, '\\u0153').replace(/ā/g, '\\u0101').replace(/â/g, '\\u00E2').replace(/Ṣ/g, '\\u1E62').replace(/ṣ/g, '\\u1E63').replace(/ū/g, '\\u016B').replace(/ḥ/g, '\\u1E25').replace(/ī/g, '\\u012B').replace(/ṭ/g, '\\u1E6D').replace(/ʾ/g, '\\u02BE').replace(/ʿ/g, '\\u02BF').replace(/"/,'\\"').replace(/–/g, '-').replace(/&#160;/g, "");
+	line = line.replace(/–/g, '-').replace(/’/g, '\'').replace(/œ/g, '\\u0153').replace(/ā/g, '\\u0101').replace(/â/g, '\\u00E2').replace(/Ṣ/g, '\\u1E62').replace(/ṣ/g, '\\u1E63').replace(/ū/g, '\\u016B').replace(/ḥ/g, '\\u1E25').replace(/ī/g, '\\u012B').replace(/ṭ/g, '\\u1E6D').replace(/ʾ/g, '\\u02BE').replace(/ʿ/g, '\\u02BF').replace(/–/g, '-').replace(/&#160;/g, "");
 	
 	
 	//Text zusammensetzen
@@ -2468,10 +2467,10 @@ function doExport() {
 		if (item.shortTitle == "journalArticle") {
 			titleStatement += item.shortTitle;
 			if (item.title && item.title.length > item.shortTitle.length) {
-				titleStatement += "$d" + item.title.substr(item.shortTitle.length).replace(/^\s*:\s*/,'');
+				titleStatement += "$d" + item.title.substr(item.shortTitle.length).replace(/^\s*:\s*/,'').replace(/"/g,'\\"');;
 			}
 		} else {
-			titleStatement += item.title.replace(/\s*:[^:\d*]\s*/,'$d').replace(/"/g,'\"');
+			titleStatement += item.title.replace(/\s*:[^:\d*]\s*/,'$d').replace(/"/g,'\\"');;
 		}
 		
 		//Sortierzeichen hinzufügen, vgl. https://github.com/UB-Mannheim/zotkat/files/137992/ARTIKEL.pdf
