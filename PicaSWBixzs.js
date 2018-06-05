@@ -2313,7 +2313,7 @@ async function processDocumentsCustom (url, processor, processorParams, onDone, 
 
 function addLine(itemid, code, value) {
     //Halbgeviertstrich ersetzen
-    value = value.replace(/–/g, '-').replace(/’/g, '\'').replace(/œ/g, '\\u0153').replace(/ā/g, '\\u0101').replace(/â/g, '\\u00E2').replace(/Ṣ/g, '\\u1E62').replace(/ṣ/g, '\\u1E63').replace(/ū/g, '\\u016B').replace(/ḥ/g, '\\u1E25').replace(/ī/g, '\\u012B').replace(/ṭ/g, '\\u1E6D').replace(/ʾ/g, '\\u02BE').replace(/ʿ/g, '\\u02BF').replace(/–/g, '-').replace(/&#160;/g, "").replace(/"/g, '\\"');
+    value = value.replace(/–/g, '-').replace(/’/g, '\'').replace(/œ/g, '\\u0153').replace(/ā/g, '\\u0101').replace(/â/g, '\\u00E2').replace(/Ṣ/g, '\\u1E62').replace(/ṣ/g, '\\u1E63').replace(/ū/g, '\\u016B').replace(/ḥ/g, '\\u1E25').replace(/ī/g, '\\u012B').replace(/ṭ/g, '\\u1E6D').replace(/ʾ/g, '\\u02BE').replace(/ʿ/g, '\\u02BF').replace(/–/g, '-').replace(/&#160;/g, "");
 
     //Zeile zusammensetzen
     var line = code + " " + value;
@@ -2642,7 +2642,8 @@ function doExport() {
 
         //Inhaltliche Zusammenfassung --> 4207
         if (item.abstractNote) {
-            addLine(currentItemId, "4207", item.abstractNote.replace("<i>", "\'").replace("</i>", "\'").replace("<br/>", "").replace("Zusammenfassung", "").replace(" Summary", ""));
+			item.abstractNote = ZU.unescapeHTML(item.abstractNote);
+            addLine(currentItemId, "4207", item.abstractNote.replace("Zusammenfassung", "").replace(" Summary", "").replace("", "").replace(/–/g, '-').replace(/&#160;/g, ""));
         }
 
         //item.publicationTitle --> 4241 Beziehungen zur größeren Einheit

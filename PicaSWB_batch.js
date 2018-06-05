@@ -2639,7 +2639,8 @@ function doExport() {
 
         //Inhaltliche Zusammenfassung --> 4207
         if (item.abstractNote) {
-            addLine(currentItemId, "\\n4207", item.abstractNote.replace("<i>", "\'").replace("</i>", "\'").replace("<br/>", "").replace("Zusammenfassung", "").replace(" Summary", ""));
+			item.abstractNote = ZU.unescapeHTML(item.abstractNote);
+            addLine(currentItemId, "\\n4207", item.abstractNote.replace("Zusammenfassung", "").replace(" Summary", "").replace("", "").replace(/–/g, '-').replace(/&#160;/g, "").replace(/"/g, '\\"'));
         }
 
         //item.publicationTitle --> 4241 Beziehungen zur größeren Einheit
