@@ -2643,7 +2643,7 @@ function doExport() {
         //Inhaltliche Zusammenfassung --> 4207
         if (item.abstractNote) {
 			item.abstractNote = ZU.unescapeHTML(item.abstractNote);
-            addLine(currentItemId, "\\n4207", item.abstractNote.replace("Zusammenfassung", "").replace(" Summary", "").replace("", "").replace(/–/g, '-').replace(/&#160;/g, "").replace(/"/g, '\\"'));
+            addLine(currentItemId, "\\n4207", item.abstractNote.replace("Zusammenfassung", "").replace(" Summary", "").replace("", "").replace(/–/g, '-').replace(/&#160;/g, "").replace(/"/g, '\"'));
         }
 
         //item.publicationTitle --> 4241 Beziehungen zur größeren Einheit
