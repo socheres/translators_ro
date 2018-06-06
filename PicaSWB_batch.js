@@ -148,7 +148,7 @@ var journalMapping = {
 	"00143367" : "!015178811!", // Evangelical quarterly
 	"1474-225X" : "!255884532!", // International journal for the study of the Christian church
 	"1747-0234" : "!255884532!", // International journal for the study of the Christian church
-	"1547-9080" : "!477959180!", // Newman studies journal
+	"2153-6945" : "!477959180!", // Newman studies journal
 	"0144-8153" : "!015230376!", // Evangelical review of theology
 	"0360-8808" : "!345580796!", // Journal of the Evangelical Theological Society
 	"0092-6558" : "!015194132!", // Journal of the Interdenominational Theological Center
