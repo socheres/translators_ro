@@ -410,6 +410,7 @@ var journalMapping = {
 	"1783-1423" : "!112891160!", // Ephemerides theologicae Lovanienses
 	"09329951" : "!27681875X!", // Kirchliche Zeitgeschichte Internationale Zeitschrift für Theologie und Geschichtswissenschaft
 	"0932-9951" : "!27681875X!", // Kirchliche Zeitgeschichte Internationale Zeitschrift für Theologie und Geschichtswissenschaft
+	"0932-9951, 2196-808X" : "!27681875X!", // Kirchliche Zeitgeschichte Internationale Zeitschrift für Theologie und Geschichtswissenschaft
 	"0081-8933" : "!281309671!", // Liber annuus
 	"2312-878X" : "!477218679!", // Missionalia
 	"0256-9507" : "!477218679!", // Missionalia
@@ -938,6 +939,7 @@ var issnLangMapping = {
 	"00666785" : "ita", // Archivum Historiae Pontificiae
 	"09329951" : "ger", // Kirchliche Zeitgeschichte Internationale Zeitschrift für Theologie und Geschichtswissenschaft
 	"0932-9951" : "ger", // Kirchliche Zeitgeschichte Internationale Zeitschrift für Theologie und Geschichtswissenschaft
+	"0932-9951, 2196-808X" : "ger", // Kirchliche Zeitgeschichte Internationale Zeitschrift für Theologie und Geschichtswissenschaft
 	"0081-8933" : "ita", // Liber annuus
 	"0025-8911" : "fre", // Mélanges de science religieuse
 	"0029-4845" : "fre", // Nouvelle revue théologique	
@@ -1471,6 +1473,7 @@ var issnPhysicalFormMapping = {
 	"1783-1423" : "O", // Ephemerides theologicae Lovanienses
 	"09329951" : "O", // Kirchliche Zeitgeschichte Internationale Zeitschrift für Theologie und Geschichtswissenschaft
 	"0932-9951" : "O", // Kirchliche Zeitgeschichte Internationale Zeitschrift für Theologie und Geschichtswissenschaft
+	"0932-9951, 2196-808X" : "O", // Kirchliche Zeitgeschichte Internationale Zeitschrift für Theologie und Geschichtswissenschaft
 	"0081-8933" : "O", // Liber annuus
 	"2312-878X" : "O", // Missionalia
 	"0256-9507" : "O", // Missionalia
