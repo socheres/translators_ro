@@ -797,6 +797,7 @@ var journalMapping = {
 	"2518-4628" : "!410110930!", // Neotestamentica
 	"0254-8356, 2518-4628" : "!410110930!", // Neotestamentica
 	"0119-3228" : "!080988326!", // Journal of Asian Mission
+	"0901-8328" : "!094107947!", // Scandinavian journal of the Old Testament
 	
 	
 };
@@ -1256,7 +1257,7 @@ var issnPhysicalFormMapping = {
 	"0283-8486" : "A", // Journal of prehistoric religion
 	"0342-2356" : "A", // Ugarit-Forschungen
 	"0039-338X" : "A", // Studia theologica
-	"0901-8328" : "A", // Scandinavian journal of the Old Testament
+	"0901-8328" : "O", // Scandinavian journal of the Old Testament
 	"1086-3249" : "A", // Kennedy Institute of Ethics journal
 	"0040-5671" : "A", // Theologische Literaturzeitung !!pppn
 	"0889-048X" : "A", // Agriculture and human values !!pppn
