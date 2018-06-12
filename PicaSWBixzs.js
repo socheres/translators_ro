@@ -806,6 +806,7 @@ var journalMapping = {
 	"0254-8356, 2518-4628" : "!410110930!", // Neotestamentica
 	"0119-3228" : "!080988326!", // Journal of Asian Mission
 	"0901-8328" : "!094107947!", // Scandinavian journal of the Old Testament
+	"2364-382X" : "!424664925!", // Gamevironment
 };
 
 
@@ -1783,6 +1784,7 @@ var issnPhysicalFormMapping = {
 	"1933-6632" : "O", // Journal of Moravian History
 	"19336632, 21616310" : "O", // Journal of Moravian History
 	"1533-791X" : "O", // Logos
+	"2364-382X" : "O", // Gamevironment
 	"Journal of the Evangelical Theological Society" : "O", // Journal of the Evangelical Theological Society Print-PPN
 	"American Baptist Quarterly" : "A", // American Baptist Quarterly Print-PPN
 	"Churchman" : "A", // Churchman Print-PPN
@@ -2177,6 +2179,7 @@ var issnSsgMapping = {
 	"1755-0491" : "0", // Politics and Religion
 	"2164-6279" : "1", // Journal of Hindu-Christian Studies 
 	"ARC" : "0; 1", // ARC
+	"2364-382X" : "0", // Gamevironment
 	
 };
 

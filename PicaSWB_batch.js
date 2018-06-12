@@ -798,6 +798,9 @@ var journalMapping = {
 	"0254-8356, 2518-4628" : "!410110930!", // Neotestamentica
 	"0119-3228" : "!080988326!", // Journal of Asian Mission
 	"0901-8328" : "!094107947!", // Scandinavian journal of the Old Testament
+	"2364-382X" : "!424664925!", // Gamevironment
+ 
+
 	
 	
 };
@@ -1779,6 +1782,7 @@ var issnPhysicalFormMapping = {
 	"2237-6461" : "O", // Estudos Teológicos
 	"2164-6279" : "O", // Journal of Hindu-Christian Studies 
 	"1933-6632" : "O", // Journal of Moravian History
+	"2364-382X" : "O", // Gamevironment
 	"19336632, 21616310" : "O", // Journal of Moravian History
 	"1533-791X" : "O", // Logos
 	"Journal of the Evangelical Theological Society" : "O", // Journal of the Evangelical Theological Society Print-PPN
@@ -1827,6 +1831,7 @@ var issnPhysicalFormMapping = {
 	"Questions Liturgiques/Studies in Liturgy" : "O", // Questions Liturgiques
 	"0119-3228" : "A", // Journal of Asian Mission
 	"Studies in Spirituality" : "O", // Studies in Spirituality E-PPN
+	
 	
 	
 	
@@ -2177,6 +2182,7 @@ var issnSsgMapping = {
 	"1755-0491" : "0", // Politics and Religion
 	"2164-6279" : "1", // Journal of Hindu-Christian Studies 
 	"ARC" : "0; 1", // ARC
+	"2364-382X" : "1", // Gamevironment
 	
 	
 	
