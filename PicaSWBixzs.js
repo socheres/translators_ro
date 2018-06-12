@@ -190,8 +190,8 @@ var journalMapping = {
 	"0174-9927" : "!014553880!", // Pastoraltheologie
 	"1065-6219" : "!273887521!", // Journal of research on Christian education
 	"1934-4945" : "!273887521!", // Journal of research on Christian education
-	"0926-6453" : "!032853262!", // Studies in spirituality
-	"1783-1814" : "!032853262!", // Studies in spirituality
+	"0926-6453" : "!113564856!", // Studies in spirituality
+	"1783-1814" : "!113564856!", // Studies in spirituality
 	"1745-5251" : "!032869959!", // Journal of pentecostal theology
 	"0966-7369" : "!032869959!", // Journal of pentecostal theology
 	"0043-4388" : "!015196739!", // Westminster Theological Journal
@@ -1148,8 +1148,8 @@ var issnPhysicalFormMapping = {
 	"0174-9927" : "A", // Pastoraltheologie
 	"1065-6219" : "O", // Journal of research on Christian education
 	"1934-4945" : "O", // Journal of research on Christian education
-	"0926-6453" : "A", // Studies in spirituality
-	"1783-1814" : "A", // Studies in spirituality
+	"0926-6453" : "O", // Studies in spirituality
+	"1783-1814" : "O", // Studies in spirituality
 	"1745-5251" : "A", // Journal of pentecostal theology
 	"0966-7369" : "A", // Journal of pentecostal theology
 	"0043-4388" : "A", // Westminster Theological Journal
@@ -1829,6 +1829,7 @@ var issnPhysicalFormMapping = {
 	"Science et Esprit" : "A", // Science et Esprit
 	"Questions Liturgiques/Studies in Liturgy" : "O", // Questions Liturgiques
 	"0119-3228" : "A", // Journal of Asian Mission
+	"Studies in Spirituality" : "O", // Studies in Spirituality E-PPN
 	
 	
 };
