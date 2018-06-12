@@ -155,7 +155,7 @@ var journalMapping = {
 	"1934-9637" : "!278763464!", // Journal of spirituality in mental health
 	"1934-9645" : "!278763464!", // Journal of spirituality in mental health
     "1570-0739" : "!014821419!", // Zeitschrift für Religions- und Geistesgeschichte
-	"0275-5270" : "!015243044!", // Word and World
+	"0275-5270" : "!325341044!", // Word and World
 	"0034-3072" : "!42401243X!", // Reformed theological review  
 	"0025-9373" : "!015181278!", // The Mennonite quarterly review  
 	"00259373" : "!015181278!", // The Mennonite quarterly review 
@@ -1117,7 +1117,7 @@ var issnPhysicalFormMapping = {
 	"1934-9637" : "O", // Journal of spirituality in mental health
 	"1934-9645" : "O", // Journal of spirituality in mental health
     "1570-0739" : "A", // Zeitschrift für Religions- und Geistesgeschichte
-	"0275-5270" : "A", // Word and World
+	"0275-5270" : "O", // Word and World
 	"0034-3072" : "O", // Reformed theological review  
 	"0025-9373" : "O", // The Mennonite quarterly review  
 	"00259373" : "O", // The Mennonite quarterly review
