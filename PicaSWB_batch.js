@@ -1913,6 +1913,7 @@ var issnLicenceFieldMapping = {
 	"01188534" : "l", // Asian journal of pentecostal studies
 	"0118-8534" : "l", // Asian journal of pentecostal studies
 	"2304-8557" : "l", // Koers Bulletin for Christian Scholarship
+	"2364-382X" : "l", // Gamevironments
 	
 
 	
