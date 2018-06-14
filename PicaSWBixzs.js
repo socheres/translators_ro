@@ -99,6 +99,7 @@ var journalMapping = {
 	"0029-4500" : "!015891976!", // Religion and literature
 	"0040-5639" : "!266225179!", // Theological studies
 	"2169-1304" : "!266225179!", // Theological studies
+	"00405639" : "!266225179!", // Theological studies
 	"0943-7592" : "!040100804!", // Journal for the History of Modern Theology über Degruyter = 4213 Hauptsacht. bis 14.2007: Zeitschrift für neuere //Theologiegeschichte; @Grotz: als „…$h1-2“ (statt mit Querstrich: „…$h1/2“) 
 	"1612-9776" : "!040100804!", // Journal for the History of Modern Theology // Zeitschrift für Neuere Theologiegeschichte
 	"1743-1301" : "!014896486!", // Palestine exploration quarterly
@@ -265,7 +266,7 @@ var journalMapping = {
 	"0008-6673" : "!014525666!", // Carmelus
 	"0094-2065" : "!015196542!", // Communio
 	"0573-2018" : "!018207030!", // Compostellanum
-	"0145-7233" : "!015208451!", // Concordia journal !!pppn
+	"0145-7233" : "!325341397!", // Concordia journal !!pppn
 	"0210-3133" : "!016056574!", // Escritos del vedat
 	"0425-340X" : "!015193012!", // Estudio agustiniano
 	"0210-0525" : "!015186695!", // Estudios
@@ -1058,6 +1059,7 @@ var issnPhysicalFormMapping = {
 	"0029-4500" : "A", // Religion and literature
 	"0040-5639" : "O", // Theological studies
 	"2169-1304" : "O", // Theological studies
+	"00405639" : "O", // Theological studies
 	"0943-7592" : "A", // Journal for the History of Modern Theology über Degruyter = 4213 Hauptsacht. bis 14.2007: Zeitschrift für neuere Theologiegeschichte; @Grotz: als „…$h1-2“ (statt mit Querstrich: „…$h1/2“) 
 	"1612-9776" : "A", // Journal for the History of Modern Theology // Zeitschrift für Neuere Theologiegeschichte
 	"1743-1301" : "A", // Palestine exploration quarterly
@@ -1222,8 +1224,8 @@ var issnPhysicalFormMapping = {
 	"0008-6673" : "A", // Carmelus
 	"0094-2065" : "A", // Communio
 	"0573-2018" : "A", // Compostellanum
-	"0145-7233" : "A", // Concordia journal !!pppn
-	"0145-7233" : "A", // Concordia journal !!eppn
+	"0145-7233" : "O", // Concordia journal !!pppn
+	"0145-7233" : "O", // Concordia journal !!eppn
 	"0210-3133" : "A", // Escritos del vedat
 	"0425-340X" : "A", // Estudio agustiniano
 	"0210-0525" : "A", // Estudios

@@ -91,6 +91,7 @@ var journalMapping = {
 	"0029-4500" : "!015891976!", // Religion and literature
 	"0040-5639" : "!266225179!", // Theological studies
 	"2169-1304" : "!266225179!", // Theological studies
+	"00405639" : "!266225179!", // Theological studies
 	"0943-7592" : "!040100804!", // Journal for the History of Modern Theology über Degruyter = 4213 Hauptsacht. bis 14.2007: Zeitschrift für neuere //Theologiegeschichte; @Grotz: als „…$h1-2“ (statt mit Querstrich: „…$h1/2“) 
 	"1612-9776" : "!040100804!", // Journal for the History of Modern Theology // Zeitschrift für Neuere Theologiegeschichte
 	"1743-1301" : "!014896486!", // Palestine exploration quarterly
@@ -1057,6 +1058,7 @@ var issnPhysicalFormMapping = {
 	"0029-4500" : "A", // Religion and literature
 	"0040-5639" : "O", // Theological studies
 	"2169-1304" : "O", // Theological studies
+	"00405639" : "O", // Theological studies
 	"0943-7592" : "A", // Journal for the History of Modern Theology über Degruyter = 4213 Hauptsacht. bis 14.2007: Zeitschrift für neuere Theologiegeschichte; @Grotz: als „…$h1-2“ (statt mit Querstrich: „…$h1/2“) 
 	"1612-9776" : "A", // Journal for the History of Modern Theology // Zeitschrift für Neuere Theologiegeschichte
 	"1743-1301" : "A", // Palestine exploration quarterly
