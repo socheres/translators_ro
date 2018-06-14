@@ -257,7 +257,7 @@ var journalMapping = {
 	"0008-6673" : "!014525666!", // Carmelus
 	"0094-2065" : "!015196542!", // Communio
 	"0573-2018" : "!018207030!", // Compostellanum
-	"0145-7233" : "!015208451!", // Concordia journal !!pppn
+	"0145-7233" : "!325341397!", // Concordia journal !!pppn
 	"0210-3133" : "!016056574!", // Escritos del vedat
 	"0425-340X" : "!015193012!", // Estudio agustiniano
 	"0210-0525" : "!015186695!", // Estudios
@@ -1221,8 +1221,8 @@ var issnPhysicalFormMapping = {
 	"0008-6673" : "A", // Carmelus
 	"0094-2065" : "A", // Communio
 	"0573-2018" : "A", // Compostellanum
-	"0145-7233" : "A", // Concordia journal !!pppn
-	"0145-7233" : "A", // Concordia journal !!eppn
+	"0145-7233" : "O", // Concordia journal !!pppn
+	"0145-7233" : "O", // Concordia journal !!eppn
 	"0210-3133" : "A", // Escritos del vedat
 	"0425-340X" : "A", // Estudio agustiniano
 	"0210-0525" : "A", // Estudios
