@@ -306,7 +306,7 @@ var journalMapping = {
 	"1783-1806" : "!112891241!", // Studies in Interreligious Dialogue
 	"0926-2326" : "!112891241!", // Studies in Interreligious Dialogue
 	"1783-1709" : "!015182746!", // Questions Liturgiques/Studies in Liturgy
-	"0035-0893" : "!014419440!", // Revue bénédictine
+	"0035-0893" : "!381271757!", // Revue bénédictine
 	"1861-5813" : "!281289085!", // Online - Heidelberg Journal of Religions on the Internet
 	"1867-4240" : "!343626896!", // Transformierte Buddhismen
 	"1583-0039" : "!281222681!", // Journal for the Study of Religions and Ideologies
@@ -800,7 +800,7 @@ var journalMapping = {
 	"0119-3228" : "!080988326!", // Journal of Asian Mission
 	"0901-8328" : "!094107947!", // Scandinavian journal of the Old Testament
 	"2364-382X" : "!424664925!", // Gamevironments
- 
+	"0035-2217" : "!014878828!", // Revue des Sciences Religieuses
 
 	
 	
@@ -990,6 +990,7 @@ var issnLangMapping = {
 	"0107-4164" : "dan", // Grundtvig-Studier
 	"18277365" : "ita", // Rivista di Storia del Cristianesimo
 	"0033-1767" : "ita", // Protestantesimo
+	"0035-2217" : "fre", // Revue des Sciences Religieuses
 	
 
 
@@ -1386,7 +1387,7 @@ var issnPhysicalFormMapping = {
 	"1783-1806" : "O", // Studies in Interreligious Dialogue
 	"0926-2326" : "O", // Studies in Interreligious Dialogue
 	"1783-1709" : "O", // Questions Liturgiques/Studies in Liturgy
-	"0035-0893" : "A", // Revue bénédictine
+	"0035-0893" : "O", // Revue bénédictine
 	"1861-5813" : "O", // Online - Heidelberg Journal of Religions on the Internet
 	"1867-4240" : "O", // Transformierte Buddhismen
 	"1583-0039" : "O", // Journal for the Study of Religions and Ideologies
@@ -1786,6 +1787,7 @@ var issnPhysicalFormMapping = {
 	"2164-6279" : "O", // Journal of Hindu-Christian Studies 
 	"1933-6632" : "O", // Journal of Moravian History
 	"2364-382X" : "O", // Gamevironments
+	"0035-2217" : "A", // Revue des Sciences Religieuses
 	"19336632, 21616310" : "O", // Journal of Moravian History
 	"1533-791X" : "O", // Logos
 	"Journal of the Evangelical Theological Society" : "O", // Journal of the Evangelical Theological Society Print-PPN
@@ -2188,6 +2190,7 @@ var issnSsgMapping = {
 	"2164-6279" : "1", // Journal of Hindu-Christian Studies 
 	"ARC" : "0; 1", // ARC
 	"2364-382X" : "0", // Gamevironments
+	"0035-2217" : "0; 1", // Revue des Sciences Religieuses
 	
 	
 	
