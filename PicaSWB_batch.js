@@ -61,8 +61,8 @@ var journalMapping = {
 	"1745-5286" : "!119460610!", // Journal for the study of the pseudepigrapha 
 	"0951-8207" : "!119460610!", // Journal for the study of the pseudepigrapha  
 	"09518207" : "!119460610!", // Journal for the study of the pseudepigrapha 
-	"1357-4175" : "!061284815!", // Reformation  
-	"1752-0738" : "!061284815!", // Reformation  
+	"1357-4175" : "!318517876!", // Reformation  
+	"1752-0738" : "!318517876!", // Reformation  
 	"1462-317X" : "!25998390X!", // Political theology   
 	"1743-1719" : "!25998390X!", // Political theology   
 	"0360-6503" : "!378913735!", // Process studies  
@@ -1031,8 +1031,8 @@ var issnPhysicalFormMapping = {
 	"1745-5189" : "O", // Feminist theology 
 	"0966-7350" : "O", // Feminist theology
 	"09667350" : "O", // Feminist theology 
-	"1357-4175" : "A", // Reformation  
-	"1752-0738" : "A", // Reformation  
+	"1357-4175" : "O", // Reformation  
+	"1752-0738" : "O", // Reformation  
 	"1462-317X" : "O", // Political theology   
 	"1743-1719" : "O", // Political theology   
 	"0360-6503" : "O", // Process studies  
