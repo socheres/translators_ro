@@ -1838,6 +1838,7 @@ var issnPhysicalFormMapping = {
 	"Questions Liturgiques/Studies in Liturgy" : "O", // Questions Liturgiques
 	"0119-3228" : "A", // Journal of Asian Mission
 	"Studies in Spirituality" : "O", // Studies in Spirituality E-PPN
+	"Ons Geestelijk Erf" : "O", // Ons Geestelijk Erf
 	
 	
 };
@@ -2242,6 +2243,7 @@ var issnJournalTitleMapping = {
 	"ARC" : "!059754931!", // ARC
 	"Science et Esprit" : "!015183734!", // Science et Esprit
 	"Questions Liturgiques/Studies in Liturgy" : "!11395039X!", // Questions Litugiques
+	"Ons Geestelijk Erf" : "!114618771!", // Ons Geestelijk Erf
 	
 };
 
