@@ -535,7 +535,7 @@ var journalMapping = {
 	"1467-9647" : "!098253379!", // Teaching theology & religion
 	"13684868" : "!098253379!", // Teaching theology & religion
 	"1368-4868" : "!098253379!", // Teaching theology & religion
-	"1768-9260" : "!493236139!", // Revue d'Etudes Augustiniennes et Patristiques
+	"1768-9260" : "!281268371!", // Revue d'Etudes Augustiniennes et Patristiques
 	"1783-8401" : "!379064863!", // Revue Théologique de Louvain
 	"0316-5345" : "!015183734!", // Science et Esprit
 	"1097-6566" : "!112178723!", // Stone-Campbell journal
