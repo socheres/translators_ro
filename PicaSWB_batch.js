@@ -78,7 +78,7 @@ var journalMapping = {
 	"0946-3518" : "!038886944!", // Praktische Theologie
 	"0938-5320" : "!038886944!", // Praktische Theologie
 	"2198-0462" : "!038886944!", // Praktische Theologie                                       
-	"0043-2040" : "!014841762!", // Wege zum Menschen
+	"0043-2040" : "!277054451!", // Wege zum Menschen
 	"0021-1400" : "!265831903!", // Irish theological quaterly
 	"0023-0707" : "!276818741!", // Kerygma und Dogma
 	"1138-4972" : "!281290717!", // 'Ílu
@@ -785,6 +785,7 @@ var journalMapping = {
 	"09602720" : "!273873938!", // European Journal of Theology
 	"0960-2720" : "!273873938!", // European Journal of Theology
 	"1918-6371" : "!398101299!", // Toronto Journal of Theology
+	"0826-9831" : "!398101299!", // Toronto Journal of Theology
 	"1188-7109, 1492-1413" : "!347268072!", // Théologiques
 	"1492-1413" : "!347268072!", // Théologiques
 	"1188-7109" : "!347268072!", // Théologiques
@@ -1050,7 +1051,7 @@ var issnPhysicalFormMapping = {
 	"0946-3518" : "A", // Praktische Theologie
 	"0938-5320" : "A", // Praktische Theologie
 	"2198-0462" : "A", // Praktische Theologie                     
-	"0043-2040" : "A", // Wege zum Menschen
+	"0043-2040" : "O", // Wege zum Menschen
 	"0021-1400" : "O", // Irish theological quaterly
 	"0023-0707" : "O", // Kerygma und Dogma
 	"1135-4712" : "O", // 'Ílu
@@ -1805,6 +1806,7 @@ var issnPhysicalFormMapping = {
 	"Word & World" : "O", // Word & World E-PPN
 	"09602720" : "O", // European Journal of Theology
 	"1918-6371" : "O", // Toronto Journal of Theology
+	"0826-9831" : "O", // Toronto Journal of Theology
 	"1188-7109, 1492-1413" : "O", // Théologiques
 	"1492-1413" : "O", // Théologiques
 	"1188-7109" : "O", // Théologiques
