@@ -1837,6 +1837,7 @@ var issnPhysicalFormMapping = {
 	"0119-3228" : "A", // Journal of Asian Mission
 	"Studies in Spirituality" : "O", // Studies in Spirituality E-PPN
 	"Ons Geestelijk Erf" : "O", // Ons Geestelijk Erf
+	"Studia Canonica" : "O", // Studia Canonica
 	
 	
 	
@@ -2248,6 +2249,7 @@ var issnJournalTitleMapping = {
 	"Questions Liturgiques/Studies in Liturgy" : "!11395039X!", // Questions Litugiques
 	"Studies in Spirituality" : "!113564856!", // Studies in Spirituality E-PPN
 	"Ons Geestelijk Erf" : "!114618771!", // Ons Geestelijk Erf
+	"Studia Canonica" : "!413867323!", // Studia Canonica
  
 
 };
