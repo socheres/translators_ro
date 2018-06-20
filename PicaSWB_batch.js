@@ -1920,7 +1920,7 @@ var issnLicenceFieldMapping = {
 	"0118-8534" : "l", // Asian journal of pentecostal studies
 	"2304-8557" : "l", // Koers Bulletin for Christian Scholarship
 	"2364-382X" : "l", // Gamevironments
-	
+	"0039-6761" : "l", // Svensk teologisk kvartalskrift
 
 	
 	
