@@ -997,6 +997,7 @@ var issnLangMapping = {
 	"0033-1767" : "ita", // Protestantesimo
 	"0035-2217" : "fre", // Revue des Sciences Religieuses
 	"1768-9260" : "fre", // Revue d'Etudes Augustiniennes et Patristiques
+	"0039-6761" : "swe", // Svensk teologisk kvartalskrift
 
 
 	
