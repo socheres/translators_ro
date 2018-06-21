@@ -1016,8 +1016,8 @@ var issnPhysicalFormMapping = {
 	"0591-2385" : "O", // Zygon
 	"1467-9744" : "O", // Zygon
     "0891-5881" : "A", // Dialogue and alliance
-	"0884-5379" : "A", // fides et historia
-	"08845379" : "A", // fides et historia
+	"0884-5379" : "O", // fides et historia
+	"08845379" : "O", // fides et historia
 	"1474-6700" : "O", // Theology and science  
 	"1462-2459" : "O", // Reformation & Renaissance review  
 	"0031-0328" : "A", // Palestine exploration quarterly 
