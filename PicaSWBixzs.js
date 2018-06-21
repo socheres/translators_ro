@@ -508,7 +508,7 @@ var journalMapping = {
 	"2295-6093" : "!407317074!", // Augustiniana
 	"0045-0308" : "!015178129!", // Australian biblical review
 	"00450308" : "!015178129!", // Australian biblical review
-	"1886-4945" : "!302971882!", //  Cauriensia
+	"1886-4945" : "!325004595!", //  Cauriensia
 	"1133-0104" : "!032733054!", // Anuario de historia de la Iglesia 
 	"0010-3497" : "!401716686!", // Communicatio Socialis
 	"1930-1200" : "!052644464!", // Contagion
@@ -1555,7 +1555,7 @@ var issnPhysicalFormMapping = {
 	"2295-6093" : "O", // Augustiniana
 	"0045-0308" : "A", // Australian biblical review
 	"00450308" : "A", // Australian biblical review
-	"1886-4945" : "A", //  Cauriensia
+	"1886-4945" : "O", //  Cauriensia
 	"1133-0104" : "A", // Anuario de historia de la Iglesia 
 	"0010-3497" : "O", // Communicatio Socialis
 	"1930-1200" : "A", // Contagion
