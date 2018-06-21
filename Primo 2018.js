@@ -1,15 +1,15 @@
 {
 	"translatorID": "cd669d1f-96b8-4040-aa36-48f843248399",
-	"translatorType": 4,
 	"label": "Primo 2018",
 	"creator": "Philipp Zumstein",
-	"target": "/primo-explore/",
+	"target": "(/primo-explore/|/discovery/(search|fulldisplay|jsearch|dbsearch|npsearch|openurl|jfulldisplay|dbfulldisplay|npfulldisplay)\\?)",
 	"minVersion": "3.0",
-	"maxVersion": null,
+	"maxVersion": "",
 	"priority": 100,
 	"inRepository": true,
+	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2018-02-01 10:35:00"
+	"lastUpdated": "2018-06-14 05:49:37"
 }
 
 /*

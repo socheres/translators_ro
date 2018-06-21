@@ -543,7 +543,7 @@ var journalMapping = {
 	"0039-6761" : "!39804595X!", // Swedish Theological Quarterly
 	"2295-5186" : "!091176336!", // Theoforum
 	"1495-7922" : "!091176336!", // Theoforum
-	"0169-7536" : "!016204123!", // Zeitschrift für Dialektische Theologie
+	"0169-7536" : "!40969973X!", // Zeitschrift für Dialektische Theologie
 	"0270-2533" : "!273890433!", // Trinity Seminary Review
 	"0254-4407" : "!014429802!", // Zwingliana
 	"1520-7307" : "!415645301!", // The Southern Baptist Journal of Theology
@@ -1583,7 +1583,7 @@ var issnPhysicalFormMapping = {
 	"0039-6761" : "O", // Swedish Theological Quarterly
 	"2295-5186" : "A", // Theoforum
 	"1495-7922" : "A", // Theoforum
-	"0169-7536" : "A", // Zeitschrift für Dialektische Theologie
+	"0169-7536" : "O", // Zeitschrift für Dialektische Theologie
 	"0270-2533" : "O", // Trinity Seminary Review
 	"02702533" : "O", // Trinity Seminary Review
 	"0254-4407" : "A", // Zwingliana

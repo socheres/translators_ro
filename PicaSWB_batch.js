@@ -500,7 +500,7 @@ var journalMapping = {
 	"2295-6093" : "!407317074!", // Augustiniana
 	"0045-0308" : "!015178129!", // Australian biblical review
 	"00450308" : "!015178129!", // Australian biblical review
-	"1886-4945" : "!302971882!", //  Cauriensia
+	"1886-4945" : "!325004595!", //  Cauriensia
 	"1133-0104" : "!032733054!", // Anuario de historia de la Iglesia 
 	"0010-3497" : "!401716686!", // Communicatio Socialis
 	"1930-1200" : "!052644464!", // Contagion
@@ -535,7 +535,7 @@ var journalMapping = {
 	"0039-6761" : "!39804595X!", // Swedish Theological Quarterly
 	"2295-5186" : "!091176336!", // Theoforum
 	"1495-7922" : "!091176336!", // Theoforum
-	"0169-7536" : "!016204123!", // Zeitschrift für Dialektische Theologie
+	"0169-7536" : "!40969973X!", // Zeitschrift für Dialektische Theologie
 	"0270-2533" : "!273890433!", // Trinity Seminary Review
 	"0254-4407" : "!014429802!", // Zwingliana
 	"1520-7307" : "!415645301!", // The Southern Baptist Journal of Theology
@@ -1553,7 +1553,7 @@ var issnPhysicalFormMapping = {
 	"2295-6093" : "O", // Augustiniana
 	"0045-0308" : "A", // Australian biblical review
 	"00450308" : "A", // Australian biblical review
-	"1886-4945" : "A", //  Cauriensia
+	"1886-4945" : "O", //  Cauriensia
 	"1133-0104" : "A", // Anuario de historia de la Iglesia 
 	"0010-3497" : "O", // Communicatio Socialis
 	"1930-1200" : "A", // Contagion
@@ -1581,7 +1581,7 @@ var issnPhysicalFormMapping = {
 	"0039-6761" : "O", // Swedish Theological Quarterly
 	"2295-5186" : "A", // Theoforum
 	"1495-7922" : "A", // Theoforum
-	"0169-7536" : "A", // Zeitschrift für Dialektische Theologie
+	"0169-7536" : "O", // Zeitschrift für Dialektische Theologie
 	"0270-2533" : "O", // Trinity Seminary Review
 	"02702533" : "O", // Trinity Seminary Review
 	"0254-4407" : "A", // Zwingliana
