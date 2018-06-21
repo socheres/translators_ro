@@ -2253,7 +2253,6 @@ var issnJournalTitleMapping = {
 	"Questions Liturgiques/Studies in Liturgy" : "!11395039X!", // Questions Litugiques
 	"Ons Geestelijk Erf" : "!114618771!", // Ons Geestelijk Erf
 	"Studia Canonica" : "!413867323!", // Studia Canonica
-	"Stone-Campbell Journal" : "!424012553!", // Stone-Campbell Journal
 	
 };
 
