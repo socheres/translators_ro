@@ -530,7 +530,7 @@ var journalMapping = {
 	"1768-9260" : "!281268371!", // Revue d'Etudes Augustiniennes et Patristiques
 	"1783-8401" : "!379064863!", // Revue Théologique de Louvain
 	"0316-5345" : "!015183734!", // Science et Esprit
-	"1097-6566" : "!112178723!", // Stone-Campbell journal
+	"1097-6566" : "!424012553!", // Stone-Campbell journal
 	"2295-3019" : "!015198510!", // Studia Canonica
 	"0039-6761" : "!39804595X!", // Swedish Theological Quarterly
 	"2295-5186" : "!091176336!", // Theoforum
@@ -1576,7 +1576,7 @@ var issnPhysicalFormMapping = {
 	"1768-9260" : "O", // Revue d'Etudes Augustiniennes et Patristiques
 	"1783-8401" : "O", // Revue Théologique de Louvain
 	"0316-5345" : "A", // Science et Esprit
-	"1097-6566" : "A", // Stone-Campbell journal
+	"1097-6566" : "O", // Stone-Campbell journal
 	"2295-3019" : "A", // Studia Canonica
 	"0039-6761" : "O", // Swedish Theological Quarterly
 	"2295-5186" : "A", // Theoforum
