@@ -184,7 +184,7 @@ var journalMapping = {
 	"0323-4142" : "!018091229!", // Zeitschrift der Savigny-Stiftung für Rechtsgeschichte / Kanonistische Abteilung
 	"0486-5642" : "!325341354!", // Restoration quarterly
 	"0360-3032" : "!015206114!", // Trinity journal
-    "0340-6083" : "!01450135X!", // Göttinger Predigtmeditationen
+    "0340-6083" : "!278242324!", // Göttinger Predigtmeditationen
 	"0720-6259" : "!014553880!", // Pastoraltheologie
 	"0031-2827" : "!014553880!", // Pastoraltheologie
     "2197-0831" : "!014553880!", // Pastoraltheologie
@@ -810,6 +810,11 @@ var journalMapping = {
 	"0901-8328" : "!094107947!", // Scandinavian journal of the Old Testament
 	"2364-382X" : "!424664925!", // Gamevironments
 	"0035-2217" : "!014878828!", // Revue des Sciences Religieuses
+	"0021-969X, 2040-4867" : "!10720486X!", // Journal of church and state
+	"0021-969X" : "!10720486X!", // Journal of church and state
+	"2040-4867" : "!10720486X!", // Journal of church and state
+	
+	
 };
 
 
@@ -1151,7 +1156,7 @@ var issnPhysicalFormMapping = {
 	"0323-4142" : "A", // Zeitschrift der Savigny-Stiftung für Rechtsgeschichte / Kanonistische Abteilung
 	"0486-5642" : "O", // Restoration quarterly
 	"0360-3032" : "A", // Trinity journal
-    "0340-6083" : "A", // Göttinger Predigtmeditationen
+    "0340-6083" : "O", // Göttinger Predigtmeditationen
 	"0720-6259" : "A", // Pastoraltheologie
 	"0031-2827" : "A", // Pastoraltheologie
     "2197-0831" : "A", // Pastoraltheologie
@@ -1329,8 +1334,9 @@ var issnPhysicalFormMapping = {
 	"1755-2613" : "O", // Church history !!eppn
 	"1758-6623" : "A", // The ecumenical review !!eppn
 	"1758-6631" : "A", // International review of mission !!eppn
-	"0021-969X" : "A", // Journal of church and state !!pppn
-	"2040-4867" : "A", // Journal of church and state !!eppn
+	"0021-969X" : "O", // Journal of church and state !!pppn
+	"2040-4867" : "O", // Journal of church and state !!eppn
+	"0021-969X, 2040-4867" : "O", // Journal of church and state
 	"0022-0256" : "A", // Journal of cuneiform studies !!pppn
 	"0022-0558" : "A", // Journal of ecumenical studies !!pppn
 	"0022-2097" : "A", // The journal of Jewish studies !!pppn - in Z. 29 mit ppn gemappt: diese Z. löschen?
