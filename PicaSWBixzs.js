@@ -813,6 +813,7 @@ var journalMapping = {
 	"0021-969X, 2040-4867" : "!10720486X!", // Journal of church and state
 	"0021-969X" : "!10720486X!", // Journal of church and state
 	"2040-4867" : "!10720486X!", // Journal of church and state
+	"1530-5228" : "!281221111!", // Journal for Cultural and Religious Theory
 	
 	
 };
@@ -1851,6 +1852,7 @@ var issnPhysicalFormMapping = {
 	"Studies in Spirituality" : "O", // Studies in Spirituality E-PPN
 	"Ons Geestelijk Erf" : "O", // Ons Geestelijk Erf
 	"Studia Canonica" : "O", // Studia Canonica
+	"1530-5228" : "O", // Journal for Cultural and Religious Theory
 	
 	
 	
@@ -1933,6 +1935,7 @@ var issnLicenceFieldMapping = {
 	"2304-8557" : "l", // Koers Bulletin for Christian Scholarship
 	"2364-382X" : "l", // Gamevironments
 	"0039-6761" : "l", // Svensk teologisk kvartalskrift
+	"1530-5228" : "l", // Journal for Cultural and Religious Theory
 	
 	
 };
@@ -2204,6 +2207,7 @@ var issnSsgMapping = {
 	"ARC" : "0; 1", // ARC
 	"2364-382X" : "0", // Gamevironments
 	"0035-2217" : "0; 1", // Revue des Sciences Religieuses
+	"1530-5228" : "0", // Journal for Cultural and Religious Theory
 	
 };
 
