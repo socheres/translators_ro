@@ -810,6 +810,7 @@ var journalMapping = {
 	"0076-5872" : "!273875167!", // Mediaeval studies
 	"1364-436X" : "!263253384!", // International journal of children's spirituality !!pppn
 	"1364436X" : "!263253384!", // International journal of children's spirituality
+	"1363-013X" : "!273884360!", // Quaker studies
 	
 	
 };
@@ -1379,8 +1380,7 @@ var issnPhysicalFormMapping = {
 	"13549901" : "O", // Studies in world christianity !!pppn
 	"1354-9901" : "O", // Studies in world christianity !!pppn
 	"1355-8358" : "A", // Theology & sexuality !!pppn
-	"1363-013X" : "A", // Quaker studies !!pppn
-	"1363-013X" : "A", // Quaker studies !!eppn
+	"1363-013X" : "O", // Quaker studies
 	"1363-7320" : "A", // Ecotheology !!pppn
 	"1749-4907" : "O", // Journal for the study of religion, nature and culture 
 	"1462-3153" : "A", // Journal for the Aramaic bible !!pppn
