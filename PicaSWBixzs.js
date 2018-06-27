@@ -816,6 +816,8 @@ var journalMapping = {
 	"1530-5228" : "!281221111!", // Journal for Cultural and Religious Theory
 	"00765872" : "!273875167!", // Mediaeval studies
 	"0076-5872" : "!273875167!", // Mediaeval studies
+	"1364-436X" : "!263253384!", // International journal of children's spirituality !!pppn
+	"1364436X" : "!263253384!", // International journal of children's spirituality
 	
 	
 };
@@ -1292,7 +1294,8 @@ var issnPhysicalFormMapping = {
 	"0031-2789" : "O", // Pastoral psychology !!pppn
 	"1573-6679" : "O", // Pastoral psychology !!eppn
 	"0031-2789, 1573-6679" : "O", // Pastoral psychology
-	"1364-436X" : "A", // International journal of children's spirituality !!pppn
+	"1364-436X" : "O", // International journal of children's spirituality !!pppn
+	"1364436X" : "O", // International journal of children's spirituality
 	"0959-6410" : "O", // Islam and Christian-Muslim relations !!pppn
 	"1203-1542" : "A", // The journal of Hebrew scriptures !!eppn
 	"0024-5100" : "A", // Liturgisches Jahrbuch !!pppn
@@ -2042,6 +2045,7 @@ var issnSsgMapping = {
 	"1573-322X" : "0; 1", // Journal of agricultural and environmental ethics !!eppn
 	"1468-2265" : "0; 1", // Heythrop journal !!eppn
 	"1364-436X" : "0; 1", // International journal of children's spirituality !!pppn
+	"1364436X" : "0; 1", // International journal of children's spirituality
 	"0959-6410" : "0; 1", // Islam and Christian-Muslim relations !!pppn
 	"1203-1542" : "0; 1", // The journal of Hebrew scriptures !!eppn
 	"1467-9647" : "1", // Teaching theology & religion !!eppn
