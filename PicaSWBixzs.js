@@ -814,6 +814,8 @@ var journalMapping = {
 	"0021-969X" : "!10720486X!", // Journal of church and state
 	"2040-4867" : "!10720486X!", // Journal of church and state
 	"1530-5228" : "!281221111!", // Journal for Cultural and Religious Theory
+	"00765872" : "!273875167!", // Mediaeval studies
+	"0076-5872" : "!273875167!", // Mediaeval studies
 	
 	
 };
@@ -1853,6 +1855,8 @@ var issnPhysicalFormMapping = {
 	"Ons Geestelijk Erf" : "O", // Ons Geestelijk Erf
 	"Studia Canonica" : "O", // Studia Canonica
 	"1530-5228" : "O", // Journal for Cultural and Religious Theory
+	"00765872" : "O", // Mediaeval studies
+	"0076-5872" : "O", // Mediaeval studies
 	
 	
 	
