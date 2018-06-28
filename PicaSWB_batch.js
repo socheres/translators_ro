@@ -1938,6 +1938,7 @@ var issnLicenceFieldMapping = {
 	"2364-382X" : "l", // Gamevironments
 	"0039-6761" : "l", // Svensk teologisk kvartalskrift
 	"1530-5228" : "l", // Journal for Cultural and Religious Theory
+	"1363-013X" : "l", // Quaker studies
 
 	
 	
