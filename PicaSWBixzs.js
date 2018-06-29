@@ -75,8 +75,8 @@ var journalMapping = {
 	"1743-1719" : "!25998390X!", // Political theology   
 	"0360-6503" : "!378913735!", // Process studies  
 	"03606503" : "!378913735!", // Process studies  
-	"0733-4273" : "!015054578!", // Journal of psychology and Christianity
-	"07334273" : "!015054578!", // Journal of psychology and Christianity
+	"0733-4273" : "!273874187!", // Journal of psychology and Christianity
+	"07334273" : "!273874187!", // Journal of psychology and Christianity
 	"0929-0761" : "!041601858!", // Dead Sea discoveries   
 	"1568-5179" : "!041601858!", // Dead Sea discoveries  
 	"0022-2097" : "!014412152!", // The journal of Jewish studies
@@ -933,7 +933,7 @@ var issnLangMapping = {
 	"1550-0195" : "eng",
 	"0018-2710" : "eng",
 	"0043-2040" : "ger",
-	"0733-4273 (PRINT)" : "eng",
+	"0733-4273" : "eng",
 	"0082-7118" : "eng", // Tyndale Bulletin
 	"0141-6200" : "eng", // British Journal of Religious Education
 	"0943-3058" : "eng", // Method and theory in the study of religion
@@ -1055,8 +1055,8 @@ var issnPhysicalFormMapping = {
 	"1743-1719" : "O", // Political theology   
 	"0360-6503" : "O", // Process studies  
 	"03606503" :"O", // Process studies	
-	"0733-4273" : "A", // Journal of psychology and Christianity
-	"07334273" : "A", // Journal of psychology and Christianity
+	"0733-4273" : "O", // Journal of psychology and Christianity
+	"07334273" : "O", // Journal of psychology and Christianity
 	"0929-0761" : "A", // Dead Sea discoveries   
 	"1568-5179" : "A", // Dead Sea discoveries  
 	"0022-2097" : "A", // The journal of Jewish studies
@@ -1392,7 +1392,6 @@ var issnPhysicalFormMapping = {
 	"1749-4907" : "O", // Journal for the study of religion, nature and culture 
 	"1462-3153" : "A", // Journal for the Aramaic bible !!pppn
 	"1462-3153" : "A", // Journal for the Aramaic bible !!eppn
-	"0733-4273 (PRINT)" : "A", // Journal of psychology and Christianity - oben bereits da, aber ohne (PRINT): löschen?
 	"0082-7118" : "A", // Tyndale Bulletin
 	"2326-6236" : "A", // The jurist: studies in church law and ministry
 	"2363-6696" : "O", // Entangled Religions
