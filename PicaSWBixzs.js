@@ -820,6 +820,8 @@ var journalMapping = {
 	"1364436X" : "!263253384!", // International journal of children's spirituality
 	"1363-013X" : "!273884360!", // Quaker studies
 	"0034-429X" : "!358951038!", // Renaissance and Reformation / Renaissance et Réforme
+	"09544194" : "!261040693!", // Science & Christian belief
+	"0954-4194" : "!261040693!", // Science & Christian belief
 	
 	
 };
@@ -1861,6 +1863,8 @@ var issnPhysicalFormMapping = {
 	"00765872" : "O", // Mediaeval studies
 	"0076-5872" : "O", // Mediaeval studies
 	"0034-429X" : "O", // Renaissance and Reformation / Renaissance et Réforme
+	"09544194" : "O", // Science & Christian belief
+	"0954-4194" : "O", // Science & Christian belief
 	
 	
 	
