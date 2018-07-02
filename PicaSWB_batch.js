@@ -1859,6 +1859,7 @@ var issnPhysicalFormMapping = {
 	"0034-429X" : "O", // Renaissance and Reformation / Renaissance et Réforme
 	"09544194" : "O", // Science & Christian belief
 	"0954-4194" : "O", // Science & Christian belief
+	"Journal of Coptic Studies" : "O", // Journal of Coptic Studies
 	
 	
 	
@@ -2276,6 +2277,7 @@ var issnJournalTitleMapping = {
 	"Studies in Spirituality" : "!113564856!", // Studies in Spirituality E-PPN
 	"Ons Geestelijk Erf" : "!114618771!", // Ons Geestelijk Erf
 	"Studia Canonica" : "!413867323!", // Studia Canonica
+	"Journal of Coptic Studies" : "!112891217!", // Journal of Coptic Studies
  
 
 };
