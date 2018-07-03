@@ -109,7 +109,7 @@ var journalMapping = {
 	"0034-4125" : "!079718671!", // Religious studies 
 	"1469-901X" : "!079718671!", // Religious studies
 	"0034-4125, 1469-901X" : "!079718671!", // Religious studies 
-	"0091-6471" : "!015193306!", // Journal of psychology and theology
+	"0091-6471" : "!273869256!", // Journal of psychology and theology
 	"1476-8690" : "!106846396!", // Journal for the study of the historical Jesus
 	"2222-582X" : "!478691874!", // Journal of early Christian history
 	"0018-2710" : "!105214884!", // History of religions
@@ -1088,7 +1088,7 @@ var issnPhysicalFormMapping = {
 	"0034-4125" : "O", // Religious studies 
 	"1469-901X" : "O", // Religious studies
 	"0034-4125, 1469-901X" : "O", // Religious studies
-	"0091-6471" : "A", // Journal of psychology and theology
+	"0091-6471" : "O", // Journal of psychology and theology
 	"1476-8690" : "A", // Journal for the study of the historical Jesus
 	"2222-582X" : "O", // Journal of early Christian history
 	"0018-2710" : "O", // History of religions
@@ -1362,8 +1362,7 @@ var issnPhysicalFormMapping = {
 	"0040-5736" : "A", // Theologie today !!pppn - in Z. 125 mit ppn gemappt: diese Z. löschen?
 	"1570-0720" : "A", // Vigiliae Christianae !!eppn
 	"1570-0631" : "A", // Journal for the study of Judaism !!eppn
-	"0091-6471" : "A", // Journal of psychology and theology !!pppn - in Z. 61 mit ppn gemappt: diese Z. löschen?
-	"00916471" : "A",  // Journal of psychology and theology !ohne Bindestrich im Zoterofeld
+	"00916471" : "O",  // Journal of psychology and theology !ohne Bindestrich im Zoterofeld
 	"1552-146X" : "A", // The Hastings Center report !!eppn
 	"0098-9444" : "A", // Biblical archaeology review !!pppn
 	"0098-9444" : "A", // Biblical archaeology review !!eppn
