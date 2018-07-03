@@ -814,6 +814,9 @@ var journalMapping = {
 	"0034-429X" : "!358951038!", // Renaissance and Reformation / Renaissance et Réforme
 	"09544194" : "!261040693!", // Science & Christian belief
 	"0954-4194" : "!261040693!", // Science & Christian belief
+	"08944857" : "!273883062!", // The Merton annual 
+	"0894-4857" : "!273883062!", // The Merton annual 
+	"2074-7705" : "!311829287!", // Verbum et ecclesia
 	
 	
 };
@@ -1369,8 +1372,8 @@ var issnPhysicalFormMapping = {
 	"2396-9393, 2396-9407" : "O", // International bulletin of mission research
 	"0449-508X" : "A", // Journal of pastoral counseling !!pppn
 	"0449-508X" : "A", // Journal of pastoral counseling !!eppn
-	"0894-4857" : "A", // The Merton annual !!pppn
-	"0894-4857" : "A", // The Merton annual !!eppn
+	"08944857" : "O", // The Merton annual 
+	"0894-4857" : "O", // The Merton annual 
 	"0951-8207" : "O", // Journal for the study of the pseudepigrapha !!pppn
 	"09518207" : "O", // Journal for the study of the pseudepigrapha !!pppn
 	"1745-5286" : "O", // Journal for the study of the pseudepigrapha !!eppn
@@ -1859,6 +1862,7 @@ var issnPhysicalFormMapping = {
 	"09544194" : "O", // Science & Christian belief
 	"0954-4194" : "O", // Science & Christian belief
 	"Journal of Coptic Studies" : "O", // Journal of Coptic Studies
+	"2074-7705" : "O", // Verbum et ecclesia
 	
 	
 	
@@ -1945,6 +1949,7 @@ var issnLicenceFieldMapping = {
 	"0039-6761" : "l", // Svensk teologisk kvartalskrift
 	"1530-5228" : "l", // Journal for Cultural and Religious Theory
 	"1363-013X" : "l", // Quaker studies
+	"2074-7705" : "l", // Verbum et ecclesia
 
 	
 	
@@ -2219,6 +2224,8 @@ var issnSsgMapping = {
 	"2364-382X" : "0", // Gamevironments
 	"0035-2217" : "0; 1", // Revue des Sciences Religieuses
 	"1530-5228" : "0", // Journal for Cultural and Religious Theory
+	"08944857" : "0; 1", // The Merton annual 
+	"0894-4857" : "0; 1", // The Merton annual 
 	
 	
 	
