@@ -825,7 +825,10 @@ var journalMapping = {
 	"08944857" : "!273883062!", // The Merton annual 
 	"0894-4857" : "!273883062!", // The Merton annual 
 	"2074-7705" : "!311829287!", // Verbum et ecclesia
-	
+	"1609-9982" : "!311829287!", // Verbum et ecclesia
+	"0003097X, 21618062" : "!251821994!", // Bulletin of the American Schools of Oriental Research
+	"0003097X" : "!251821994!", // Bulletin of the American Schools of Oriental Research
+	"21618062" : "!251821994!", // Bulletin of the American Schools of Oriental Research
 	
 };
 
@@ -1869,7 +1872,10 @@ var issnPhysicalFormMapping = {
 	"0954-4194" : "O", // Science & Christian belief
 	"Journal of Coptic Studies" : "O", // Journal of Coptic Studies
 	"2074-7705" : "O", // Verbum et ecclesia
-	
+	"1609-9982" : "O", // Verbum et ecclesia
+	"0003097X, 21618062" : "O", // Bulletin of the American Schools of Oriental Research
+	"0003097X" : "O", // Bulletin of the American Schools of Oriental Research
+	"21618062" : "O", // Bulletin of the American Schools of Oriental Research
 	
 	
 };
@@ -1954,6 +1960,7 @@ var issnLicenceFieldMapping = {
 	"1530-5228" : "l", // Journal for Cultural and Religious Theory
 	"1363-013X" : "l", // Quaker studies
 	"2074-7705" : "l", // Verbum et ecclesia
+	"1609-9982" : "l", // Verbum et ecclesia
 	
 	
 };
@@ -2610,7 +2617,7 @@ function doExport() {
                         function(doc, url, threadParams){
                             var ppn = Zotero.Utilities.xpathText(doc, '//small[a[img]]');
                             if (ppn) {
-                                var authorValue = "!" + ppn.trim() + "!" + "$BVerfasserIn$4aut" + "\n8910 $aixzom$bAutor maschinell zugeordnet";
+                                var authorValue = "!" + ppn.slice(0,9).trim() + "!" + "$BVerfasserIn$4aut" + "\n8910 $aixzom$bAutor maschinell zugeordnet";
                                 addLine(threadParams["currentItemId"], threadParams["code"], authorValue);
                             } else {
                                 addLine(threadParams["currentItemId"], threadParams["code"], threadParams["authorName"]  + "$BVerfasserIn$4aut");
@@ -2703,7 +2710,7 @@ function doExport() {
         //Inhaltliche Zusammenfassung --> 4207
         if (item.abstractNote) {
 			item.abstractNote = ZU.unescapeHTML(item.abstractNote);
-            addLine(currentItemId, "4207", item.abstractNote.replace("Zusammenfassung", "").replace(" Summary", "").replace("", "").replace(/–/g, '-').replace(/&#160;/g, ""));
+            addLine(currentItemId, "4207", item.abstractNote.replace("Zusammenfassung", "").replace(" Summary", "").replace("", "").replace(/–/g, '-').replace(/&#160;/g, "").replace('No abstract available.', '').replace('not available', ''));
         }
 
         //item.publicationTitle --> 4241 Beziehungen zur größeren Einheit
