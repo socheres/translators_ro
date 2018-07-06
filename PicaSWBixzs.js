@@ -831,6 +831,7 @@ var journalMapping = {
 	"21618062" : "!251821994!", // Bulletin of the American Schools of Oriental Research
 	"19084862" : "!265204615!", // Journal of Asia Adventist Seminary
 	"1908-4862" : "!265204615!", // Journal of Asia Adventist Seminary
+	"0588-3237" : "!426527011!", // Colloquium
 	
 };
 
@@ -1879,6 +1880,7 @@ var issnPhysicalFormMapping = {
 	"0003097X" : "O", // Bulletin of the American Schools of Oriental Research
 	"21618062" : "O", // Bulletin of the American Schools of Oriental Research
 	"19084862" : "A", // Journal of Asia Adventist Seminary
+	"0588-3237" : "O", // Colloquium
 	
 	
 };
