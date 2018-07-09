@@ -658,8 +658,8 @@ var journalMapping = {
 	"2049-7555, 2049-7563" : "!360555888!" , // Journal for the Cognitive Science of Religion
 	"2049-7555" : "!360555888!", // Journal for the Cognitive Science of Religion
 	"2049-7563" : "!360555888!", // Journal for the Cognitive Science of Religion
-	"21568022" : "!354897241!", // Mormon studies Review
-	"2156-8022" : "!354897241!", // Mormon studies Review
+	"21568022" : "!499961005!", // Mormon studies Review
+	"2156-8022" : "!499961005!", // Mormon studies Review
 	"2041-1863, 2041-1871" :"!329536249!", // Bulletin for the Study of Religion
 	"2041-1863" : "!329536249!", // Bulletin for the Study of Religion
 	"2041-1871" : "!329536249!", // Bulletin for the Study of Religion
@@ -1711,7 +1711,7 @@ var issnPhysicalFormMapping = {
 	"2049-7555, 2049-7563" : "A" , // Journal for the Cognitive Science of Religion
 	"2049-7555" : "A" , // Journal for the Cognitive Science of Religion
 	"2049-7563" : "A" , // Journal for the Cognitive Science of Religion
-	"21568022" : "A", // Mormon studies Review
+	"21568022" : "O", // Mormon studies Review
 	"2041-1863, 2041-1871" :"O", // Bulletin for the Study of Religion
 	"2041-1863" : "O", // Bulletin for the Study of Religion
 	"2041-1871" : "O", // Bulletin for the Study of Religion
