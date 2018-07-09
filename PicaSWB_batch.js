@@ -1881,6 +1881,7 @@ var issnPhysicalFormMapping = {
 	"0588-3237" : "O", // Colloquium
 	"03419479" : "O", // Blätter für württembergische Kirchengeschichte
 	"0341-9479" : "O", // Blätter für württembergische Kirchengeschichte
+	"Revue Théologique de Louvain" : "O", // Revue Théologique de Louvain
 	
 	
 	
@@ -2303,6 +2304,7 @@ var issnJournalTitleMapping = {
 	"Ons Geestelijk Erf" : "!114618771!", // Ons Geestelijk Erf
 	"Studia Canonica" : "!413867323!", // Studia Canonica
 	"Journal of Coptic Studies" : "!112891217!", // Journal of Coptic Studies
+	"Revue Théologique de Louvain" : "!379064863!", // Revue Théologique de Louvain
  
 
 };
@@ -2676,7 +2678,7 @@ function doExport() {
         //4070 $v Bandzählung $j Jahr $h Heftnummer $p Seitenzahl
         if (item.itemType == "journalArticle" || item.itemType == "magazineArticle") {
             var volumeyearissuepage = "";
-			if (item.volume) { volumeyearissuepage += "$v" + item.volume.replace("Tome ", "").replace(/\s\(Number\s\d+-?\d+\)/, ""); }
+			if (item.volume) { volumeyearissuepage += "$v" + item.volume.replace("Tome ", "").replace(/\s\(Number\s\d+-?\d+\)/, "").replace(/^\d.\w..\s\w\w.\s/, ""); }
 			if (date.year !== undefined) { volumeyearissuepage +=  "$j" + date.year; }
 			if (item.issue) { volumeyearissuepage += "$h" + item.issue.replace("-", "/").replace(/^0/, ""); }
 			if (item.pages) { volumeyearissuepage += "$p" + item.pages; }
