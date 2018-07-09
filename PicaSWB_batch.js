@@ -189,8 +189,8 @@ var journalMapping = {
 	"0966-7369" : "!032869959!", // Journal of pentecostal theology
 	"0043-4388" : "!015196739!", // Westminster Theological Journal
 	"00434388" : "!015196739!", // Westminster Theological Journal
-	"0033-5053" : "!015189589!", // Quaker history
-	"1934-1504" : "!015189589!", // Quaker history
+	"0033-5053" : "!28139427X!", // Quaker history
+	"1934-1504" : "!28139427X!", // Quaker history
 	"0809-7291" : "!477911633!", // Nordic journal of religion and society 
 	"0802-0167" : "!477911633!", // Nordic journal of religion and society
 	"1890-7008" : "!477911633!", // Nordic journal of religion and society 
@@ -824,7 +824,8 @@ var journalMapping = {
 	"19084862" : "!265204615!", // Journal of Asia Adventist Seminary
 	"1908-4862" : "!265204615!", // Journal of Asia Adventist Seminary
 	"0588-3237" : "!426527011!", // Colloquium
-	
+	"03419479" : "!369997433!", // Blätter für württembergische Kirchengeschichte
+	"0341-9479" : "!369997433!", // Blätter für württembergische Kirchengeschichte
 
 	
 	
@@ -1184,8 +1185,8 @@ var issnPhysicalFormMapping = {
 	"0966-7369" : "A", // Journal of pentecostal theology
 	"0043-4388" : "A", // Westminster Theological Journal
 	"00434388" : "A", // Westminster Theological Journal
-	"0033-5053" : "A", // Quaker history
-	"1934-1504" : "A", // Quaker history
+	"0033-5053" : "O", // Quaker history
+	"1934-1504" : "O", // Quaker history
 	"0809-7291" : "O", // Nordic journal of religion and society 
 	"0802-0167" : "O", // Nordic journal of religion and society
 	"1890-7008" : "O", // Nordic journal of religion and society 
@@ -1878,6 +1879,8 @@ var issnPhysicalFormMapping = {
 	"21618062" : "O", // Bulletin of the American Schools of Oriental Research
 	"19084862" : "A", // Journal of Asia Adventist Seminary
 	"0588-3237" : "O", // Colloquium
+	"03419479" : "O", // Blätter für württembergische Kirchengeschichte
+	"0341-9479" : "O", // Blätter für württembergische Kirchengeschichte
 	
 	
 	
@@ -2750,7 +2753,7 @@ function doExport() {
                 }
             } else {
                 for (i=0; i<item.tags.length; i++) {
-                    addLine(currentItemId, "\\n5520", "|s|" + item.tags[i].tag.replace(/\s?--\s?/g, '; '));
+                    addLine(currentItemId, "\\n5520", "|s|" + ZU.unescapeHTML(item.tags[i].tag.replace(/\s?--\s?/g, '; ')));
                 }
             }
 
