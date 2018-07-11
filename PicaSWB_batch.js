@@ -826,7 +826,7 @@ var journalMapping = {
 	"0588-3237" : "!426527011!", // Colloquium
 	"03419479" : "!369997433!", // Blätter für württembergische Kirchengeschichte
 	"0341-9479" : "!369997433!", // Blätter für württembergische Kirchengeschichte
-
+	"0006-1921" : "!303578904!", // Bibliotheca Sacra
 	
 	
 };
@@ -1881,6 +1881,7 @@ var issnPhysicalFormMapping = {
 	"0588-3237" : "O", // Colloquium
 	"03419479" : "O", // Blätter für württembergische Kirchengeschichte
 	"0341-9479" : "O", // Blätter für württembergische Kirchengeschichte
+	"0006-1921" : "O", // Bibliotheca Sacra
 	
 	
 	

@@ -832,6 +832,10 @@ var journalMapping = {
 	"19084862" : "!265204615!", // Journal of Asia Adventist Seminary
 	"1908-4862" : "!265204615!", // Journal of Asia Adventist Seminary
 	"0588-3237" : "!426527011!", // Colloquium
+	"03419479" : "!369997433!", // Blätter für württembergische Kirchengeschichte
+	"0341-9479" : "!369997433!", // Blätter für württembergische Kirchengeschichte
+	"0006-1921" : "!303578904!", // Bibliotheca Sacra
+	
 	
 };
 
@@ -1881,6 +1885,9 @@ var issnPhysicalFormMapping = {
 	"21618062" : "O", // Bulletin of the American Schools of Oriental Research
 	"19084862" : "A", // Journal of Asia Adventist Seminary
 	"0588-3237" : "O", // Colloquium
+	"03419479" : "O", // Blätter für württembergische Kirchengeschichte
+	"0341-9479" : "O", // Blätter für württembergische Kirchengeschichte
+	"0006-1921" : "O", // Bibliotheca Sacra
 	
 	
 };
