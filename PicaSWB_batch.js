@@ -1881,7 +1881,6 @@ var issnPhysicalFormMapping = {
 	"0588-3237" : "O", // Colloquium
 	"03419479" : "O", // Blätter für württembergische Kirchengeschichte
 	"0341-9479" : "O", // Blätter für württembergische Kirchengeschichte
-	"Revue Théologique de Louvain" : "O", // Revue Théologique de Louvain
 	
 	
 	
@@ -2236,9 +2235,9 @@ var issnSsgMapping = {
 	"2331-2521" : "0", // Journal of disability & religion
 	"2044-0243" : "0", // Journal for the Study of Spirituality
 	"1941-1022" : "0", // Psychology of Religion and Spirituality
-	"1755-0483, 1755-0491" : "0", // Politics and Religion
-	"1755-0483" : "0", // Politics and Religion
-	"1755-0491" : "0", // Politics and Religion
+	"1755-0483, 1755-0491" : "0; 1", // Politics and Religion
+	"1755-0483" : "0; 1", // Politics and Religion
+	"1755-0491" : "0; 1", // Politics and Religion
 	"2164-6279" : "1", // Journal of Hindu-Christian Studies 
 	"ARC" : "0; 1", // ARC
 	"2364-382X" : "0", // Gamevironments
@@ -2304,7 +2303,6 @@ var issnJournalTitleMapping = {
 	"Ons Geestelijk Erf" : "!114618771!", // Ons Geestelijk Erf
 	"Studia Canonica" : "!413867323!", // Studia Canonica
 	"Journal of Coptic Studies" : "!112891217!", // Journal of Coptic Studies
-	"Revue Théologique de Louvain" : "!379064863!", // Revue Théologique de Louvain
  
 
 };
@@ -2746,7 +2744,7 @@ function doExport() {
             }
 
             //Schlagwörter aus einem Thesaurus (Fremddaten) --> 5520 (oder alternativ siehe Mapping)
-            if (item.ISSN && issnKeywordMapping[ZU.cleanISSN(item.ISSN)]) {
+            if (item.tags && issnKeywordMapping[ZU.cleanISSN(item.ISSN)]) {
                 var ISSNclean = ZU.cleanISSN(item.ISSN);
                 var codeBase = issnKeywordMapping[ISSNclean];
                 for (i=0; i<item.tags.length; i++) {

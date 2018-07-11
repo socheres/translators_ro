@@ -1881,7 +1881,6 @@ var issnPhysicalFormMapping = {
 	"21618062" : "O", // Bulletin of the American Schools of Oriental Research
 	"19084862" : "A", // Journal of Asia Adventist Seminary
 	"0588-3237" : "O", // Colloquium
-	"Revue Théologique de Louvain" : "O", // Revue Théologique de Louvain
 	
 	
 };
@@ -2232,9 +2231,9 @@ var issnSsgMapping = {
 	"2331-2521" : "0", // Journal of disability & religion
 	"2044-0243" : "0", // Journal for the Study of Spirituality
 	"1941-1022" : "0", // Psychology of Religion and Spirituality
-	"1755-0483, 1755-0491" : "0", // Politics and Religion
-	"1755-0483" : "0", // Politics and Religion
-	"1755-0491" : "0", // Politics and Religion
+	"1755-0483, 1755-0491" : "0; 1", // Politics and Religion
+	"1755-0483" : "0; 1", // Politics and Religion
+	"1755-0491" : "0; 1", // Politics and Religion
 	"2164-6279" : "1", // Journal of Hindu-Christian Studies 
 	"ARC" : "0; 1", // ARC
 	"2364-382X" : "0", // Gamevironments
@@ -2298,7 +2297,6 @@ var issnJournalTitleMapping = {
 	"Ons Geestelijk Erf" : "!114618771!", // Ons Geestelijk Erf
 	"Studia Canonica" : "!413867323!", // Studia Canonica
 	"Journal of Coptic Studies" : "!112891217!", // Journal of Coptic Studies
-	"Revue Théologique de Louvain" : "!379064863!", // Revue Théologique de Louvain
 	
 };
 
@@ -2309,7 +2307,9 @@ var JournalTitleLanguageMapping = {
 	"Science et Esprit" : "fre", 
 }
 
-
+var KeywordsIxtheoMapping = {
+	"hb" :"!372044123!",
+}
 
 
 // ab hier Programmcode
